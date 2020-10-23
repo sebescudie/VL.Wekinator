@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<OSCInputGroup>
+  <oscMessage>/wek/inputs</oscMessage>
+  <numInputs>2</numInputs>
+  <groupName>Inputs</groupName>
+  <inputNames>
+    <string>inputs-1</string>
+    <string>inputs-2</string>
+  </inputNames>
+</OSCInputGroup>
