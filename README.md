@@ -6,3 +6,4 @@ _This repo will gather small patches that demonstrate how we can use Wekinator w
 
 - VL.Audio
 - VL.IO.OSC
+- VL.OpenCV
