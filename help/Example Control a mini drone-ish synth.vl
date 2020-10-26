@@ -403,11 +403,6 @@
             <Pin Id="EjJrvHG4k81PcrMHUssgR5" Name="FM Level" Kind="InputPin" Bounds="704,520" />
             <Pin Id="K4f0cuXZAzLNXhMfuyLlH0" Name="Output" Kind="OutputPin" Bounds="355,803" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="VsOR2jnK38cP0P6jIofAI2">
             <Fragment Id="HKjWjkF3Fy8Ppym9e7VY9F" Patch="BJYk9DqkA5YOXWS2cRzB1P" Enabled="true" />
             <Fragment Id="K5cTFruHxvYMQbMgPrj7mt" Patch="IInJ6O5Q2lqOjXIjENShTx" Enabled="true" />
@@ -485,7 +480,7 @@
             <Pin Id="MmgWXqLfH5oMn5hD78Azxm" Name="Input" Kind="InputPin" />
             <Pin Id="DI632m5mDrqNOznOmZDLWm" Name="Channel Offset" Kind="InputPin" />
           </Node>
-          <Node Bounds="143,545,165,19" Id="BGxRyYolgapO9BU3BchYRW">
+          <Node Bounds="143,500,165,19" Id="BGxRyYolgapO9BU3BchYRW">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -511,7 +506,7 @@
             <Pin Id="J8SIzqfTk5TOtBZRAxL3zi" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="LZeRxMZYwasN08UkZpDAMP" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Node Bounds="182,388,89,19" Id="UILpqC1ox4hNzSqLTN45CF">
+          <Node Bounds="182,343,89,19" Id="UILpqC1ox4hNzSqLTN45CF">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a mini drone-ish synth.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DraggableCircle" />
@@ -530,7 +525,7 @@
             <Pin Id="BuczvCLGol2QcfpNep6EwS" Name="Update" Kind="InputPin" />
             <Pin Id="AV4H0QGRnusOGwCoNnwjkd" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="239,476,59,19" Id="JOa4xITJgr2LZQAn4aGZUp">
+          <Node Bounds="239,431,59,19" Id="JOa4xITJgr2LZQAn4aGZUp">
             <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SendData (Generic)" />
@@ -543,7 +538,7 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="133,657,71,19" Id="KjfWaaBPf1ZP1rZqnH00R1">
+          <Node Bounds="133,597,71,19" Id="KjfWaaBPf1ZP1rZqnH00R1">
             <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ReceiveData" />
@@ -619,8 +614,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="T5OCz6nORGSP1YFRn3bf2r" Name="2. Send Data" Bounds="199,428,154,98" />
-          <Pad Id="DihP2tvKCNfN4DyM89z4ft" Bounds="366,436,115,94" ShowValueBox="true" isIOBox="true" Value="Simply connect SendData to the corresponding Wekinator node to send data to it.">
+          <Overlay Id="T5OCz6nORGSP1YFRn3bf2r" Name="2. Send Data" Bounds="199,383,154,98" />
+          <Pad Id="DihP2tvKCNfN4DyM89z4ft" Bounds="366,391,115,94" ShowValueBox="true" isIOBox="true" Value="Simply connect SendData to the corresponding Wekinator node to send data to it.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -629,7 +624,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="C6sxQq5H11MOWnLBtPWTrp" Bounds="487,436,156,97" ShowValueBox="true" isIOBox="true" Value="By default, it sends to /wek/inputs (Wekinator's default), but you can also customize the address.">
+          <Pad Id="C6sxQq5H11MOWnLBtPWTrp" Bounds="487,391,156,97" ShowValueBox="true" isIOBox="true" Value="By default, it sends to /wek/inputs (Wekinator's default), but you can also customize the address.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -638,8 +633,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="BBqq76sxMehODZ1gmGQvYU" Name="3. Receive Data" Bounds="118,604,165,123" />
-          <Pad Id="NLd0JTTH8e9LHdmOcDy8nJ" Bounds="304,619,202,82" ShowValueBox="true" isIOBox="true" Value="Same as Send Data, we retrieve Wekinator's data on the default address (/wek/outputs), but it can be customized.">
+          <Overlay Id="BBqq76sxMehODZ1gmGQvYU" Name="3. Receive Data" Bounds="118,544,165,179" />
+          <Pad Id="NLd0JTTH8e9LHdmOcDy8nJ" Bounds="330,615,202,82" ShowValueBox="true" isIOBox="true" Value="Same as Send Data, we retrieve Wekinator's data on the default address (/wek/outputs), but it can be customized.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -671,6 +666,31 @@
           <Overlay Id="GWCPc4r5dF0NDGeo2Bl63z" Name="" Bounds="100,62,389,80">
             <p:ColorIndex p:Type="Int32">7</p:ColorIndex>
           </Overlay>
+          <Node Bounds="133,655,95,19" Id="SvkARfgBzEsPuGRi5tdQTw">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="AvoidEmpty" />
+            </p:NodeReference>
+            <Pin Id="E9SKwSms7bLLkoWmXIJ0je" Name="Input" Kind="StateInputPin" />
+            <Pin Id="A5v9BM0mlvGPPpkylEO6M2" Name="Default Spread" Kind="InputPin" />
+            <Pin Id="Mr17pLO3GGuNFdninguW1M" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="NWcO4TmTztsPmTAtSu1Soe" Name="Is Empty" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="223,623,75,19" Id="AEQAkEcL0reMr9etRAnDW7">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="LinearSpread" />
+            </p:NodeReference>
+            <Pin Id="VvpLPqNk54gPH5ozdszf3k" Name="Center" Kind="InputPin" />
+            <Pin Id="LoXX4NZwJh6QCypCSumtd3" Name="Width" Kind="InputPin" />
+            <Pin Id="DzMmyEB1UXEQQJFc6UQ35i" Name="Phase" Kind="InputPin" />
+            <Pin Id="GyQWvgluVBdPVV1VFP82X3" Name="Count" Kind="InputPin" DefaultValue="3">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="QV6qCpzPuzbN5psLOveUtN" Name="Output" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="UmUtsxlQonFM8nrRt6tQWZ" Name="Create" />
         <Patch Id="MXK2hwMtZNgMskCvaBR2Jb" Name="Update" />
@@ -686,16 +706,18 @@
         <Link Id="RgiKz9BdMwsLcZq9zRK3eO" Ids="D0ynn6YGG1QL8aCvWCVOie,Kw2JW2CUNWELSk0XljvyK4" />
         <Link Id="VR0wj3AJ6HROwUDoys7hKX" Ids="DN0Ymx7evzZNm06eaQK6nv,DxA5qyaGmawLvW9z2qb2xp" />
         <Link Id="P3623jTDfFlLPJ0XMOhXPI" Ids="HlsEMGyu5nJPnDSS4vgADW,HzAOQVlZsjxMXYH8dZbn4m" />
-        <Link Id="P8HEasN8AFnM5N01qC2Vps" Ids="EMDTHwWI8MMN8hljwjulWf,A5j6PQZ4gVgMDZsq5W3rzM" />
         <Link Id="AENZ1OUpTY6P6LkFi19a2e" Ids="Fwg9DYL8goJNsa7WmS6lZA,MRqTk1k3jNsNeGGWLIlai9" />
         <Link Id="NexsvgVdEMoLWDb2FT7Cib" Ids="VeRO4mHS1BPMNU8Sk6D44J,GP7CS88w1NHMyZ7S6aPBjj" />
         <Link Id="AykYg6MvcHlN6XVDl0KecQ" Ids="IfoQzgtLgv0NwbPo1HXQSi,DpZVWO1KVoLPc6RqWyjr0n" />
         <Link Id="IpWxPgRceWIOkaGezQcZw0" Ids="MuWIW6JqjZnOFj6N6dGAfL,MmgWXqLfH5oMn5hD78Azxm" />
+        <Link Id="NneUW2QdP2ZOvht5w8J0RU" Ids="EMDTHwWI8MMN8hljwjulWf,E9SKwSms7bLLkoWmXIJ0je" />
+        <Link Id="KX1INIEuIZFNq0WM0KRe65" Ids="Mr17pLO3GGuNFdninguW1M,A5j6PQZ4gVgMDZsq5W3rzM" />
+        <Link Id="GZNEJMHHaH6MVcMVvyiY6j" Ids="QV6qCpzPuzbN5psLOveUtN,A5v9BM0mlvGPPpkylEO6M2" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="UQYYMRhQ5IEQCXZfZoD4pn" Location="VL.Audio" Version="0.2.3-alpha" />
   <NugetDependency Id="IKyPqLSl5DLPo3OuLG6ot2" Location="VL.Skia" Version="2020.3.0-0053-gd338f20e7b" />
   <NugetDependency Id="Nxgtb9k4FIhMyxuV1WUysZ" Location="VL.IO.OSC" Version="2020.3.100-alpha" />
-  <DocumentDependency Id="DQXlTjza1FAND0f7uawoRT" Location="../VL.Wekinator.vl" />
+  <NugetDependency Id="NxpxKS4e8Y4QLuh2wYxX6W" Location="VL.Wekinator" Version="0.0.0.0" />
 </Document>
