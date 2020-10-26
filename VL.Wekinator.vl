@@ -14,8 +14,8 @@
         </p:NodeReference>
         <Patch Id="GqPWGX05RH1NmOyCEtQPLD">
           <Canvas Id="ECXpYA4HtT1PCbBMMM5sZl" CanvasType="Group">
-            <Pad Id="HQyqEh3hEURPPx2zl9Vmti" SlotId="AWB1O4mKwOTMP9xAxksi2D" Bounds="409,283" />
-            <Pad Id="Pn7URp64ZDvLrQEpYTgRjk" SlotId="Txq1zX2UjXOPsSx0JCaosB" Bounds="536,283" />
+            <Pad Id="HQyqEh3hEURPPx2zl9Vmti" SlotId="AWB1O4mKwOTMP9xAxksi2D" Bounds="409,298" />
+            <Pad Id="Pn7URp64ZDvLrQEpYTgRjk" SlotId="Txq1zX2UjXOPsSx0JCaosB" Bounds="536,298" />
             <ControlPoint Id="PLGqwkxpFUUNCSlJvWm9au" Bounds="409,236" />
             <ControlPoint Id="AehKrK0zYPbM61m9ctQLuG" Bounds="536,236" />
             <Node Bounds="420,493,85,19" Id="RVk6FrPdZIMLO7YmVf4u7c">
@@ -62,7 +62,7 @@
               <Pin Id="MwxvjjzYw2qMTs50wzm9yg" Name="Is Open" Kind="OutputPin" />
             </Node>
             <Pad Id="JUa6R6cgglYPPbnazD59Jm" SlotId="Txq1zX2UjXOPsSx0JCaosB" Bounds="650,443" />
-            <Pad Id="J7gF4xnbwjXM0yoHI6i4i5" SlotId="QRb94HtyjooOO3zPSWkSMe" Bounds="679,285" />
+            <Pad Id="J7gF4xnbwjXM0yoHI6i4i5" SlotId="QRb94HtyjooOO3zPSWkSMe" Bounds="679,300" />
             <ControlPoint Id="F8ckYpNvVPgNiQlEjFeYTA" Bounds="679,234" />
             <Pad Id="CO7NqjnGsoBOojII4nZtUV" SlotId="QRb94HtyjooOO3zPSWkSMe" Bounds="422,459" />
             <Pad Id="TBQtcjSRf12LhxCzLtwhjl" Comment="Name" Bounds="670,447,73,10" ShowValueBox="true" isIOBox="true" Value="Wekinator Server ">
@@ -112,7 +112,6 @@
           <Patch Id="SRhbPHk2DRyLHPVLvhvfYW" Name="Create" ParticipatingElements="CN7KruajrhZP53ehQ7meLZ" />
           <ProcessDefinition Id="JHPqG7ynGdkN65oKKz62YD" HasStateOut="true">
             <Fragment Id="SUgZQOd5OVwLD8gc1hfaIb" Patch="SRhbPHk2DRyLHPVLvhvfYW" Enabled="true" />
-            <Fragment Id="DGu2yGhGpxfPAkmqJv5qT5" Patch="AlRBXVEfi5KNwqTvrLurFr" Enabled="true" />
             <Fragment Id="FqqqBJjYn2NOZXxZaIoUr6" Patch="PoIP6skBSaCODkRCoyKMe8" Enabled="true" />
             <Fragment Id="NYPmCmOYdk0NqMe9WPRdEt" Patch="AMkvXrHiN9HP2K7llFS6uu" />
             <Fragment Id="TsdR2EOd99bPj0PRKjq3r9" Patch="DB0FjIer9nSOmdQKJtIHc5" />
@@ -128,31 +127,30 @@
             </p:TypeAnnotation>
           </Slot>
           <Link Id="D9SjgGZvWhZP4tFpbfivsp" Ids="PLGqwkxpFUUNCSlJvWm9au,HQyqEh3hEURPPx2zl9Vmti" />
-          <Link Id="OR7WYo15SewM3pCF5fWtSj" Ids="IDKJJJm5squOhLjZ1GAj8t,PLGqwkxpFUUNCSlJvWm9au" IsHidden="true" />
+          <Link Id="OR7WYo15SewM3pCF5fWtSj" Ids="BxmxxPuqIThQCFAVl5LEsv,PLGqwkxpFUUNCSlJvWm9au" IsHidden="true" />
           <Link Id="SgiH1EK1P5ENpLmSQ50aP9" Ids="AehKrK0zYPbM61m9ctQLuG,Pn7URp64ZDvLrQEpYTgRjk" />
-          <Link Id="DMFKpQ35DNyNJwzEyx9gyw" Ids="I4QT8ImxEkhMfcitK8iEy2,AehKrK0zYPbM61m9ctQLuG" IsHidden="true" />
-          <Patch Id="AlRBXVEfi5KNwqTvrLurFr" Name="SetEndpoints">
-            <Pin Id="IDKJJJm5squOhLjZ1GAj8t" Name="Input Port" Kind="InputPin" DefaultValue="6448">
+          <Link Id="DMFKpQ35DNyNJwzEyx9gyw" Ids="IJRhrq9dOhrMkTVnjjlzIr,AehKrK0zYPbM61m9ctQLuG" IsHidden="true" />
+          <Link Id="U4Ngh9UXGQkP4mKXNfrjaK" Ids="S1Mvsre5ZXdL9gXiFbRsdy,Bsk7hR5HNhgPWdABN2XWQI" />
+          <Link Id="GWffghCte0kP192l82hN5p" Ids="GBB2Ibxl1o3MgOjWyzjiGk,SPeOK7AwpIXOp6kBbJmc0K" />
+          <Slot Id="IUcaFdeUvCvQE4HKgm0rjY" Name="OSC Client" />
+          <Link Id="N9dhzuuOy8JOAghwgSdlBH" Ids="Dq6DjivkUI6OzZ7EC8iiGu,OYuWKwDmIGyM7rZZPQODFQ" />
+          <Patch Id="PoIP6skBSaCODkRCoyKMe8" Name="Update" ParticipatingElements="U4Ngh9UXGQkP4mKXNfrjaK">
+            <Pin Id="BxmxxPuqIThQCFAVl5LEsv" Name="Input Port" Kind="InputPin" DefaultValue="6448">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="I4QT8ImxEkhMfcitK8iEy2" Name="Output Port" Kind="InputPin" DefaultValue="12000">
+            <Pin Id="IJRhrq9dOhrMkTVnjjlzIr" Name="Output Port" Kind="InputPin" DefaultValue="12000">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="FQac9QUmJ5NPch7ovI3975" Name="IP Address" Kind="InputPin" Bounds="680,228" DefaultValue="127.0.0.1" Visibility="Optional">
+            <Pin Id="BYYO77tf9lrOOCuDJY8D0V" Name="IP Address" Kind="InputPin" DefaultValue="127.0.0.1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
-          <Link Id="U4Ngh9UXGQkP4mKXNfrjaK" Ids="S1Mvsre5ZXdL9gXiFbRsdy,Bsk7hR5HNhgPWdABN2XWQI" />
-          <Link Id="GWffghCte0kP192l82hN5p" Ids="GBB2Ibxl1o3MgOjWyzjiGk,SPeOK7AwpIXOp6kBbJmc0K" />
-          <Slot Id="IUcaFdeUvCvQE4HKgm0rjY" Name="OSC Client" />
-          <Link Id="N9dhzuuOy8JOAghwgSdlBH" Ids="Dq6DjivkUI6OzZ7EC8iiGu,OYuWKwDmIGyM7rZZPQODFQ" />
-          <Patch Id="PoIP6skBSaCODkRCoyKMe8" Name="Update" ParticipatingElements="U4Ngh9UXGQkP4mKXNfrjaK" />
           <Link Id="Q3gIL1br0ABMu7XtamKZxI" Ids="OYuWKwDmIGyM7rZZPQODFQ,CsrvqH0XSzELmYHSqYYbg6" />
           <Link Id="Aa8uudjABVaQVND8cjCMbc" Ids="CsrvqH0XSzELmYHSqYYbg6,HnnDGUFYo0FNmLFVDAv3ZA" IsHidden="true" />
           <Patch Id="AMkvXrHiN9HP2K7llFS6uu" Name="GetOSCClient">
@@ -165,7 +163,7 @@
             </p:TypeAnnotation>
           </Slot>
           <Link Id="SAntRgYULvbN8uUdD6K5vI" Ids="F8ckYpNvVPgNiQlEjFeYTA,J7gF4xnbwjXM0yoHI6i4i5" />
-          <Link Id="HjV9fS0K0jHMGm0oruWTjU" Ids="FQac9QUmJ5NPch7ovI3975,F8ckYpNvVPgNiQlEjFeYTA" IsHidden="true" />
+          <Link Id="HjV9fS0K0jHMGm0oruWTjU" Ids="BYYO77tf9lrOOCuDJY8D0V,F8ckYpNvVPgNiQlEjFeYTA" IsHidden="true" />
           <Link Id="VDXRnyQUmNuMFPTYUfDUOf" Ids="CO7NqjnGsoBOojII4nZtUV,GPC7w8JZJqqNeRmrL2u1nb" />
           <Link Id="OmOxXVjb23pOXPLJkE1dzL" Ids="TBQtcjSRf12LhxCzLtwhjl,AMZ7QjwaOPiPVc738DEga6" />
           <Link Id="K7i6WzT8ZrON7U25niFmE1" Ids="BfgkaSBn2R4NYCm4nbj136,KaP0DGaikqCNB7IhNmYo7i" />

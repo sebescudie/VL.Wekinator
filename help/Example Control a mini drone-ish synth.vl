@@ -522,6 +522,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="HzAOQVlZsjxMXYH8dZbn4m" Name="Input Port" Kind="InputPin" />
             <Pin Id="AvgU0ycwvvrPSNrPj0nIqV" Name="Output Port" Kind="InputPin" />
+            <Pin Id="P26SmA0diYfQPH9PnzRU0U" Name="IP Address" Kind="InputPin" />
             <Pin Id="BuczvCLGol2QcfpNep6EwS" Name="Update" Kind="InputPin" />
             <Pin Id="AV4H0QGRnusOGwCoNnwjkd" Name="Output" Kind="StateOutputPin" />
           </Node>
@@ -686,6 +687,18 @@
             </Pin>
             <Pin Id="QV6qCpzPuzbN5psLOveUtN" Name="Output" Kind="OutputPin" />
           </Node>
+          <Pad Id="GsGbgsje9IrNoxxeenkZf1" Bounds="660,294,192,19" ShowValueBox="true" isIOBox="true" Value="Drag the circle in the renderer!">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="A1tgT2wDco9ODRw2furW0v" Name="" Bounds="647,255,237,80">
+            <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
+          </Overlay>
         </Canvas>
         <Patch Id="UmUtsxlQonFM8nrRt6tQWZ" Name="Create" />
         <Patch Id="MXK2hwMtZNgMskCvaBR2Jb" Name="Update" />
