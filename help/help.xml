@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Pack>
+	<Topic title="Overview">
+		<VLDocument link="Explanation Nodes Overview.vl"/>
+        <UriItem title="Explanation What is Wekinator?" link="http://www.wekinator.org/instructions/" mediaType="text"/>
+	</Topic>
+	<Topic title="Output Types">
+		<Subtopic title="Continuous">
+			<VLDocument link="Example Control a mini drone-ish synth.vl"/>
+		</Subtopic>
+		<Subtopic title="Classifiers">
+			<VLDocument link="Tutorial Control a color with hand gestures.vl"/>
+		</Subtopic>
+		<Subtopic title="Dynamic Time Warping">
+            <UriItem title="Explanation Dynamic time warping in Wekinator" link="http://www.wekinator.org/detailed-instructions/#Dynamic_time_warping_in_Wekinator" mediaType="text"/>
+			<VLDocument link="Example Recognize custom gestures with a LeapMotion.vl"/>
+		</Subtopic>
+	</Topic>
+</Pack>

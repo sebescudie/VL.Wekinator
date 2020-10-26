@@ -1177,7 +1177,7 @@
             <Pin Id="OdL2oj0DdldMr6eggZeGWw" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="266,515,78,19" Id="NlRXqqbY9bhO8cs8AVKVDd">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="JointsPosition" />
             </p:NodeReference>
@@ -1186,7 +1186,7 @@
             <Pin Id="U5dgP1fLcVILLC6gMByvME" Name="As Values" Kind="OutputPin" />
           </Node>
           <Node Bounds="266,690,101,19" Id="FjNLzL8zoXLOnCIbuqp9m6">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawJointsPosition" />
             </p:NodeReference>
@@ -1194,7 +1194,7 @@
             <Pin Id="JWgxEh7IBnBPYs5VTghHOU" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="395,573,92,19" Id="NX16kySJFXHNsFQD8LfSQe">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GestureRecorder" />
             </p:NodeReference>
@@ -1216,7 +1216,7 @@
             <Pin Id="Mpt2hl1lmH0Os7UsbHUSHD" Name="Input 4" Kind="InputPin" />
           </Node>
           <Node Bounds="543,573,89,19" Id="MEi6jfKvbgZP7IOwsFhpgn">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GestureReceiver" />
             </p:NodeReference>
@@ -1251,13 +1251,8 @@
             <Pin Id="Hc7FSg8wLoxNZ5um6A43lZ" Name="Update" Kind="ApplyPin" />
             <Pin Id="GmptVjITCc3QO2CFftYNp5" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="QFwOdPEmeWFNo7eHlqSlLA" Comment="Input Port" Bounds="396,420,35,15" ShowValueBox="true" isIOBox="true" Value="6448">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Integer32" />
-            </p:TypeAnnotation>
-          </Pad>
           <Node Bounds="690,771,65,19" Id="D4pEEg9i5K4Lcix528CMXD">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RunToggle" />
             </p:NodeReference>
@@ -1308,7 +1303,6 @@
         <Link Id="SGp2Nnz7ipSLaEyzBfiLBR" Ids="MqFafWjSsMQMIRY2RYOvgO,Cgn0Pu2CHYKOsWVck9VdvI" />
         <Link Id="GCamq51f5r9N3eNJl1uTpV" Ids="FzAn8DBkR5gO6reM1h1RKj,VW7A6IhUBy9LceTVgtdBAS" />
         <Link Id="AdfTwELqNPXLpRDK10vq9m" Ids="M3K0WA1ItlROmKIU4tKkyL,VdX7wtyeWL4N9JO3pqQXJU" />
-        <Link Id="SDrEma4PD5pPtieGo1uNrP" Ids="QFwOdPEmeWFNo7eHlqSlLA,AYzcLazYq0QNj28zp1pDX4" />
         <Link Id="QskokxJdh6pO5PFCRevmJ2" Ids="GmptVjITCc3QO2CFftYNp5,JIWUvxTHg2VPFWRU52Okjk" />
         <Link Id="Kupi6H2exexO3AibiODBfL" Ids="GmptVjITCc3QO2CFftYNp5,MCu6Gu4PYVPPej7hZ2n89f" />
         <Link Id="QaVBSVJBJJVOASLNd86atC" Ids="MjtUYDO348ZORaEQhxhXr3,Mpt2hl1lmH0Os7UsbHUSHD" />

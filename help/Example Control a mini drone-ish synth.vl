@@ -507,14 +507,14 @@
             <Pin Id="LZeRxMZYwasN08UkZpDAMP" Name="Render Time" Kind="OutputPin" />
           </Node>
           <Node Bounds="182,343,89,19" Id="UILpqC1ox4hNzSqLTN45CF">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a mini drone-ish synth.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Control a mini drone-ish synth.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DraggableCircle" />
             </p:NodeReference>
             <Pin Id="So43MH5e2ApOJ9pTQ57y3j" Name="Layer" Kind="OutputPin" />
             <Pin Id="UoojnRfBbonQSeVnzqDD1n" Name="Position" Kind="OutputPin" />
           </Node>
-          <Node Bounds="130,271,62,19" Id="Nql0t6uzz2YLeIizfSZQxC">
+          <Node Bounds="132,252,62,19" Id="Nql0t6uzz2YLeIizfSZQxC">
             <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Wekinator" />
@@ -578,11 +578,6 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="HlsEMGyu5nJPnDSS4vgADW" Comment="Input Port" Bounds="132,240,35,15" ShowValueBox="true" isIOBox="true" Value="6448">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Integer32" />
-            </p:TypeAnnotation>
-          </Pad>
           <Node Bounds="133,694,50,19" Id="RPMz1yndCNTQQjh9eRFhMN">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -595,7 +590,7 @@
             <Pin Id="IfoQzgtLgv0NwbPo1HXQSi" Name="Result 3" Kind="OutputPin" />
           </Node>
           <Node Bounds="133,785,82,19" Id="HMPkZxZQCInNBrFo6WTmPQ">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a mini drone-ish synth.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Control a mini drone-ish synth.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DroneishSynth" />
             </p:NodeReference>
@@ -604,8 +599,8 @@
             <Pin Id="DpZVWO1KVoLPc6RqWyjr0n" Name="FM Level" Kind="InputPin" />
             <Pin Id="MuWIW6JqjZnOFj6N6dGAfL" Name="Output" Kind="OutputPin" />
           </Node>
-          <Overlay Id="AyIebJyiLONP0pzTKTX7L0" Name="1. Wekinator" Bounds="100,181,203,146" />
-          <Pad Id="VJN5JIXVXFtQJt2WBT1e4R" Bounds="320,227,235,81" ShowValueBox="true" isIOBox="true" Value="This node represents a running Wekinator instance. It has the same default port numbers as Wekinator itself, but you can customize them.">
+          <Overlay Id="AyIebJyiLONP0pzTKTX7L0" Name="1. Wekinator" Bounds="102,207,203,93" />
+          <Pad Id="VJN5JIXVXFtQJt2WBT1e4R" Bounds="319,222,235,81" ShowValueBox="true" isIOBox="true" Value="This node represents a running Wekinator instance. It has the same default port numbers as Wekinator itself, but you can customize them.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -705,7 +700,6 @@
         <Link Id="P8QCQC5tZMMPB3NdMdDLZ6" Ids="AV4H0QGRnusOGwCoNnwjkd,MVo2IPLeCBnNQ9dGW1FPl1" />
         <Link Id="RgiKz9BdMwsLcZq9zRK3eO" Ids="D0ynn6YGG1QL8aCvWCVOie,Kw2JW2CUNWELSk0XljvyK4" />
         <Link Id="VR0wj3AJ6HROwUDoys7hKX" Ids="DN0Ymx7evzZNm06eaQK6nv,DxA5qyaGmawLvW9z2qb2xp" />
-        <Link Id="P3623jTDfFlLPJ0XMOhXPI" Ids="HlsEMGyu5nJPnDSS4vgADW,HzAOQVlZsjxMXYH8dZbn4m" />
         <Link Id="AENZ1OUpTY6P6LkFi19a2e" Ids="Fwg9DYL8goJNsa7WmS6lZA,MRqTk1k3jNsNeGGWLIlai9" />
         <Link Id="NexsvgVdEMoLWDb2FT7Cib" Ids="VeRO4mHS1BPMNU8Sk6D44J,GP7CS88w1NHMyZ7S6aPBjj" />
         <Link Id="AykYg6MvcHlN6XVDl0KecQ" Ids="IfoQzgtLgv0NwbPo1HXQSi,DpZVWO1KVoLPc6RqWyjr0n" />
