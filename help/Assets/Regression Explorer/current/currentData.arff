@@ -1,0 +1,9 @@
+@relation dataset
+
+@attribute ID numeric
+@attribute Time date 'yyyy/MM/dd HH:mm:ss:SSS'
+@attribute 'Training round' numeric
+@attribute inputs-1 numeric
+@attribute outputs-1 numeric
+
+@data
