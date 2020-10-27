@@ -232,7 +232,11 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn" />
             </p:NodeReference>
-            <Pin Id="GKi8wzrfNsbOF5YmxvWjcO" Name="Video Input Device" Kind="InputPin" />
+            <Pin Id="GKi8wzrfNsbOF5YmxvWjcO" Name="Video Input Device" Kind="InputPin" DefaultValue="HD Pro Webcam C920">
+              <p:TypeAnnotation LastCategoryFullName="OpenCV.Source" LastSymbolSource="VL.OpenCV.vl">
+                <Choice Kind="TypeFlag" Name="VideoInputDevice" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="LgcdGoxXCgpMPkx5xhHkMj" Name="Width" Kind="InputPin" />
             <Pin Id="STQQ4Z6XJBYQY7DqyeA3kI" Name="Height" Kind="InputPin" />
             <Pin Id="Vs5biU3AsK2MI6zIN0wfTA" Name="FPS" Kind="InputPin" />
@@ -342,7 +346,7 @@
             <Pin Id="K6Qdw4wenZPNrpBrVb9Fug" Name="Apply" Kind="InputPin" />
             <Pin Id="RipIkLPwUL6MKuVGdykfCx" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="389,488,82,19" Id="PTOtoW8kWW8M8812DNcmNk">
+          <Node Bounds="409,487,82,19" Id="PTOtoW8kWW8M8812DNcmNk">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a color with hand gestures.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GrayScalePipet" />
@@ -525,6 +529,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Wekinator" />
             </p:NodeReference>
+            <Pin Id="O2klVBZ2WivLLlF9PwpBcj" Name="IP Address" Kind="InputPin" />
             <Pin Id="VCXEDLIuI0aONyUrkrD4r4" Name="Input Port" Kind="InputPin" />
             <Pin Id="Fua5XGg3mxQMtAtbnPNwUZ" Name="Output Port" Kind="InputPin" />
             <Pin Id="K3V4u6LhxO2PrYvOhWEQYu" Name="Update" Kind="ApplyPin" />
@@ -540,24 +545,6 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="369,533,65,19" Id="Eg8p3twPo3rPK1p1D1Gwn7">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="SendData" />
-            </p:NodeReference>
-            <Pin Id="BaXbQS4PEtPPfj1P3cqfx7" Name="Wekinator" Kind="InputPin" />
-            <Pin Id="EPxjVhyVHZMOqxp4NRi5EN" Name="Arguments" Kind="InputPin" />
-            <Pin Id="Dx3ymUTaVKgMPy4dApjSFM" Name="Bundled Per Frame" Kind="InputPin" DefaultValue="False">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="M1P1Tkfyra2N4MNHQdzko4" Name="Send" Kind="InputPin" DefaultValue="True">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Node>
           <Node Bounds="667,429,71,19" Id="JHzMtedt93bNntMUvAs9aD">
             <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -579,6 +566,20 @@
             </p:NodeReference>
             <Pin Id="B8v3DpHlcm8OfiJyHf5MMt" Name="Input" Kind="InputPin" />
             <Pin Id="JU1nohWIlFEOtFJqdJtOO5" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="369,536,65,19" Id="FedCif9VI3VLnhQrZWd33a">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="SendData (Generic)" />
+            </p:NodeReference>
+            <Pin Id="OJL3VlPb0NaPe14QUnYc6o" Name="Wekinator" Kind="InputPin" />
+            <Pin Id="P9YHkikayYAOZHcjlQbaBk" Name="Address" Kind="InputPin" />
+            <Pin Id="MJardU3b7jIQbTDAMsjkvi" Name="Arguments" Kind="InputPin" />
+            <Pin Id="PSswtY2ldNvL9cjUvV1O2r" Name="Bundled Per Frame" Kind="InputPin" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
           </Node>
         </Canvas>
         <Patch Id="NnGB6LJxOzHPxhTRaOEpNf" Name="Create" />
@@ -604,13 +605,13 @@
         <Link Id="BUU7IC0UVhTLju3DiQBOvW" Ids="MolG1sHEqjQL5oKJhIid9E,LCpATJ8v7vMPgQMEXOtcXh" />
         <Link Id="CsZrdUtk7aeOheGkgCTyol" Ids="J4YfevqMAYcPYxbI1kNlCC,VCXEDLIuI0aONyUrkrD4r4" />
         <Link Id="RYrJVicnNZDOn4n7wSg9d7" Ids="J525IApGQt8PxPjBPQyQ4z,Fua5XGg3mxQMtAtbnPNwUZ" />
-        <Link Id="OeIgB2U6NuENIxg4V4pcrr" Ids="LvybYfv4kcZL0TvJo2Yvrd,BaXbQS4PEtPPfj1P3cqfx7" />
-        <Link Id="SpzFomv8pLmLT88PV1mIHd" Ids="Do8XXRTwIFdO2LRy5QI8b0,EPxjVhyVHZMOqxp4NRi5EN" />
         <Link Id="K2CZRC61O8TOBEwMFzT59x" Ids="LvybYfv4kcZL0TvJo2Yvrd,GfIt1jFe1XoOMNsbZvALDz" />
         <Link Id="JJUtHoOjwOYNfJvcDgIHco" Ids="H90R8AFNCHlOTzM5ZUGUha,O8JHWymOv9UOAlsOtT3tCx" />
         <Link Id="HY2ZKWKNmZnP3Zizz2Npkp" Ids="O8JHWymOv9UOAlsOtT3tCx,Tgc2omGr5M4QYGwGCjBYWd" />
         <Link Id="OnPwz1i7GPlNdzdPSxka2A" Ids="O8JHWymOv9UOAlsOtT3tCx,B8v3DpHlcm8OfiJyHf5MMt" />
         <Link Id="M8Gk8i64gVQMgADQDDSNnO" Ids="JU1nohWIlFEOtFJqdJtOO5,EP3eKCaxM42Pu65iZxSwfg" />
+        <Link Id="KCb88pPuOwUPfmHWHBkcBg" Ids="LvybYfv4kcZL0TvJo2Yvrd,OJL3VlPb0NaPe14QUnYc6o" />
+        <Link Id="BBDNi7qqb9rOftYRLuIPms" Ids="Do8XXRTwIFdO2LRy5QI8b0,MJardU3b7jIQbTDAMsjkvi" />
       </Patch>
     </Node>
   </Patch>

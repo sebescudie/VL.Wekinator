@@ -520,48 +520,41 @@
               <Choice Kind="ProcessAppFlag" Name="Wekinator" />
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="P26SmA0diYfQPH9PnzRU0U" Name="IP Address" Kind="InputPin" />
             <Pin Id="HzAOQVlZsjxMXYH8dZbn4m" Name="Input Port" Kind="InputPin" />
             <Pin Id="AvgU0ycwvvrPSNrPj0nIqV" Name="Output Port" Kind="InputPin" />
-            <Pin Id="P26SmA0diYfQPH9PnzRU0U" Name="IP Address" Kind="InputPin" />
             <Pin Id="BuczvCLGol2QcfpNep6EwS" Name="Update" Kind="InputPin" />
             <Pin Id="AV4H0QGRnusOGwCoNnwjkd" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="239,431,59,19" Id="JOa4xITJgr2LZQAn4aGZUp">
+          <Node Bounds="206,433,65,19" Id="JOa4xITJgr2LZQAn4aGZUp">
             <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SendData (Generic)" />
             </p:NodeReference>
             <Pin Id="UOs5pYDS1VBOkCunN2eQ7X" Name="Wekinator" Kind="InputPin" />
+            <Pin Id="L1t2Zr7CObMOtGPwREZPCd" Name="Address" Kind="InputPin" />
             <Pin Id="QmghUfhkjVRN6R6t4lKeGV" Name="Arguments" Kind="InputPin" />
-            <Pin Id="F8DexNsx38PPInh5JXKcmN" Name="Send" Kind="InputPin" DefaultValue="True">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
           </Node>
           <Node Bounds="133,597,71,19" Id="KjfWaaBPf1ZP1rZqnH00R1">
             <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ReceiveData" />
+              <Choice Kind="ProcessAppFlag" Name="ReceiveData (Generic)" />
             </p:NodeReference>
             <Pin Id="IjOMRFrzvLoNZnCaDt8zSW" Name="Wekinator" Kind="InputPin" />
             <Pin Id="EMDTHwWI8MMN8hljwjulWf" Name="Output" Kind="OutputPin" />
             <Pin Id="Pb0scLvrlKRPmv2gbW7uXF" Name="On Data" Kind="OutputPin" />
           </Node>
-          <Node Bounds="584,679,45,19" Id="SLtMqFGNZpdPQ6z6Ix4pWn">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Control" LastSymbolSource="VL.Wekinator.vl">
+          <Node Bounds="584,679,-25,19" Id="SLtMqFGNZpdPQ6z6Ix4pWn">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Wekinator" />
-              <CategoryReference Kind="Category" Name="Control" />
               <Choice Kind="ProcessAppFlag" Name="Run" />
+              <CategoryReference Kind="Category" Name="Wekinator" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" Name="IO" NeedsToBeDirectParent="true" />
+              </CategoryReference>
             </p:NodeReference>
-            <Pin Id="MVo2IPLeCBnNQ9dGW1FPl1" Name="Wekinator" Kind="InputPin" />
-            <Pin Id="DxA5qyaGmawLvW9z2qb2xp" Name="Start" Kind="InputPin" DefaultValue="False">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Kw2JW2CUNWELSk0XljvyK4" Name="Stop" Kind="InputPin" />
+            <Pin Id="RYpFO109nICMDc7LyNv23d" Name="Input" Kind="InputPin" />
+            <Pin Id="N07bDF6CffUPDE2pkY9ehd" Name="Start Running" Kind="InputPin" />
+            <Pin Id="TlwEnZOF32BMgoqbe4i733" Name="Stop Running" Kind="InputPin" />
           </Node>
           <Pad Id="D0ynn6YGG1QL8aCvWCVOie" Comment="Stop" Bounds="626,658,35,15" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -600,7 +593,7 @@
             <Pin Id="DpZVWO1KVoLPc6RqWyjr0n" Name="FM Level" Kind="InputPin" />
             <Pin Id="MuWIW6JqjZnOFj6N6dGAfL" Name="Output" Kind="OutputPin" />
           </Node>
-          <Overlay Id="AyIebJyiLONP0pzTKTX7L0" Name="1. Wekinator" Bounds="102,207,203,93" />
+          <Overlay Id="AyIebJyiLONP0pzTKTX7L0" Name="Wekinator" Bounds="102,207,203,93" />
           <Pad Id="VJN5JIXVXFtQJt2WBT1e4R" Bounds="319,222,235,81" ShowValueBox="true" isIOBox="true" Value="This node represents a running Wekinator instance. It has the same default port numbers as Wekinator itself, but you can customize them.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
@@ -610,7 +603,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="T5OCz6nORGSP1YFRn3bf2r" Name="2. Send Data" Bounds="199,383,154,98" />
+          <Overlay Id="T5OCz6nORGSP1YFRn3bf2r" Name="Send Data" Bounds="199,383,154,80" />
           <Pad Id="DihP2tvKCNfN4DyM89z4ft" Bounds="366,391,115,94" ShowValueBox="true" isIOBox="true" Value="Simply connect SendData to the corresponding Wekinator node to send data to it.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
@@ -629,7 +622,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="BBqq76sxMehODZ1gmGQvYU" Name="3. Receive Data" Bounds="118,544,165,179" />
+          <Overlay Id="BBqq76sxMehODZ1gmGQvYU" Name="Receive Data" Bounds="118,544,197,179" />
           <Pad Id="NLd0JTTH8e9LHdmOcDy8nJ" Bounds="330,615,202,82" ShowValueBox="true" isIOBox="true" Value="Same as Send Data, we retrieve Wekinator's data on the default address (/wek/outputs), but it can be customized.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -639,8 +632,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="Dc2u2KQ39wlL44QGabPMig" Name="4. Control" Bounds="560,575,156,148" />
-          <Pad Id="K8ol18fhFMpOvtrfTC43m8" Bounds="723,602,158,111" ShowValueBox="true" isIOBox="true" Value="Bonus : Wekinator also allows remote control over OSC. Check the Wekinator.Control category to find out more.">
+          <Overlay Id="Dc2u2KQ39wlL44QGabPMig" Name="Control" Bounds="560,575,156,148" />
+          <Pad Id="K8ol18fhFMpOvtrfTC43m8" Bounds="723,602,94,114" ShowValueBox="true" isIOBox="true" Value="Bonus : Wekinator also allows remote control over OSC.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -687,8 +680,8 @@
             </Pin>
             <Pin Id="QV6qCpzPuzbN5psLOveUtN" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="GsGbgsje9IrNoxxeenkZf1" Bounds="660,294,192,19" ShowValueBox="true" isIOBox="true" Value="Drag the circle in the renderer!">
-            <p:TypeAnnotation>
+          <Pad Id="GsGbgsje9IrNoxxeenkZf1" Bounds="678,194,206,112" ShowValueBox="true" isIOBox="true" Value="First, either go to Wekinator and press the Run button, or bang the Start pin on the Run node bellow.&#xD;&#xA;The, start dragging the circle in the Renderer, the synth reacts!">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -696,7 +689,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="A1tgT2wDco9ODRw2furW0v" Name="" Bounds="647,255,237,80">
+          <Overlay Id="A1tgT2wDco9ODRw2furW0v" Name="To do" Bounds="665,148,248,170">
             <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
           </Overlay>
         </Canvas>
@@ -710,9 +703,6 @@
         <Link Id="Vqfqv7X52m0Lbia4qiHO1U" Ids="AV4H0QGRnusOGwCoNnwjkd,UOs5pYDS1VBOkCunN2eQ7X" />
         <Link Id="Jvosfm6oSGkMPnhda0gKnT" Ids="UoojnRfBbonQSeVnzqDD1n,QmghUfhkjVRN6R6t4lKeGV" />
         <Link Id="Ke6GN29tdgvNEamZQDEhrJ" Ids="AV4H0QGRnusOGwCoNnwjkd,IjOMRFrzvLoNZnCaDt8zSW" />
-        <Link Id="P8QCQC5tZMMPB3NdMdDLZ6" Ids="AV4H0QGRnusOGwCoNnwjkd,MVo2IPLeCBnNQ9dGW1FPl1" />
-        <Link Id="RgiKz9BdMwsLcZq9zRK3eO" Ids="D0ynn6YGG1QL8aCvWCVOie,Kw2JW2CUNWELSk0XljvyK4" />
-        <Link Id="VR0wj3AJ6HROwUDoys7hKX" Ids="DN0Ymx7evzZNm06eaQK6nv,DxA5qyaGmawLvW9z2qb2xp" />
         <Link Id="AENZ1OUpTY6P6LkFi19a2e" Ids="Fwg9DYL8goJNsa7WmS6lZA,MRqTk1k3jNsNeGGWLIlai9" />
         <Link Id="NexsvgVdEMoLWDb2FT7Cib" Ids="VeRO4mHS1BPMNU8Sk6D44J,GP7CS88w1NHMyZ7S6aPBjj" />
         <Link Id="AykYg6MvcHlN6XVDl0KecQ" Ids="IfoQzgtLgv0NwbPo1HXQSi,DpZVWO1KVoLPc6RqWyjr0n" />
@@ -720,6 +710,9 @@
         <Link Id="NneUW2QdP2ZOvht5w8J0RU" Ids="EMDTHwWI8MMN8hljwjulWf,E9SKwSms7bLLkoWmXIJ0je" />
         <Link Id="KX1INIEuIZFNq0WM0KRe65" Ids="Mr17pLO3GGuNFdninguW1M,A5j6PQZ4gVgMDZsq5W3rzM" />
         <Link Id="GZNEJMHHaH6MVcMVvyiY6j" Ids="QV6qCpzPuzbN5psLOveUtN,A5v9BM0mlvGPPpkylEO6M2" />
+        <Link Id="U0veJMc905OLylB5OHNNkz" Ids="DN0Ymx7evzZNm06eaQK6nv,N07bDF6CffUPDE2pkY9ehd" />
+        <Link Id="HCASEXhykheMpUaNveS8WG" Ids="D0ynn6YGG1QL8aCvWCVOie,TlwEnZOF32BMgoqbe4i733" />
+        <Link Id="DAbPyY8cDR9QFnNWDxqNYn" Ids="AV4H0QGRnusOGwCoNnwjkd,RYpFO109nICMDc7LyNv23d" />
       </Patch>
     </Node>
   </Patch>
