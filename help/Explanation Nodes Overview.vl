@@ -153,39 +153,6 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="131,164,71,26" Id="CDwp13IYllhOrHGW4Su9v9">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
-              <Choice Kind="OperationCallFlag" Name="ReceiveData" />
-            </p:NodeReference>
-            <Pin Id="NkJcLBkHmMiOmJKMsHuNJq" Name="Input" Kind="StateInputPin" />
-            <Pin Id="AEiu6ywBDMeOuTpfUNH1xU" Name="Address" Kind="InputPin" />
-            <Pin Id="Q0UIyPHPVecPMKt2FizwME" Name="State Output" Kind="StateOutputPin" />
-            <Pin Id="Qr5aiUN9SlnMvso5d6DPP0" Name="Output" Kind="OutputPin" />
-            <Pin Id="GiYG7jRdvITOwD590bo83B" Name="On Data" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="229,171,71,19" Id="JxLr74O6Pb3MjRMHJYPu5w">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
-              <Choice Kind="ProcessAppFlag" Name="ReceiveData (Generic)" />
-            </p:NodeReference>
-            <Pin Id="Gr0zQmNC41LQVWjDNmvOQU" Name="Wekinator" Kind="InputPin" />
-            <Pin Id="BZQYGNZnrmxNABgpxSj4GE" Name="Output" Kind="OutputPin" />
-            <Pin Id="KtZco6OIZvgOlUJmmkYUh3" Name="On Data" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="131,267,71,26" Id="GxYzMuRNeWaOyKoz4kV1LX">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
-              <Choice Kind="OperationCallFlag" Name="ReceiveData (Reactive)" />
-            </p:NodeReference>
-            <Pin Id="CkI58yyi4AYNwBA9EmoYzz" Name="Input" Kind="StateInputPin" />
-            <Pin Id="A1pkElHCj9yM4A5XK8CPpM" Name="Address" Kind="InputPin" />
-            <Pin Id="Kwapu2Zk284MmrqWvGs1kE" Name="State Output" Kind="StateOutputPin" />
-            <Pin Id="OOzN3g6cw37LMai0wvX9eZ" Name="Output" Kind="OutputPin" />
-          </Node>
           <Node Bounds="128,867,118,26" Id="Lc60QsAIIH2O6sWGpe6ya6">
             <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -341,6 +308,23 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
+          <Node Bounds="131,168,71,19" Id="F4JsnMHqXW1NUB4MDzi7ui">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ReceiveData (Generic)" />
+            </p:NodeReference>
+            <Pin Id="NM2XDamRLNWMkthO7yDh6X" Name="Wekinator" Kind="InputPin" />
+            <Pin Id="UKCpDw9uq1pLzJxiHFNqiB" Name="Output" Kind="OutputPin" />
+            <Pin Id="FphBcdUBZPxQKlEGXdl9po" Name="On Data" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="226,169,71,19" Id="CkLywoMHqt5NeqL3HPCz4S">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ReceiveData (Reactive)" />
+            </p:NodeReference>
+            <Pin Id="TWTv5q3qUBSLcUbITTJ8Xu" Name="Wekinator" Kind="InputPin" />
+            <Pin Id="RHFVh9xK5CCLWBQUv1WzcU" Name="Output" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="AEPJo9XYFTEMEEuFNc4NkX" Name="Create" />
         <Patch Id="TR2zfNmfHlxLvYpPec1SkI" Name="Update" />
@@ -348,9 +332,7 @@
           <Fragment Id="EuM8oMUfVdpOxJTFQFlqnU" Patch="AEPJo9XYFTEMEEuFNc4NkX" Enabled="true" />
           <Fragment Id="C9ddKjvvZLgNtYezxLVWdK" Patch="TR2zfNmfHlxLvYpPec1SkI" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="KBdi3KI1pqnMwpL5wBrIQa" Ids="K8ygQ0gfaNsMKaXk3PuIvu,NkJcLBkHmMiOmJKMsHuNJq" />
-        <Link Id="S15qJKB21EdOlghZ0zzuxR" Ids="Q0UIyPHPVecPMKt2FizwME,JpkzUDatTK1LcVb2MHmvSF" />
-        <Link Id="ShAUmfeaotYPFSbyvHjPYN" Ids="JDM3vttvfgONtedlcFQB6Z,CkI58yyi4AYNwBA9EmoYzz" />
+        <Link Id="RMlPgzj9JkJLYXnj8goiNv" Ids="K8ygQ0gfaNsMKaXk3PuIvu,NM2XDamRLNWMkthO7yDh6X" />
       </Patch>
     </Node>
   </Patch>

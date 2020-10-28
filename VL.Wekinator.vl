@@ -1093,6 +1093,71 @@
           <Link Id="DOBNorsDpL5QB6ktyzwbup" Ids="Tq1DifMP7tGPkoCJMH4aIZ,PmCEBC7yAyGLvbIHt0osY2" />
         </Patch>
       </Node>
+      <!--
+
+    ************************ ReceiveData (Reactive) ************************
+
+-->
+      <Node Name="ReceiveData (Reactive)" Bounds="456,381" Id="FL41D1qcydVQBQ8VEMcdPI">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="ContainerDefinition" Name="Process" />
+        </p:NodeReference>
+        <Patch Id="NRvV7JaIbN0P9GhfNnn4b8">
+          <Canvas Id="IfMEwQmCyJJL7Z8qZBbHkD" CanvasType="Group">
+            <ControlPoint Id="NXJJxxLr8mlQZGbGkHk9XC" Bounds="448,482" />
+            <Node Bounds="529,559,73,19" Id="Ark6W4VH3LjPdeL5MzaLcJ">
+              <p:NodeReference LastCategoryFullName="IO.OSC" LastSymbolSource="VL.IO.OSC.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="OSCReceiver (Reactive)" />
+              </p:NodeReference>
+              <Pin Id="ThMSn1t7m8WLQkPQhPALsw" Name="OSC Server" Kind="InputPin" />
+              <Pin Id="Dl94BOv58oBQOD6G8UC9K1" Name="Address" Kind="InputPin" />
+              <Pin Id="S0s3GglZWOCM0cN4wbWilT" Name="Output" Kind="OutputPin" />
+            </Node>
+            <ControlPoint Id="BWhgY3iFlnrN75c8y4hT9O" Bounds="599,536" />
+            <ControlPoint Id="EjGL9BnpbdQL6jFfYHBEjP" Bounds="531,607" />
+            <Node Bounds="446,512,88,26" Id="Evu9B6Qcy5MNZofZqqyNBU">
+              <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="GetOSCReceiver" />
+              </p:NodeReference>
+              <Pin Id="NB52tEavvCqLMsrbaTgS17" Name="Input" Kind="StateInputPin" />
+              <Pin Id="A7vurfijIVkPKNzGTkDMNy" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="LgdPQkS191HNubACndyWdz" Name="OSC Receiver" Kind="OutputPin" />
+            </Node>
+          </Canvas>
+          <Patch Id="D5s9oWFXjOGLFCHWU4bx5e" Name="Create" />
+          <Patch Id="KNUPKZPjFOZPMWoaODnnIZ" Name="Update">
+            <Pin Id="FxlcV5MK5T7PNkyxvaj1vk" Name="Wekinator" Kind="InputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Wekinator" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="RUxfSQ6U2emPTlNs2hR6pn" Name="Address" Kind="InputPin" Bounds="586,540" DefaultValue="/wek/outputs" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="PsDUsoR9CIqM7ipWyjDCRO" Name="Output" Kind="OutputPin" Bounds="504,634" />
+          </Patch>
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="BC2jQ6JWqa5OflpYhk2ukN">
+            <Fragment Id="M9Taz1DZFXZOYAbRp5kTcV" Patch="D5s9oWFXjOGLFCHWU4bx5e" Enabled="true" />
+            <Fragment Id="DzWZRKRqzyiMU1Vr8wmVTL" Patch="KNUPKZPjFOZPMWoaODnnIZ" Enabled="true" />
+          </ProcessDefinition>
+          <Link Id="LLU3SBuETiaPnzDJzAXMpP" Ids="FxlcV5MK5T7PNkyxvaj1vk,NXJJxxLr8mlQZGbGkHk9XC" IsHidden="true" />
+          <Link Id="HtjMXF8zQPYOuIIf5an2oT" Ids="BWhgY3iFlnrN75c8y4hT9O,Dl94BOv58oBQOD6G8UC9K1" />
+          <Link Id="LL7JvwVbXqNPeFrb6FVuSd" Ids="RUxfSQ6U2emPTlNs2hR6pn,BWhgY3iFlnrN75c8y4hT9O" IsHidden="true" />
+          <Link Id="PxWxYpkrdfGOFE8gNHufVY" Ids="S0s3GglZWOCM0cN4wbWilT,EjGL9BnpbdQL6jFfYHBEjP" />
+          <Link Id="MIqR3oeFV1iP4OOucTNN8y" Ids="EjGL9BnpbdQL6jFfYHBEjP,PsDUsoR9CIqM7ipWyjDCRO" IsHidden="true" />
+          <Link Id="O68v6NichAoN3C3H6rllNe" Ids="NXJJxxLr8mlQZGbGkHk9XC,NB52tEavvCqLMsrbaTgS17" />
+          <Link Id="AGMtwGXB9yTPaOs2JQ9Wn8" Ids="LgdPQkS191HNubACndyWdz,ThMSn1t7m8WLQkPQhPALsw" />
+        </Patch>
+      </Node>
     </Canvas>
     <!--
 
