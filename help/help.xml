@@ -6,7 +6,7 @@
 	</Topic>
 	<Topic title="Output Types">
 		<Subtopic title="Continuous">
-			<VLDocument link="Example Control a mini drone-ish synth.vl"/>
+			<VLDocument link="Tutorial Control a mini drone-ish synth.vl"/>
 			<VLDocument link="Example Regression Explorer.vl"/>
 		</Subtopic>
 		<Subtopic title="Classifiers">
