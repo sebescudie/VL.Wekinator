@@ -8,7 +8,7 @@
     ************************ Wekinator ************************
 
 -->
-      <Node Name="Wekinator" Bounds="211,323" Id="CRBeepfq0OQQAZpzQ8l1hr" Summary="Represents a running Wekinator instance">
+      <Node Name="Wekinator" Bounds="211,323" Id="CRBeepfq0OQQAZpzQ8l1hr" Summary="Represents a running Wekinator instance" Remarks="You can interact with different Wekinator instances in the same patch. Simply create as many of those nodes as necessary and set their IP/ports accordingly.">
         <p:NodeReference>
           <Choice Kind="ClassDefinition" Name="Class" />
           <FullNameCategoryReference ID="Primitive" />
@@ -806,7 +806,7 @@
           <Link Id="VrCW4e736AjMfcuXErE60U" Ids="OhMFb6GOgoiL7UsWDnwLOw,VgS22frxA78P3hLhpyDWAL" IsHidden="true" />
           <Link Id="TT86HkArIFDP3Gqs3VVi41" Ids="EX7SIiCKUWbNA2uhTDRtHP,Q9dyaXUV72PP0OX1WA0wJT" />
           <Link Id="HWST1yaTV7nPsmMIqgJcI7" Ids="Q9dyaXUV72PP0OX1WA0wJT,Td9FOlLNYNaLVf8Sv93G8K" IsHidden="true" />
-          <Patch Id="VfVtWg1LYUROD1ZxlnYs52" Name="ReceiveOutputs">
+          <Patch Id="VfVtWg1LYUROD1ZxlnYs52" Summary="Receives data outputs from Wekinator" Name="ReceiveOutputs">
             <Pin Id="Nkn3g4ZwiAuMjUzCqTQhMM" Name="Address" Kind="InputPin" DefaultValue="/wek/outputs">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
@@ -824,7 +824,7 @@
             </Pin>
             <Pin Id="Td9FOlLNYNaLVf8Sv93G8K" Name="On Data" Kind="OutputPin" />
           </Patch>
-          <Patch Id="Q2g6fxklErROjDXlpAj0o0" Name="ReceiveOutputs (Reactive Advanced))">
+          <Patch Id="Q2g6fxklErROjDXlpAj0o0" Summary="Receives output data from Wekinator" Name="ReceiveOutputs (Reactive Advanced))">
             <Pin Id="TFYrHpfWDgfQHFmdYNF1N2" Name="Output" Kind="OutputPin">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Observable" />
