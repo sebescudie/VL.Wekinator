@@ -50,7 +50,7 @@
             <Pin Id="OKeRkoztwFLPV3hHQcZR6H" Name="IP Address" Kind="InputPin" />
             <Pin Id="NyRi5MKeVe5N0DseWXHoej" Name="Input Port" Kind="InputPin" />
             <Pin Id="RCepBWFQ3ClQFwVAqB0FcO" Name="Output Port" Kind="InputPin" />
-            <Pin Id="K8ygQ0gfaNsMKaXk3PuIvu" Name="Output" Kind="OutputPin" />
+            <Pin Id="SVcg5YxAEUOOMfJRPPdNcI" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="279,451,84,26" Id="HjKLGEoYru1NWKpgScYzR7">
             <p:NodeReference>
@@ -292,12 +292,12 @@
           <Node Bounds="224,240,52,26" Id="AlpUjMVyxKYMRJoPTtV6vX">
             <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="ReceiveOutputs (Reactive)" />
+              <Choice Kind="OperationCallFlag" Name="ReceiveOutputs (Reactive Advanced))" />
             </p:NodeReference>
             <Pin Id="SXZPQqtNDXBQbteenYurrs" Name="Input" Kind="StateInputPin" />
-            <Pin Id="A99fRx7sxbLNDupCFJ537t" Name="Address" Kind="InputPin" />
-            <Pin Id="GAnIhY2HpuRNtpHH5z4Gj5" Name="State Output" Kind="StateOutputPin" />
-            <Pin Id="IOnAHry0yjpOlmMehZG8vx" Name="Output" Kind="OutputPin" />
+            <Pin Id="KtdhNpLXhJDNhQGISCncgT" Name="Address" Kind="InputPin" />
+            <Pin Id="IOnAHry0yjpOlmMehZG8vx" Name="State Output" Kind="OutputPin" />
+            <Pin Id="SQ1crwEI6TCQRlZeNH1LQl" Name="Output" Kind="OutputPin" />
           </Node>
         </Canvas>
         <Patch Id="AEPJo9XYFTEMEEuFNc4NkX" Name="Create" />
@@ -306,7 +306,7 @@
           <Fragment Id="EuM8oMUfVdpOxJTFQFlqnU" Patch="AEPJo9XYFTEMEEuFNc4NkX" Enabled="true" />
           <Fragment Id="C9ddKjvvZLgNtYezxLVWdK" Patch="TR2zfNmfHlxLvYpPec1SkI" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="JDUxx2EhEEOLYSfJjohid0" Ids="K8ygQ0gfaNsMKaXk3PuIvu,JrzNvmPsn4PMqHE2yEaD7h" />
+        <Link Id="BAwHZ16uUr3LIGRVj477K8" Ids="SVcg5YxAEUOOMfJRPPdNcI,JrzNvmPsn4PMqHE2yEaD7h" />
       </Patch>
     </Node>
   </Patch>
