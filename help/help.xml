@@ -10,7 +10,7 @@
 			<VLDocument link="Example Regression Explorer.vl"/>
 		</Subtopic>
 		<Subtopic title="Classifiers">
-			<VLDocument link="Tutorial Control a color with hand gestures.vl"/>
+			<VLDocument link="Tutorial Recognize hand poses.vl"/>
 		</Subtopic>
 		<Subtopic title="Dynamic Time Warping">
             <UriItem title="Explanation Dynamic time warping in Wekinator" link="http://www.wekinator.org/detailed-instructions/#Dynamic_time_warping_in_Wekinator" mediaType="text"/>
