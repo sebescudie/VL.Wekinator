@@ -24,7 +24,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DLYgtEPsirJOQdWEQx4MvQ" Bounds="279,483,298,41" ShowValueBox="true" isIOBox="true" Value="Those nodes allow to send and receive data from Wekinator.">
+          <Pad Id="DLYgtEPsirJOQdWEQx4MvQ" Bounds="279,483,298,41" ShowValueBox="true" isIOBox="true" Value="Those nodes allow to send inputs and receive outputs from the Wekinator.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -33,7 +33,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="G7GhdWBBQc2Pq2zeHOkFCU" Bounds="49,593,463,41" ShowValueBox="true" isIOBox="true" Value="A bunch of nodes allows you to control Wekinator from vvvv. Hover them to learn more">
+          <Pad Id="G7GhdWBBQc2Pq2zeHOkFCU" Bounds="49,593,463,41" ShowValueBox="true" isIOBox="true" Value="A bunch of nodes that allows you to control Wekinator from vvvv. Hover them to learn more">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -161,13 +161,13 @@
             </p:NodeReference>
             <Pin Id="DfjdCTwywOaLYmdb1NlQTL" Name="Input" Kind="StateInputPin" />
             <Pin Id="INbnOEYbhfgMKFmJGr3YTq" Name="Output Number" Kind="InputPin" />
-            <Pin Id="PKgCmmsbllPLWNwJNZmX0u" Name="Inputs" Kind="InputPin" />
-            <Pin Id="Ag9CIpZfUSqQCQri6yDpEP" Name="Output" Kind="StateOutputPin" />
             <Pin Id="UeA2EzvphB9M5NnABehUzn" Name="Apply" Kind="InputPin" DefaultValue="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="PKgCmmsbllPLWNwJNZmX0u" Name="Inputs" Kind="InputPin" />
+            <Pin Id="Ag9CIpZfUSqQCQri6yDpEP" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="396,654,85,26" Id="PjZGIkNS0sJOCijaWTxTkm">
             <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
@@ -177,6 +177,7 @@
             </p:NodeReference>
             <Pin Id="N1GZwjvlERzPrnohSloCqh" Name="Input" Kind="StateInputPin" />
             <Pin Id="Imz6lShKlYpOKqnvbctaNE" Name="Names" Kind="InputPin" />
+            <Pin Id="RSs30aHPiGMLTMVZ2BjFRQ" Name="Apply" Kind="InputPin" />
             <Pin Id="HQ6NWZFodDnLpPv8dzkz4u" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="213,861,93,26" Id="TM4X3Qkt7iINGJc7JfoC1Y">
@@ -186,6 +187,7 @@
             </p:NodeReference>
             <Pin Id="FuPDff4ZsztPfagJ3OQlav" Name="Input" Kind="StateInputPin" />
             <Pin Id="EU1J2qezj4rNUQc0rkSnRV" Name="Names" Kind="InputPin" />
+            <Pin Id="Ta93XwW7yLTLz2sWLJ1BMa" Name="Apply" Kind="InputPin" />
             <Pin Id="HC6O3H5xXMcLnKZHUjDoNa" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="62,861,67,26" Id="MCOB6XVGnKALIJhNoDuYVz">
@@ -196,6 +198,7 @@
             </p:NodeReference>
             <Pin Id="DJFycUnwMK1M3VsWJcr2Eh" Name="Input" Kind="StateInputPin" />
             <Pin Id="FRCsOAuNNp1PRt3MGGYGAx" Name="Arguments" Kind="InputPin" />
+            <Pin Id="TBACymOV5WXOWS0kMagE6k" Name="Apply" Kind="InputPin" />
             <Pin Id="SsjNuwqGcFvNmINs6cTuuv" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="62,809,104,26" Id="BZxcjEjqrzhLyhPqS94t9C">
@@ -205,6 +208,7 @@
             </p:NodeReference>
             <Pin Id="S6xEvClUFtkNRW05PDcIuf" Name="Input" Kind="StateInputPin" />
             <Pin Id="AkwFBmMGj2RNXXOppTSESB" Name="Gesture Index" Kind="InputPin" />
+            <Pin Id="HP5rk8sfvXsNpRXLOGsHxq" Name="Apply" Kind="InputPin" />
             <Pin Id="NX9NeELgFdBPxiSiXUYB1F" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="62,653,83,26" Id="PNwtpzru60pNZe1unfRFMb">
@@ -227,6 +231,7 @@
               <Choice Kind="OperationCallFlag" Name="StartRunning" />
             </p:NodeReference>
             <Pin Id="UT35HaIykHRMRJ14Dbb6Lb" Name="Input" Kind="StateInputPin" />
+            <Pin Id="HEO5I42qOzkMmZdTrhxxnK" Name="Apply" Kind="InputPin" />
             <Pin Id="L9M9ahSYqu4LHY9569t8Kd" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="213,809,103,26" Id="GikAvx0RXfLPeuuB3UUr7c">
@@ -236,6 +241,7 @@
               <Choice Kind="OperationCallFlag" Name="StopDTWRecording" />
             </p:NodeReference>
             <Pin Id="BmDomx2i2DENhRUKnCL2bE" Name="Input" Kind="StateInputPin" />
+            <Pin Id="V1tFSJKrQP6Nyj1O9ayzs0" Name="Apply" Kind="InputPin" />
             <Pin Id="DOssZeGG1oRMQ3GoQ4lTmv" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="213,653,82,26" Id="AGMbUqn5HJWOR3mHRbYz1a">
@@ -258,6 +264,7 @@
               <Choice Kind="OperationCallFlag" Name="StopRunning" />
             </p:NodeReference>
             <Pin Id="K7vxdF9FWVKPkQ2SKxyI9t" Name="Input" Kind="StateInputPin" />
+            <Pin Id="JUZBsjcdWgwNlvvuTA0krE" Name="Apply" Kind="InputPin" />
             <Pin Id="Kjf1vEidtS8Ofqv1vKh2iM" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="62,705,75,26" Id="Qf2RhUrpZVjNfxCuhVyzF1">
@@ -266,6 +273,7 @@
               <Choice Kind="OperationCallFlag" Name="StartTraining" />
             </p:NodeReference>
             <Pin Id="A6xoBghdylhOEFGCh7Bt3C" Name="Input" Kind="StateInputPin" />
+            <Pin Id="Te3AucEdhWSOLzkJB32CTn" Name="Apply" Kind="InputPin" />
             <Pin Id="AcChqerurIlOOQ7SjFp2zX" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="65,463,67,26" Id="AiQyRN0Bu4vQHeO24nL9kO">
