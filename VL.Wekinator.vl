@@ -96,37 +96,37 @@
             <Pad Id="EFgH8fxEcmQNqjTggxuTui" SlotId="D1T3nGZqRuYNPTsu6vbIUs" Bounds="829,544" />
             <Pad Id="SVgcnKNZiJJQKQAn1xJK9w" SlotId="D1T3nGZqRuYNPTsu6vbIUs" Bounds="299,466" />
             <Pad Id="FUpkEEHUVr0MiKvHGtT0js" SlotId="D1T3nGZqRuYNPTsu6vbIUs" Bounds="527,466" />
-            <Pad Id="ShDwG6RdUfUQIW4RHJGG6B" Comment="Address" Bounds="219,771,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/outputs">
+            <Pad Id="ShDwG6RdUfUQIW4RHJGG6B" Comment="Address" Bounds="214,771,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/outputs">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="OzWtosZZCGKMxrodeOQGb0" Comment="" Bounds="225,910,169,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/startRecording">
+            <Pad Id="OzWtosZZCGKMxrodeOQGb0" Comment="" Bounds="213,910,169,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/startRecording">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="Bv8mhOsppflLCi2Quf1u5f" Comment="" Bounds="211,1048,189,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/startDtwRecording">
+            <Pad Id="Bv8mhOsppflLCi2Quf1u5f" Comment="" Bounds="208,1048,189,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/startDtwRecording">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="HnmIbcoIfeIQFefOHbgOd4" Comment="Address" Bounds="557,1037,201,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/stopDtwRecording">
+            <Pad Id="HnmIbcoIfeIQFefOHbgOd4" Comment="Address" Bounds="546,1042,201,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/stopDtwRecording">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <ControlPoint Id="AGtEpaO2S0xMmieedv2JUF" Bounds="570,1419" />
-            <ControlPoint Id="DD7E1svWcUANJQu4oTrUBZ" Bounds="238,1565" />
-            <Pad Id="HdMenMVYwwYNycnmZeu2ll" Comment="Address" Bounds="547,1690,65,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/disableModelRecording">
+            <ControlPoint Id="AGtEpaO2S0xMmieedv2JUF" Bounds="562,1422" />
+            <ControlPoint Id="DD7E1svWcUANJQu4oTrUBZ" Bounds="230,1565" />
+            <Pad Id="HdMenMVYwwYNycnmZeu2ll" Comment="Address" Bounds="543,1690,65,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/disableModelRecording">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <ControlPoint Id="AJhppeEmC6mOfTwNk3XSAx" Bounds="241,1882" />
-            <ControlPoint Id="VpIS2BhtPtdLYVM3VCndL9" Bounds="225,2034" />
-            <ControlPoint Id="QgIsqmwUyidPKk58vjkZ4g" Bounds="268,2103" />
-            <Node Bounds="223,2052,65,19" Id="KtYSjzWiBjeQPQdBakM7Z9">
+            <ControlPoint Id="AJhppeEmC6mOfTwNk3XSAx" Bounds="233,1881" />
+            <ControlPoint Id="VpIS2BhtPtdLYVM3VCndL9" Bounds="217,2033" />
+            <ControlPoint Id="QgIsqmwUyidPKk58vjkZ4g" Bounds="260,2102" />
+            <Node Bounds="215,2051,65,19" Id="KtYSjzWiBjeQPQdBakM7Z9">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FromValue" />
@@ -135,7 +135,7 @@
               <Pin Id="FjSpmADfy27PBg0SNmGHqz" Name="Input" Kind="InputPin" />
               <Pin Id="Pz1oRGvF6ZNN7d2RiYGQQ3" Name="Result" Kind="OutputPin" />
             </Node>
-            <Node Bounds="223,2121,48,19" Id="PVy349AlywnM1MEfxMyTQY">
+            <Node Bounds="215,2120,48,19" Id="PVy349AlywnM1MEfxMyTQY">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Concat" />
@@ -145,7 +145,7 @@
               <Pin Id="MvyFf23pDvqNEo4S80DSeC" Name="Input 2" Kind="InputPin" />
               <Pin Id="SqsWZ9bhTwWNti3KIxbL7j" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="SsntzsyQLLXMwXXqzPsjTx" Bounds="223,1179,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/train">
+            <Pad Id="SsntzsyQLLXMwXXqzPsjTx" Bounds="211,1186,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/train">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -160,6 +160,7 @@
               <Pin Id="PTZlwu2yl6fQEiPMQSxndm" Name="Arguments" Kind="InputPin" />
               <Pin Id="G61bGsGm2TkPXKuyfWO68U" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="A1caixqZN9YNAqiFvltinl" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="DrCSznEOiZAMv6Ed7pVD6m" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="MAiaRUc23bLPa3JdX88b9G" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="195,811" />
             <Pad Id="KQtzc3nsoILO3jOKSqdADF" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="189,926" />
@@ -172,8 +173,9 @@
               <Pin Id="NgNVyAXGja0OcQSuAb5KMg" Name="Address" Kind="InputPin" />
               <Pin Id="Uygb80Ct2TiLMDeZsWde2v" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="Dxxf126ZHyxNiNfDLwDPYn" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="Q7xngfwliBNMiuHHDMBcTq" Name="Apply" Kind="InputPin" />
             </Node>
-            <Pad Id="O0hbLSj7wA3LyvmD6ZI4XF" Comment="Address" Bounds="557,912,169,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/stopRecording">
+            <Pad Id="O0hbLSj7wA3LyvmD6ZI4XF" Comment="Address" Bounds="545,909,169,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/stopRecording">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -188,6 +190,7 @@
               <Pin Id="ATlxeR0aN9ENIX06UWxyum" Name="Address" Kind="InputPin" />
               <Pin Id="RO1Wn3R3JguMWIpkmPxwd6" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="JEZCyerQINUQPqEQaDEA7n" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="VRUJnxLdUtqPwiDxGw030j" Name="Apply" Kind="InputPin" />
             </Node>
             <Node Bounds="519,1093,77,26" Id="G3xO9OsTg2SLIj1zQWmFBM">
               <p:NodeReference LastCategoryFullName="IO.OSC.OSCClient" LastSymbolSource="VL.IO.OSC.vl">
@@ -198,6 +201,7 @@
               <Pin Id="MYHKzmQAFdzPElK6q2EtZx" Name="Address" Kind="InputPin" />
               <Pin Id="NVWzwsHLRH1On92seweJj5" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="SfX8i2fluUuP4ZlFyuf8HN" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="Vqn367tGSb2QUywpUhx47A" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="VU3GJXhB5UpPiJEKuYwTuE" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="521,1063" />
             <Node Bounds="185,1100,77,26" Id="LNr4rEFYD7jMWGEKhvYSAx">
@@ -210,9 +214,10 @@
               <Pin Id="EbUKkUIvOSkPeVX2EnUCzP" Name="Arguments" Kind="InputPin" />
               <Pin Id="GXmDwRqqBSwLMoacUe3gqy" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="T19ZYiTCFojP5XUrDRoUq7" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="Um8Zm1MPC4BMhb1NIZTAvP" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="KPrzvPkAotjMuyPxwtGO9I" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="187,1070" />
-            <ControlPoint Id="AmR6vf0AKxlM2CA8vSDA5U" Bounds="243,795" />
+            <ControlPoint Id="AmR6vf0AKxlM2CA8vSDA5U" Bounds="234,794" />
             <Node Bounds="185,1228,77,26" Id="Lj17SqiizXVQYo55sKHMWf">
               <p:NodeReference LastCategoryFullName="IO.OSC.OSCClient" LastSymbolSource="VL.IO.OSC.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -222,9 +227,10 @@
               <Pin Id="Cc4fNN2ARWsLDaFxdNHytf" Name="Address" Kind="InputPin" />
               <Pin Id="JARliWYKkmQNZ5whcv6FSb" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="GtoLvg0mVwLPKRZFhlFqpk" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="PR1kC4s3pRDOzXXmNbfnKs" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="RPOJv0bIiSsQM0NUn2JRiN" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="187,1198" />
-            <Pad Id="DJ7k1987Hr3Oq5fGSAnGp6" Bounds="559,1169,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/cancelTrain">
+            <Pad Id="DJ7k1987Hr3Oq5fGSAnGp6" Bounds="547,1173,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/cancelTrain">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -238,9 +244,10 @@
               <Pin Id="RwVbtAj9wnOMATVzMK0HsF" Name="Address" Kind="InputPin" />
               <Pin Id="CyPZ1gxIy5gLvbucMUfKwb" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="R0p8H5acpFONkS02JGip3L" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="H4ATkyYVmGgPJL4EG5E4TB" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="I16zZ5jpf7BNU38YWU4elN" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="523,1188" />
-            <Pad Id="LWVS7AhxannNUdFEMwW6Mm" Bounds="224,1287,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/startRunning">
+            <Pad Id="LWVS7AhxannNUdFEMwW6Mm" Bounds="212,1290,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/startRunning">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -254,9 +261,10 @@
               <Pin Id="P3D6iVQ30urMph2pObT75d" Name="Address" Kind="InputPin" />
               <Pin Id="LkkqUR6GDH1QVozvbs1l1F" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="PQFSZQIVBAzOzu51djHuIz" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="N2U5bzAxCDrQWNJPCK7M43" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="MF5Lim7uo2XOG0w02fQpix" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="188,1306" />
-            <Pad Id="JwSlYhBOacSNuFWzYpOh9K" Bounds="559,1278,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/stopRunning">
+            <Pad Id="JwSlYhBOacSNuFWzYpOh9K" Bounds="547,1281,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/stopRunning">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -270,9 +278,10 @@
               <Pin Id="JTmBv5DPvfqOhp5hi6EqtH" Name="Address" Kind="InputPin" />
               <Pin Id="RgzKRJjRu0xOhtPZYpM8SL" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="KeGmmAZG4CONok9uisxoBK" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="UQYng2j14tzMLS7Aa6362d" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="IicHnFxI5lFLfG38Mf4CaC" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="523,1297" />
-            <Pad Id="G0KFszNl2jtMDY59jXQQBu" Bounds="225,1400,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/deleteAllExamples">
+            <Pad Id="G0KFszNl2jtMDY59jXQQBu" Bounds="213,1404,170,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/deleteAllExamples">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -286,9 +295,10 @@
               <Pin Id="Jg2XS2KwXjTOZZ8CkoSSw1" Name="Address" Kind="InputPin" />
               <Pin Id="Voxh89hlglOLDc8pLDaB6K" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="RdK5B3cmZ7xO0eycHKUXLo" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="VasanqXNoRINRlkjD3qYTH" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="UNIuvQ7SsPZQAHi2C6PFK2" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="189,1419" />
-            <Pad Id="PfImzCecC0jPtKVUoCszJy" Comment="Address" Bounds="546,1397,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/deleteExamplesForOutput">
+            <Pad Id="PfImzCecC0jPtKVUoCszJy" Comment="Address" Bounds="543,1398,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/deleteExamplesForOutput">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -303,9 +313,10 @@
               <Pin Id="HGoMo4N276zOeI2BzgXY1g" Name="Arguments" Kind="InputPin" />
               <Pin Id="ELgrgmU9TDtLr5x0vuV0pU" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="FEBk3EabPAGNjjyXPUHAdg" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="FFJYvZDu3AIO3o50XxoIFq" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="HqjQpNePiHINxVH7CGNa9Y" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="522,1437" />
-            <Pad Id="AsoMbW8EAwNPaPhclZlop2" Comment="Address" Bounds="214,1541,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/enableModelRunning">
+            <Pad Id="AsoMbW8EAwNPaPhclZlop2" Comment="Address" Bounds="210,1541,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/enableModelRunning">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -320,10 +331,11 @@
               <Pin Id="RdKjdbMDIErMACUAvEQTBI" Name="Arguments" Kind="InputPin" />
               <Pin Id="H7cwYLfz9uwL773HazVZ7T" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="Ix2ro2IQSqPLimvKqP5asw" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="UCEXfcM2Fm1L1eiUYrWh9b" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="SBLWd2R5HJvMUfAPBD4qaG" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="190,1581" />
-            <ControlPoint Id="KRIRCWI7yvxN02WhW3LaEi" Bounds="570,1570" />
-            <Pad Id="P6DYHgoAmOILbqUJGRNldB" Comment="Address" Bounds="546,1546,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/disableModelRunning">
+            <ControlPoint Id="KRIRCWI7yvxN02WhW3LaEi" Bounds="562,1570" />
+            <Pad Id="P6DYHgoAmOILbqUJGRNldB" Comment="Address" Bounds="542,1546,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/disableModelRunning">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -338,10 +350,11 @@
               <Pin Id="IV7ecvXp9QvMwnnwsIS5sb" Name="Arguments" Kind="InputPin" />
               <Pin Id="Q8aWEWN6Vj5NPJDM3A1noJ" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="P2L1zQBJrS0L3y5dqm2HL9" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="B7RPrmuj4ZZMePNMMiNP1Y" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="QTFMEoGKTDqPFBXIEgjXn7" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="522,1586" />
-            <ControlPoint Id="Qh1bk2bUPBFND1bWoifbeD" Bounds="240,1715" />
-            <Pad Id="M0iGrj20MQTPmREb6hPzMp" Comment="Address" Bounds="216,1691,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/enableModelRecording">
+            <ControlPoint Id="Qh1bk2bUPBFND1bWoifbeD" Bounds="232,1715" />
+            <Pad Id="M0iGrj20MQTPmREb6hPzMp" Comment="Address" Bounds="212,1691,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/enableModelRecording">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -356,9 +369,10 @@
               <Pin Id="CQYHRYpDPPzNP3B90eP1bs" Name="Arguments" Kind="InputPin" />
               <Pin Id="LNQL4vD2AApO7LTQdvUHuk" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="Ia6OjNUiAUZNS5BlSd1zaX" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="NDVwYSRZTxZNsRydIMPLrG" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="QdMIfIhSy2kLPVYhdiNnt7" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="192,1731" />
-            <ControlPoint Id="DMfM2oQU2SxPeM6kOYZAph" Bounds="571,1712" />
+            <ControlPoint Id="DMfM2oQU2SxPeM6kOYZAph" Bounds="563,1712" />
             <Node Bounds="521,1754,77,26" Id="Q1Bs8h7ruBTLiuGAX4SiZ1">
               <p:NodeReference LastCategoryFullName="IO.OSC.OSCClient" LastSymbolSource="VL.IO.OSC.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -369,9 +383,10 @@
               <Pin Id="N43FoY5NV27OIRtxHHtW5P" Name="Arguments" Kind="InputPin" />
               <Pin Id="Pdm2FGd7z1oOjV2TOF7hW4" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="VZePBE0zFJgPRzmJoPHol1" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="CiMmVqpFt2QQDM85V4yHTu" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="C5ji1kTVTG4ORN1roX4vFz" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="523,1728" />
-            <Pad Id="CeDIYAwo7fSM4PaoQKGp7i" Comment="Address" Bounds="217,1860,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/setInputNames">
+            <Pad Id="CeDIYAwo7fSM4PaoQKGp7i" Comment="Address" Bounds="214,1856,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/setInputNames">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -386,10 +401,11 @@
               <Pin Id="NFuwDyllmhKMv9H6EUsciA" Name="Arguments" Kind="InputPin" />
               <Pin Id="EDPTNkOpV6VNcGcpA65bNu" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="Gpy1F5w7gY3NoNKYbZtHzY" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="LYQG5cPFSB2OTCWjOTPpXD" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="SyBxM6OCLMnQcJddJwsFxS" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="193,1900" />
-            <ControlPoint Id="P03QG5LovHGNXmDbSQt953" Bounds="566,1888" />
-            <Pad Id="CbiPON3Pg7pLpTsbYSOJu0" Comment="Address" Bounds="542,1866,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/setOutputNames">
+            <ControlPoint Id="P03QG5LovHGNXmDbSQt953" Bounds="558,1885" />
+            <Pad Id="CbiPON3Pg7pLpTsbYSOJu0" Comment="Address" Bounds="538,1863,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/setOutputNames">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -404,9 +420,10 @@
               <Pin Id="LIfKR2Nm17HNjfPGfPhh96" Name="Arguments" Kind="InputPin" />
               <Pin Id="OHJPiXuYToGNVlahSp4dIg" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="DNCT0p5cgkAPR3TF4ptUNS" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="F8zf7i5folSPnNnkugMgi3" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="KS6T6ffzKwKMaXdwZglZit" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="518,1906" />
-            <Pad Id="GfNhjrgBT2WMruDeCTyQ5Y" Comment="Address" Bounds="202,2005,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/selectInputsForOutput">
+            <Pad Id="GfNhjrgBT2WMruDeCTyQ5Y" Comment="Address" Bounds="197,2005,141,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/selectInputsForOutput">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -421,6 +438,7 @@
               <Pin Id="GNa7K56Vzr6NJY3iIfI8fN" Name="Arguments" Kind="InputPin" />
               <Pin Id="Bunldfb7sDjOBSkrK7PgQ7" Name="Bundled Per Frame" Kind="InputPin" />
               <Pin Id="EyMLLRmVLZxPcJpbtmqrYk" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="Q3npSkqbZXMOnzAhs9fKWM" Name="Apply" Kind="InputPin" />
             </Node>
             <Pad Id="Azxd2yrFw6uNdXqwMyUZzK" SlotId="IUcaFdeUvCvQE4HKgm0rjY" Bounds="177,2154" />
             <Overlay Id="DAWMTjUSEySPtZLSyaYVuN" Name="Wekinator Remote Control" Bounds="107,712,728,1533" />
@@ -491,7 +509,7 @@
                 <Link Id="NRIS4q2MuX6OKqWz22D9Y7" Ids="S7pS1erUGGpM2NCc4Sin2q,ExU4bdUrsnbN2tOHLxdSH5" IsHidden="true" />
               </Patch>
             </Node>
-            <ControlPoint Id="N40lzTTfK1sMCD03DUtrjn" Bounds="235,1068" />
+            <ControlPoint Id="N40lzTTfK1sMCD03DUtrjn" Bounds="227,1068" />
             <ControlPoint Id="STqRIFPihhNNojog78h2MM" Bounds="1061,1139" />
             <Node Bounds="976,839,73,19" Id="RCrwTn5vhTyOvCB6OZMv90">
               <p:NodeReference LastCategoryFullName="IO.OSC" LastSymbolSource="VL.IO.OSC.vl">
@@ -519,6 +537,24 @@
             </Node>
             <ControlPoint Id="MksID4joNSPQVcw0rAgYyW" Bounds="974,1021" />
             <ControlPoint Id="OvMTxRMByuEMjT3o4fKFAU" Bounds="1042,951" />
+            <ControlPoint Id="J2gXEX802wRPqXeoZviO3W" Bounds="275,816" />
+            <ControlPoint Id="A2lhkhaZJ9iLocc775aIOY" Bounds="261,938" />
+            <ControlPoint Id="Qp4SfWuH8TVL5hJJqLABJv" Bounds="593,940" />
+            <ControlPoint Id="R4Z5IKhRPVuMagjHeIMd1V" Bounds="267,1084" />
+            <ControlPoint Id="Nz8faja4dNpNO8BWbtO43G" Bounds="593,1071" />
+            <ControlPoint Id="PmHczNBGX1RLYQCMCcjoWO" Bounds="259,1207" />
+            <ControlPoint Id="ELzTXfOsdUVOClGraCvgnT" Bounds="595,1198" />
+            <ControlPoint Id="Rd0gLO5wb0yNj4aUtEugOc" Bounds="260,1315" />
+            <ControlPoint Id="Dx9o8T5hU5ILojNLmbnBDK" Bounds="595,1308" />
+            <ControlPoint Id="IzSr0iLNB4pLo3HqBb1zLZ" Bounds="261,1429" />
+            <ControlPoint Id="CGLd8TUGwJjLe0LCQPrDu2" Bounds="602,1442" />
+            <ControlPoint Id="Kw7ed0IbluoNhbmuCvuuDH" Bounds="270,1587" />
+            <ControlPoint Id="ScZkeeV6yBHP6Pp60pKDGe" Bounds="602,1590" />
+            <ControlPoint Id="RClN75wo5fJNOVlckmx3HY" Bounds="272,1737" />
+            <ControlPoint Id="ED7hXekFlhiMCIjkp8OOZi" Bounds="603,1731" />
+            <ControlPoint Id="CMPFPrsRWYBOp7WpYV9OzF" Bounds="273,1905" />
+            <ControlPoint Id="Bdc4ScWp8iKMA8W4BWe10y" Bounds="598,1909" />
+            <ControlPoint Id="RNFPiUUXTQYPQrXJ8ZZ9hO" Bounds="257,2157" />
           </Canvas>
           <Patch Id="SRhbPHk2DRyLHPVLvhvfYW" Name="Create (Internal)" ParticipatingElements="CN7KruajrhZP53ehQ7meLZ" />
           <ProcessDefinition Id="JHPqG7ynGdkN65oKKz62YD" HasStateOut="true">
@@ -596,24 +632,69 @@
                 </p:TypeArguments>
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="SnJM5UTFqPyPAOQ1Jw56C0" Name="Apply" Kind="InputPin" Bounds="288,807" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
           </Patch>
-          <Patch Id="T1ck4IuH5f5N7kc0g429hg" Summary="Start recording examples" Remarks="Not used for dynamic time warping recording" Name="StartRecording" ParticipatingElements="I8MaeudJa4AQAYKze5b9LX,N6KbscoJawCQCbWhH9uvnk,DniRWnwUrlnQHONJT6uU3z" />
-          <Patch Id="Bhqs03lGeCNNLka8m4qwER" Summary="Stop recording examples" Remarks="Not used for dynamic time warping recording" Name="StopRecording" ParticipatingElements="OkbEH9oIvZZLCgqIDbM0rl,HDStjiOJp16LRXABKEgqEb,VuGmmN8e2oTOm779wsSfLA" />
+          <Patch Id="T1ck4IuH5f5N7kc0g429hg" Summary="Start recording examples" Remarks="Not used for dynamic time warping recording" Name="StartRecording" ParticipatingElements="I8MaeudJa4AQAYKze5b9LX,N6KbscoJawCQCbWhH9uvnk,DniRWnwUrlnQHONJT6uU3z">
+            <Pin Id="QK8JN8N5fzqOnOLaWk3dow" Name="Apply" Kind="InputPin" Bounds="272,936" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="Bhqs03lGeCNNLka8m4qwER" Summary="Stop recording examples" Remarks="Not used for dynamic time warping recording" Name="StopRecording" ParticipatingElements="OkbEH9oIvZZLCgqIDbM0rl,HDStjiOJp16LRXABKEgqEb,VuGmmN8e2oTOm779wsSfLA">
+            <Pin Id="UPVjHRS3biQMoxmW3pyym2" Name="Apply" Kind="InputPin" Bounds="604,939" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
           <Patch Id="UG3UGqR17TcMzldqbH5zqK" Summary="Start recording dynamic time warping examples for the gesture asociated to the Gesture Index pin" Name="StartDTWRecording" ParticipatingElements="LNr4rEFYD7jMWGEKhvYSAx,QLDIBx3LJ5cPDshJoB3YiE,Gzg1EmtYQiDPhKqgyYTp88">
             <Pin Id="DzTZtJfzjLbQbX3Jvwu1sM" Name="Gesture Index" Kind="InputPin" Bounds="239,1068" Summary="The index of the gesture to record data for">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="BvjLS6dUF66NYI1c8nJyrM" Name="Apply" Kind="InputPin" Bounds="287,1082" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
           </Patch>
-          <Patch Id="HiOMy4u0VyUQPkGkzcus6s" Summary="Stop recording dynamic time warping examples" Name="StopDTWRecording" ParticipatingElements="G3xO9OsTg2SLIj1zQWmFBM,Mylo0iTIVqUMyhZ14VFlzP,VqRvRiJqugJM2wKkr6bMb9" />
-          <Patch Id="VzR9x2Maw4CNieyn462If1" Summary="Train on current examples" Name="StartTraining" ParticipatingElements="Lj17SqiizXVQYo55sKHMWf,UMXIu5mOgKSNNIkl5MmONF,L1UxVYlcvu9OA0LMnhaJme" />
-          <Patch Id="CCRU8ya3fVONMq2IlOSbol" Summary="Delete all examples for all models" Name="DeleteAllExamples" ParticipatingElements="HleEcxqxHRTOvworho8PFp,JrRyWznsTDVOQgPikrKUgm,JVxqYETD4wqM9qOyUxrgOy" />
+          <Patch Id="HiOMy4u0VyUQPkGkzcus6s" Summary="Stop recording dynamic time warping examples" Name="StopDTWRecording" ParticipatingElements="G3xO9OsTg2SLIj1zQWmFBM,Mylo0iTIVqUMyhZ14VFlzP,VqRvRiJqugJM2wKkr6bMb9">
+            <Pin Id="MLHkKLzadJjPzCN1WYyF0t" Name="Apply" Kind="InputPin" Bounds="601,1067" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="VzR9x2Maw4CNieyn462If1" Summary="Train on current examples" Name="StartTraining" ParticipatingElements="Lj17SqiizXVQYo55sKHMWf,UMXIu5mOgKSNNIkl5MmONF,L1UxVYlcvu9OA0LMnhaJme">
+            <Pin Id="GFpJZ1j1D8RNol64aIVvlu" Name="Apply" Kind="InputPin" Bounds="271,1213" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="CCRU8ya3fVONMq2IlOSbol" Summary="Delete all examples for all models" Name="DeleteAllExamples" ParticipatingElements="HleEcxqxHRTOvworho8PFp,JrRyWznsTDVOQgPikrKUgm,JVxqYETD4wqM9qOyUxrgOy">
+            <Pin Id="ETvo7WnOTtVMSSJDfcU6ms" Name="Apply" Kind="InputPin" Bounds="269,1429" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
           <Link Id="JivxeCjkQBBPghLV8XD6Ow" Ids="CQ6ycJHq3m8L0HkJvf3Ydf,AGtEpaO2S0xMmieedv2JUF" IsHidden="true" />
           <Patch Id="RPkwggU1uQQMzpOOMDJWF9" Summary="Delete examples for a specified output, either for supervised learning (in which case this will delete examples of the specified model), or for dynamic time warping (in which case this will delete examples of the specified gesture class)." Remarks="Output indices start with 1." Name="DeleteAllExamplesForOutput" ParticipatingElements="SLB7sVkKOmEN2vVdE5gcYk,CJb0sJP9k9KLiaenTkyhS3,E3jox8OokSDMAQBJ8s4GTh,EKMXxqX0eKbOk2kGWbiWem">
             <Pin Id="CQ6ycJHq3m8L0HkJvf3Ydf" Name="Index" Kind="InputPin">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="K8oavK9R5vzMB7acYkiE0l" Name="Apply" Kind="InputPin" Bounds="614,1442" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
@@ -629,6 +710,11 @@
                 </p:TypeArguments>
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="E6ebgFGyoxeNnvorgNBysq" Name="Apply" Kind="InputPin" Bounds="279,1592" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
           </Patch>
           <Patch Id="OzQrUKTdEXaLfZS0yKE5bZ" Summary="Disable running of models with these indices. This is equivalent to disabling the “play” button next to a model row." Name="DisableModelRunning" ParticipatingElements="TIEChpK6a5eMsV0i2jijLe,QjUZRoLkGw9OkuzpOy83xI,C8LNsmwSJIIL3JDSTkozc4,VZqqWElBr3EOVH1tcBc3sr">
             <Pin Id="KARVV5SNaSyMx0M41x01Gd" Name="Indices" Kind="InputPin">
@@ -639,6 +725,11 @@
                     <Choice Kind="TypeFlag" Name="Integer32" />
                   </TypeReference>
                 </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="PJqdOZnKSdBMjwHtRYsI0j" Name="Apply" Kind="InputPin" Bounds="616,1582" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
@@ -653,6 +744,11 @@
                 </p:TypeArguments>
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="SK4V51nooBaOc6UQshhxMG" Name="Apply" Kind="InputPin" Bounds="290,1740" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
           </Patch>
           <Patch Id="KqbQ4H6bnHKMkP7O59ySI1" Summary="Disable recording of models with these indices. This is equivalent to disabling the “record” button next to a model row." Name="DisableModelRecording" ParticipatingElements="Q1Bs8h7ruBTLiuGAX4SiZ1,KGn9jo5uyp3MXPL2ip3tiC,SFwq9tqDuBnN4pwKHhfu0V,G3SAZyyotTUOHSHvI8Vg8c">
             <Pin Id="DxgxaI0lX01MK82mNXHVEo" Name="Indices" Kind="InputPin">
@@ -663,6 +759,11 @@
                     <Choice Kind="TypeFlag" Name="Integer32" />
                   </TypeReference>
                 </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="BSwX2496MxyPkeq7G9BQYX" Name="Apply" Kind="InputPin" Bounds="618,1738" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
@@ -678,6 +779,11 @@
                 </p:TypeArguments>
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="BScpxrlxeXbP6vtKsxnKl2" Name="Apply" Kind="InputPin" Bounds="281,1905" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
           </Patch>
           <Patch Id="QSpwAmLAgssPwqekBRkr5S" Summary="Sets the names for all outputs. Also changes the number of outputs to match the size of this list of strings." Remarks="Currently this only works if Wekinator is still on the setup screen." Name="SetOutputNames" ParticipatingElements="RclNn0f4SU3OEkdpLNyt3a,ILMlBs8sfdoLHbpCcN29w0,KUhkKCE6dEtLorvxhUXTrR,UIR1UOMHlOPMYQvzC1AK6O">
             <Pin Id="HJbBKlPtof6QQy5Q9zzYea" Name="Names" Kind="InputPin">
@@ -688,6 +794,11 @@
                     <Choice Kind="TypeFlag" Name="String" />
                   </TypeReference>
                 </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="JnR0nbpJJOVQdPeonQC9FR" Name="Apply" Kind="InputPin" Bounds="612,1909" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
@@ -712,10 +823,33 @@
                 </p:TypeArguments>
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="TCN8KsVtFyxNdhvm2ZBcQ5" Name="Apply" Kind="InputPin" Bounds="281,2151" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
           </Patch>
-          <Patch Id="LU0C2nrFkvnMLo80o3xixh" Summary="Stop running (if currently running)" Name="StopRunning" ParticipatingElements="DfBNZ3N0To6OHSHMdWVjvb,DOmVwu0xmyjMin97iCi20T,IYdz63UD4yFPYfp8yzWZIp" />
-          <Patch Id="E9uXVvXssXOMbhVOxhJbRL" Summary="Start running (if possible)" Name="StartRunning" ParticipatingElements="I3GAD3LY5jYLhHeyehHqdP,LkKF3TQteqqPUNe5AimWEb,IF4i4poWDneLMldGtsVzPv" />
-          <Patch Id="Ar2guoq88MqLzioMeMjdZF" Summary="Cancel current training (if it’s in progress)" Name="CancelTraining" ParticipatingElements="PJVFVzNI3e3NUt5zkNYSem,LIuAOVSCYpKM6G1LLah9iE,AmKHz7mHA6zNaU4lvF78g1" />
+          <Patch Id="LU0C2nrFkvnMLo80o3xixh" Summary="Stop running (if currently running)" Name="StopRunning" ParticipatingElements="DfBNZ3N0To6OHSHMdWVjvb,DOmVwu0xmyjMin97iCi20T,IYdz63UD4yFPYfp8yzWZIp">
+            <Pin Id="CkUaU8RvJlXLpSlMwKZKt4" Name="Apply" Kind="InputPin" Bounds="601,1307" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="E9uXVvXssXOMbhVOxhJbRL" Summary="Start running (if possible)" Name="StartRunning" ParticipatingElements="I3GAD3LY5jYLhHeyehHqdP,LkKF3TQteqqPUNe5AimWEb,IF4i4poWDneLMldGtsVzPv">
+            <Pin Id="D8GHXR7Iuc8NesVgAiQgHd" Name="Apply" Kind="InputPin" Bounds="279,1313" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="Ar2guoq88MqLzioMeMjdZF" Summary="Cancel current training (if it’s in progress)" Name="CancelTraining" ParticipatingElements="PJVFVzNI3e3NUt5zkNYSem,LIuAOVSCYpKM6G1LLah9iE,AmKHz7mHA6zNaU4lvF78g1">
+            <Pin Id="Tce1DU4siccNtOxyxsJvtQ" Name="Apply" Kind="InputPin" Bounds="602,1203" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
           <Patch Id="IqzKe4Du3NKOeNWXHiaGb3" Summary="Sends input data to Wekinator" Remarks="You can only send Float32, Vector2, Vector3, Vector4 or Spreads of one of those types. No other type allowed." Name="SendInputs" ParticipatingElements="UlGVjUMBbmzLtDHXHjcoQD,OIl8lYrzhBtMGdRX9eYpWP,PDZB0fXiyztNUOfF7JLY3c,Uy6nSGLwGLPNRN5WNbCE1h">
             <Pin Id="LnrFj7bleF3Nafld0e9vJW" Name="Address" Kind="InputPin" DefaultValue="/wek/inputs">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -852,6 +986,42 @@
           <Link Id="QR2nNtypkkCOas9Lk4B1SY" Ids="MksID4joNSPQVcw0rAgYyW,TFYrHpfWDgfQHFmdYNF1N2" IsHidden="true" />
           <Link Id="Gd7NuqkBwjRQNOFih3Zh0K" Ids="OvMTxRMByuEMjT3o4fKFAU,LYgyYBBUk3RLvgm0UlaEkY" />
           <Link Id="E05ZoENEhZFLMmJkbO9axL" Ids="OBsQA7aCG1sQP5QomxQ0Qk,OvMTxRMByuEMjT3o4fKFAU" IsHidden="true" />
+          <Link Id="KvJg1fZ8oXLQCfadIER77W" Ids="J2gXEX802wRPqXeoZviO3W,DrCSznEOiZAMv6Ed7pVD6m" />
+          <Link Id="EBecAAQwdeJPk7kF8RsdV1" Ids="SnJM5UTFqPyPAOQ1Jw56C0,J2gXEX802wRPqXeoZviO3W" IsHidden="true" />
+          <Link Id="JhUo8UpuSeYO0UxnWBvwyN" Ids="A2lhkhaZJ9iLocc775aIOY,Q7xngfwliBNMiuHHDMBcTq" />
+          <Link Id="JhX74KKxafHNjo7B7HLLRQ" Ids="QK8JN8N5fzqOnOLaWk3dow,A2lhkhaZJ9iLocc775aIOY" IsHidden="true" />
+          <Link Id="EvwdQhM2AP1LT5D3FfMDxP" Ids="Qp4SfWuH8TVL5hJJqLABJv,VRUJnxLdUtqPwiDxGw030j" />
+          <Link Id="HnmikT05TxNNm94fnVE0xh" Ids="UPVjHRS3biQMoxmW3pyym2,Qp4SfWuH8TVL5hJJqLABJv" IsHidden="true" />
+          <Link Id="N8MMOnW3wmOP5ThQf9K2I7" Ids="R4Z5IKhRPVuMagjHeIMd1V,Um8Zm1MPC4BMhb1NIZTAvP" />
+          <Link Id="JzUlbPyoPLoPadpdMotVo2" Ids="BvjLS6dUF66NYI1c8nJyrM,R4Z5IKhRPVuMagjHeIMd1V" IsHidden="true" />
+          <Link Id="HxDsUvCJhT1NDp5MhAOYwz" Ids="Nz8faja4dNpNO8BWbtO43G,Vqn367tGSb2QUywpUhx47A" />
+          <Link Id="BtVWjg6d7ozLYJevoxy4PD" Ids="MLHkKLzadJjPzCN1WYyF0t,Nz8faja4dNpNO8BWbtO43G" IsHidden="true" />
+          <Link Id="K2KfPrCMGrgPgwmm8sAwN6" Ids="PmHczNBGX1RLYQCMCcjoWO,PR1kC4s3pRDOzXXmNbfnKs" />
+          <Link Id="R0cKZ0nEfsSMks9nTkvPLT" Ids="GFpJZ1j1D8RNol64aIVvlu,PmHczNBGX1RLYQCMCcjoWO" IsHidden="true" />
+          <Link Id="QKbtrvvCuZ8Mtv5eGu1omQ" Ids="ELzTXfOsdUVOClGraCvgnT,H4ATkyYVmGgPJL4EG5E4TB" />
+          <Link Id="BtjsIuAoMVGP57Kyx3JDNb" Ids="Tce1DU4siccNtOxyxsJvtQ,ELzTXfOsdUVOClGraCvgnT" IsHidden="true" />
+          <Link Id="UF3oA1e2LKhLaXt3U6cFbW" Ids="Rd0gLO5wb0yNj4aUtEugOc,N2U5bzAxCDrQWNJPCK7M43" />
+          <Link Id="JVuHsVeM71mNlFZkNumEMl" Ids="D8GHXR7Iuc8NesVgAiQgHd,Rd0gLO5wb0yNj4aUtEugOc" IsHidden="true" />
+          <Link Id="GSORj1yAP28LfI6GXwY1qm" Ids="Dx9o8T5hU5ILojNLmbnBDK,UQYng2j14tzMLS7Aa6362d" />
+          <Link Id="BSKvnDGkFMlMgFrOa3EDJ9" Ids="CkUaU8RvJlXLpSlMwKZKt4,Dx9o8T5hU5ILojNLmbnBDK" IsHidden="true" />
+          <Link Id="CdDPuYas9IpLxk50GvW9xW" Ids="IzSr0iLNB4pLo3HqBb1zLZ,VasanqXNoRINRlkjD3qYTH" />
+          <Link Id="II5dNwHp53nK9xdyeInFV1" Ids="ETvo7WnOTtVMSSJDfcU6ms,IzSr0iLNB4pLo3HqBb1zLZ" IsHidden="true" />
+          <Link Id="Hbu30iou6pgQMKLJghfJvc" Ids="CGLd8TUGwJjLe0LCQPrDu2,FFJYvZDu3AIO3o50XxoIFq" />
+          <Link Id="DjXXclt1nbhO79BZWdcNow" Ids="K8oavK9R5vzMB7acYkiE0l,CGLd8TUGwJjLe0LCQPrDu2" IsHidden="true" />
+          <Link Id="TeqTUNMmMjtNCWLIF7Haln" Ids="Kw7ed0IbluoNhbmuCvuuDH,UCEXfcM2Fm1L1eiUYrWh9b" />
+          <Link Id="UFlSPQvyjXDM6p3Krc0D2o" Ids="E6ebgFGyoxeNnvorgNBysq,Kw7ed0IbluoNhbmuCvuuDH" IsHidden="true" />
+          <Link Id="MZlnpaNJhwgOyfwz1i4hcf" Ids="ScZkeeV6yBHP6Pp60pKDGe,B7RPrmuj4ZZMePNMMiNP1Y" />
+          <Link Id="Px6QuahY7sjOyYb9s7005U" Ids="PJqdOZnKSdBMjwHtRYsI0j,ScZkeeV6yBHP6Pp60pKDGe" IsHidden="true" />
+          <Link Id="K5tvyRWbDsxMJlVcm2e6fm" Ids="RClN75wo5fJNOVlckmx3HY,NDVwYSRZTxZNsRydIMPLrG" />
+          <Link Id="EmUngOCuD9EPUqj6k0ESzU" Ids="SK4V51nooBaOc6UQshhxMG,RClN75wo5fJNOVlckmx3HY" IsHidden="true" />
+          <Link Id="KOvWz2AnS2hL7JgxsOzebJ" Ids="ED7hXekFlhiMCIjkp8OOZi,CiMmVqpFt2QQDM85V4yHTu" />
+          <Link Id="PrHvSFSFTwLNNLcObLHHOC" Ids="BSwX2496MxyPkeq7G9BQYX,ED7hXekFlhiMCIjkp8OOZi" IsHidden="true" />
+          <Link Id="FqE4stGB6LEO4s2vigPugj" Ids="CMPFPrsRWYBOp7WpYV9OzF,LYQG5cPFSB2OTCWjOTPpXD" />
+          <Link Id="V8fDLgO3UvpNdzDesYRLU7" Ids="BScpxrlxeXbP6vtKsxnKl2,CMPFPrsRWYBOp7WpYV9OzF" IsHidden="true" />
+          <Link Id="Gh7z0FTgUDvMxGZxGPouqj" Ids="Bdc4ScWp8iKMA8W4BWe10y,F8zf7i5folSPnNnkugMgi3" />
+          <Link Id="PrTtMUIIwFZL5jjk6tkGWC" Ids="JnR0nbpJJOVQdPeonQC9FR,Bdc4ScWp8iKMA8W4BWe10y" IsHidden="true" />
+          <Link Id="OkpbhDI4qvbOug8aj6AWmk" Ids="RNFPiUUXTQYPQrXJ8ZZ9hO,Q3npSkqbZXMOnzAhs9fKWM" />
+          <Link Id="Vl0a5qdpf23MSW4jiAfRIQ" Ids="TCN8KsVtFyxNdhvm2ZBcQ5,RNFPiUUXTQYPQrXJ8ZZ9hO" IsHidden="true" />
         </Patch>
       </Node>
       <!--
