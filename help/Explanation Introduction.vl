@@ -300,7 +300,7 @@
           <Node Bounds="158,510,87,26" Id="AlpUjMVyxKYMRJoPTtV6vX">
             <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="ReceiveOutputs (Reactive Advanced))" />
+              <Choice Kind="OperationCallFlag" Name="ReceiveOutputs (Reactive)" />
             </p:NodeReference>
             <Pin Id="SXZPQqtNDXBQbteenYurrs" Name="Input" Kind="StateInputPin" />
             <Pin Id="KtdhNpLXhJDNhQGISCncgT" Name="Address" Kind="InputPin" />
@@ -316,7 +316,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="HZi0hNoyJfNPMlZ3FhVuHp" Bounds="58,106,486,135" ShowValueBox="true" isIOBox="true" Value="The Wekinator is a program that uses machine learning to solve the following problem: &quot;given input X, I want to get output Y&quot;. Where X can be any input that can be expressed as a series of floats and the output can either be :&#xD;&#xA;&#xD;&#xA;- Discrete categories (Pose 1, Pose 2, etc).&#xD;&#xA;- Continuous numeric outputs refering to positions between the discrete outputs&#xD;&#xA;- Dynamic Time Warping, like a gesture recognized over time">
+          <Pad Id="HZi0hNoyJfNPMlZ3FhVuHp" Bounds="58,106,486,135" ShowValueBox="true" isIOBox="true" Value="The Wekinator is a program that uses machine learning to solve the following problem: &quot;given input X, I want to get output Y&quot;. Where X can be any input that can be expressed as a series of floats and the output can either be :&#xD;&#xA;&#xD;&#xA;- Discrete categories (e.g. Pose 1, Pose 2, etc).&#xD;&#xA;- Continuous numeric outputs refering to positions between the discrete outputs&#xD;&#xA;- Dynamic Time Warping, like a gesture recognized over time">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>

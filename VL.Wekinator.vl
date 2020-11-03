@@ -958,7 +958,7 @@
             </Pin>
             <Pin Id="Td9FOlLNYNaLVf8Sv93G8K" Name="On Data" Kind="OutputPin" />
           </Patch>
-          <Patch Id="Q2g6fxklErROjDXlpAj0o0" Summary="Receives output data from Wekinator" Name="ReceiveOutputs (Reactive Advanced))">
+          <Patch Id="Q2g6fxklErROjDXlpAj0o0" Summary="Receives output data from Wekinator" Name="ReceiveOutputs (Reactive)">
             <Pin Id="TFYrHpfWDgfQHFmdYNF1N2" Name="Output" Kind="OutputPin">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Observable" />
