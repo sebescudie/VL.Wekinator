@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.Wekinator</id>
+    <version>1.0.0-preview01</version>
+    <title>VL.Wekinator</title>
+    <authors>sebescudie, joreg</authors>
+    <owners>sebescudie</owners>
+    <projectUrl>https://github.com/sebescudie/VL.Wekinator</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>A set of nodes to easily interact with The Wekinator in VL</summary>
+    <description>A set of nodes to easily interact with The Wekinator in VL</description>
+    <copyright>Copyright © 2020 by sebescudie. All rights reserved.</copyright>
+    <tags>VL, ML, Wekinator</tags>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\**\*.vl" target="" exclude="" />
+  </files>
+</package>
