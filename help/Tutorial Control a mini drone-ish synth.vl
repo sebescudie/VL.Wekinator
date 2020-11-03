@@ -643,11 +643,6 @@
           <Patch Id="AB3lOQNaWgsOcYIzWoZcEn" Name="Update">
             <Pin Id="VcE5hm61A7AQabYe5mON31" Name="Output" Kind="OutputPin" Bounds="430,458" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="T2x9DyqrgCINNlbKDLHhBx">
             <Fragment Id="JB1h7fJpgAlNYNniMkdLaS" Patch="KqS46vM9BkWLipcyOuC6rJ" Enabled="true" />
             <Fragment Id="MfHD8m400gVNJNs35F2ypL" Patch="AB3lOQNaWgsOcYIzWoZcEn" Enabled="true" />
@@ -750,7 +745,7 @@
             <Pin Id="LZeRxMZYwasN08UkZpDAMP" Name="Render Time" Kind="OutputPin" />
           </Node>
           <Node Bounds="170,350,89,19" Id="UILpqC1ox4hNzSqLTN45CF">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Control a mini drone-ish synth.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a mini drone-ish synth.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DraggableCircle" />
             </p:NodeReference>
@@ -781,7 +776,7 @@
             <Pin Id="IfoQzgtLgv0NwbPo1HXQSi" Name="Result 3" Kind="OutputPin" />
           </Node>
           <Node Bounds="81,818,82,19" Id="HMPkZxZQCInNBrFo6WTmPQ">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Control a mini drone-ish synth.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a mini drone-ish synth.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DroneishSynth" />
             </p:NodeReference>
@@ -837,7 +832,7 @@
             <Pin Id="B2Rzr6yRWiXP4g2rDtOx4U" Name="On Data" Kind="OutputPin" />
           </Node>
           <Node Bounds="96,416,41,19" Id="HAj5zFQMN06NdC8cfjP36E">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Control a mini drone-ish synth.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a mini drone-ish synth.vl">
               <Choice Kind="ProcessNode" Name="Static" />
             </p:NodeReference>
             <Pin Id="QKOyuDHwXHlP9hOqtKLfAQ" Name="Output" Kind="OutputPin" />
@@ -914,7 +909,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="BVFwmPN6DjmQSjWObPjySZ" Bounds="381,579,512,64" ShowValueBox="true" isIOBox="true" Value="Click Run, drag the circle around and observe the sliders in Wekinator : they are moving with our cicle! If we go back to our reference positions in the Renderer, we get the same sound we taught to the software. Now, let's observe the patch a bit...">
+          <Pad Id="BVFwmPN6DjmQSjWObPjySZ" Bounds="381,579,512,64" ShowValueBox="true" isIOBox="true" Value="Click Run, drag the circle around and observe the sliders in Wekinator : they are moving as we drag! If we go back to our reference positions in the Renderer, we get the same sound we taught to the software. Now, let's observe the patch a bit...">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -959,7 +954,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="PdfHIsXPREQOy2rk9W7LaQ" Bounds="381,669,533,57" ShowValueBox="true" isIOBox="true" Value="This node represents our Wekinator instance. Downstream, we'll connect nodes to it to talk to Wekinator. By defaults, it uses the same defaults ports as Wekinator, but you can customize them.">
+          <Pad Id="PdfHIsXPREQOy2rk9W7LaQ" Bounds="381,669,533,57" ShowValueBox="true" isIOBox="true" Value="This node represents our Wekinator instance. Downstream, we'll connect nodes to it to talk to Wekinator. By default, it uses the same defaults ports as Wekinator, but you can customize them.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1029,6 +1024,7 @@
             </p:NodeReference>
             <Pin Id="QL25L1A07uwO9DZ3D7v7hz" Name="Input" Kind="StateInputPin" />
             <Pin Id="DmMEJhW4ZVQLMw6n9ioMQX" Name="Arguments" Kind="InputPin" />
+            <Pin Id="IBHGJwCJX00NNiX3sCy74W" Name="Apply" Kind="InputPin" />
             <Pin Id="KkugGdWpujcNLtxe7h0Cz6" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="429,899,83,26" Id="VjHzgogsKpWOXNU3P4AnUV">
@@ -1037,6 +1033,7 @@
               <Choice Kind="OperationCallFlag" Name="StartRecording" />
             </p:NodeReference>
             <Pin Id="V3INpUDWPBPN0FOeL36pEv" Name="Input" Kind="StateInputPin" />
+            <Pin Id="U9GCSUTUgZoLvuH4jI9Mow" Name="Apply" Kind="InputPin" />
             <Pin Id="LpcbkJQxjDqQdFna9ENqHx" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="527,899,82,26" Id="KCQ0SrJk606Ob8SUtuhcur">
@@ -1045,6 +1042,7 @@
               <Choice Kind="OperationCallFlag" Name="StopRecording" />
             </p:NodeReference>
             <Pin Id="CaajCtfT4TQLSftnGFLz20" Name="Input" Kind="StateInputPin" />
+            <Pin Id="FTvsxGkqjJjNNZxqsLPbKW" Name="Apply" Kind="InputPin" />
             <Pin Id="LxcGfsEuXcOOEJvcMXI77A" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="624,899,75,26" Id="JhXBe5NV5ihNg7ZNMgo5qE">
@@ -1053,6 +1051,7 @@
               <Choice Kind="OperationCallFlag" Name="StartTraining" />
             </p:NodeReference>
             <Pin Id="LmAmlBSQEaxNleZCSET66Q" Name="Input" Kind="StateInputPin" />
+            <Pin Id="FmsOYeRvJR1LCibmX485Xv" Name="Apply" Kind="InputPin" />
             <Pin Id="VgSU3qoNSF5Lt2x8MdveHl" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="714,899,84,26" Id="CnoMO78gZMbNs2fEVOdaFl">
@@ -1061,6 +1060,7 @@
               <Choice Kind="OperationCallFlag" Name="CancelTraining" />
             </p:NodeReference>
             <Pin Id="MzKE4X0QHRsLMXu5F8ffiZ" Name="Input" Kind="StateInputPin" />
+            <Pin Id="FQcLWwuWuR8NmM9Kq8HVek" Name="Apply" Kind="InputPin" />
             <Pin Id="M8hccDyb9OPOWCX5fZrNNn" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="813,899,75,26" Id="M6g8J3DCEsOOOEYJ8pYksI">
@@ -1069,6 +1069,7 @@
               <Choice Kind="OperationCallFlag" Name="StartRunning" />
             </p:NodeReference>
             <Pin Id="SPtVZ0IFFbQPAY5rmRkDT8" Name="Input" Kind="StateInputPin" />
+            <Pin Id="MsZLAkzxxw1M65AD8I3eof" Name="Apply" Kind="InputPin" />
             <Pin Id="M61EeyrmDnOMGN3dfsNwtO" Name="Output" Kind="StateOutputPin" />
           </Node>
         </Canvas>

@@ -239,7 +239,7 @@
             <ControlPoint Id="Vvp9eSXtHabMKkcyvaEeei" Bounds="186,584" />
             <ControlPoint Id="CrsmbFoEohlPuFBHbI5abk" Bounds="280,589" />
             <Node Bounds="269,663,69,19" Id="ICGBhFUhuubPeZ6SqoC3Ce">
-              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a color with hand gestures.vl">
+              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize hand poses.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="DrawEmojis" />
               </p:NodeReference>
@@ -258,7 +258,7 @@
             </Node>
             <ControlPoint Id="MGmIM8SZdMZO2eytG280CU" Bounds="335,591" />
             <Node Bounds="184,618,99,19" Id="KV4XQKDKl8TMU4eXocUDD7">
-              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a color with hand gestures.vl">
+              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize hand poses.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="DrawWebcamFeed" />
               </p:NodeReference>
@@ -277,7 +277,7 @@
               <Pin Id="OyTMxBgvs9tLWI4YtJ0Hfc" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="354,712,26,19" Id="B8SMRcDsK34OqF0CJMVgfb">
-              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a color with hand gestures.vl">
+              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize hand poses.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="GUI" />
               </p:NodeReference>
@@ -733,7 +733,7 @@
               <Pin Id="UU2WDEl2cQcNr8moSKTWm6" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="456,642,91,19" Id="Icdlp0v6YOhNcSvjPDvcQr">
-              <p:NodeReference LastCategoryFullName="Main.DrawWebcamFeed" LastSymbolSource="Tutorial Control a color with hand gestures.vl">
+              <p:NodeReference LastCategoryFullName="Main.DrawWebcamFeed" LastSymbolSource="Tutorial Recognize hand poses.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="RemapRectangle" />
               </p:NodeReference>
@@ -1661,12 +1661,14 @@
             <ControlPoint Id="BCqPtE1qsiVOL0u9UWn5Sd" Bounds="481,510" />
             <ControlPoint Id="O0QFITaWBqOQa7i0vVdXV2" Bounds="284,552" />
             <ControlPoint Id="SDY68hSbIlKPtCWrK4qJgF" Bounds="508,310" />
+            <ControlPoint Id="QnJPSp3HaDKLTeQ45mA7qv" Bounds="285,268" />
           </Canvas>
           <Patch Id="Vs4QAolVjInMYsRPm62cFh" Name="Create" />
           <Patch Id="OMeTmj4cSTlNMjhNEs8Fs2" Name="Update">
             <Pin Id="HgERyx1aeewOJIEEuaTbMn" Name="Downsampled ROI" Kind="OutputPin" Bounds="481,510" />
             <Pin Id="VI6cBeYxxhUL09STpEyWbI" Name="Webcam Feed" Kind="OutputPin" Bounds="286,546" />
             <Pin Id="JyMbkjlq6RoL6hToFWUoUI" Name="ROI" Kind="InputPin" Bounds="508,309" />
+            <Pin Id="VstNwT77Tg8PeIXagryXuK" Name="Video Input Device" Kind="InputPin" Bounds="304,261" />
           </Patch>
           <ProcessDefinition Id="Edm01ONKiwlLHQuDQ3wk8o">
             <Fragment Id="LdFLYZb6oq4ORGLXP7aVol" Patch="Vs4QAolVjInMYsRPm62cFh" Enabled="true" />
@@ -1682,6 +1684,8 @@
           <Link Id="TteE5lEsceaLScXCfj5unH" Ids="O0QFITaWBqOQa7i0vVdXV2,VI6cBeYxxhUL09STpEyWbI" IsHidden="true" />
           <Link Id="Lbkp9so5wz0Nyk8YhepfWr" Ids="SDY68hSbIlKPtCWrK4qJgF,TsMKx9G79qAO8DqsMpdOKL" />
           <Link Id="Ap5k1uNEl3tQDqgYAhoKGj" Ids="JyMbkjlq6RoL6hToFWUoUI,SDY68hSbIlKPtCWrK4qJgF" IsHidden="true" />
+          <Link Id="QCnxrSKXCFbMjnwpVx9zos" Ids="QnJPSp3HaDKLTeQ45mA7qv,AV0fBgjwCDULeRB8jB98PZ" />
+          <Link Id="A9By4gHuib8PawnQzLqlhA" Ids="VstNwT77Tg8PeIXagryXuK,QnJPSp3HaDKLTeQ45mA7qv" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -1993,15 +1997,15 @@
       </p:NodeReference>
       <Patch Id="QhIS6gBvBEsPJQ50znfZge">
         <Canvas Id="RmzfMd4qpngM3vd6BTKgW0" CanvasType="Group">
-          <Node Bounds="264,449,82,19" Id="PTOtoW8kWW8M8812DNcmNk">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a color with hand gestures.vl">
+          <Node Bounds="272,457,82,19" Id="PTOtoW8kWW8M8812DNcmNk">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize hand poses.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GrayScalePipet" />
             </p:NodeReference>
             <Pin Id="Leq9FUSmTskMIG2jKdvR4g" Name="Input" Kind="InputPin" />
             <Pin Id="Do8XXRTwIFdO2LRy5QI8b0" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Ms89XSGIHIfMV6J7BQHdlK" Bounds="21,83,898,205" ShowValueBox="true" isIOBox="true" Value="In this tutorial, we'll use Wekinator's classifier output type. We'll teach it three hand gestures, then ask it to recognize those in real time. This output differs from the Continuous one, because here we're just interested in retrieving &quot;static&quot; poses, and no continuous data. Let's go!&#xD;&#xA;&#xD;&#xA;We already have a basic setup here : Our webcam feed, with a small white rectangle in which we'll train and recognize our gestures. This rectangle is then downsampled and converted to a spread of floats representing the greyscale value of each pixel. As we already know, Wekianator processes data as a spread of floats, so we can train it a video feed as well.&#xD;&#xA;&#xD;&#xA;We'll teach Wekinator three gestures (you can see those in the Skia renderer) : thumbs up, horns sign and OK sign.&#xD;&#xA;&#xD;&#xA;This time though, we won't use Wekinator's GUI (appart from creating the project of course) : we'll use the VL.Wekinator nodeset to control it from our patch!">
+          <Pad Id="Ms89XSGIHIfMV6J7BQHdlK" Bounds="21,83,898,205" ShowValueBox="true" isIOBox="true" Value="In this tutorial, we'll use Wekinator's classifier output type. We'll teach it three hand gestures, then ask it to recognize those in real time. This output differs from the Continuous one, because here we're just interested in retrieving &quot;static&quot; poses, and no continuous data. Let's go!&#xD;&#xA;&#xD;&#xA;We already have a basic setup here : Our webcam feed, with a small white rectangle in which we'll train and recognize our gestures. This rectangle is then downsampled and converted to a spread of floats representing the greyscale value of each pixel. As we already know, Wekinator processes data as a spread of floats, so we can train it a video feed as well.&#xD;&#xA;&#xD;&#xA;We'll teach Wekinator three gestures (you can see those in the Skia renderer) : thumbs up, horns sign and OK sign.&#xD;&#xA;&#xD;&#xA;This time though, we won't use Wekinator's GUI (appart from creating the project of course) : we'll use the VL.Wekinator nodeset to control it from our patch!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2045,7 +2049,7 @@
             <Pin Id="VvJ2OlRzZjWPFOcZ50bmyN" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="B7JdUmSKqdEL1meack5Cl1" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Node Bounds="224,347,62,19" Id="PMLGQfufvrXN9FkRLmGVyq">
+          <Node Bounds="254,389,62,19" Id="PMLGQfufvrXN9FkRLmGVyq">
             <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Wekinator" />
@@ -2055,7 +2059,7 @@
             <Pin Id="Fua5XGg3mxQMtAtbnPNwUZ" Name="Output Port" Kind="InputPin" />
             <Pin Id="LvybYfv4kcZL0TvJo2Yvrd" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="224,556,87,26" Id="JHzMtedt93bNntMUvAs9aD">
+          <Node Bounds="254,563,87,26" Id="JHzMtedt93bNntMUvAs9aD">
             <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="ReceiveOutputs" />
@@ -2066,7 +2070,7 @@
             <Pin Id="H90R8AFNCHlOTzM5ZUGUha" Name="Output" Kind="OutputPin" />
             <Pin Id="TfDDYkPgO6QQJnQEmGZqBG" Name="On Data" Kind="OutputPin" />
           </Node>
-          <Node Bounds="224,494,85,26" Id="G4wWqsGvRx5P5IcflAuP0p">
+          <Node Bounds="254,501,85,26" Id="G4wWqsGvRx5P5IcflAuP0p">
             <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="SendInputs" />
@@ -2087,7 +2091,7 @@
             <Pin Id="GFuztxvUaYgLJgLjrGtZiQ" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="58,627,76,19" Id="G5KWF2DzunHLy6QS4GtgeH">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a color with hand gestures.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize hand poses.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="UserInterface" />
             </p:NodeReference>
@@ -2098,10 +2102,11 @@
             <Pin Id="Lxev9WGhEcSMYiewUq7FaX" Name="Remote Control Data" Kind="OutputPin" />
           </Node>
           <Node Bounds="58,393,102,19" Id="F4MySiSNZD1OWEGgRsURzt">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a color with hand gestures.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize hand poses.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OpenCVProcessing" />
             </p:NodeReference>
+            <Pin Id="CnRDboQVUWINdvhjH4iNqg" Name="Video Input Device" Kind="InputPin" />
             <Pin Id="UXUJVzaHpDgLhFGOa4OeOM" Name="ROI" Kind="InputPin" />
             <Pin Id="LzU9WsVqutjORFa6mSffq4" Name="Webcam Feed" Kind="OutputPin" />
             <Pin Id="AmK9c31fDmVMwWCT0fZx2a" Name="Downsampled ROI" Kind="OutputPin" />
@@ -2125,7 +2130,7 @@
             <Pin Id="BWgJdbgDYnnN5YojWbmiPn" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="129,742,130,19" Id="Itwzl3XDvePM3a9XSkggCf">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Control a color with hand gestures.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize hand poses.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="WekinatorRemoteControl" />
             </p:NodeReference>
@@ -2159,7 +2164,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KHJElA06byLOlthjH9ON9E" Bounds="419,442,499,194" ShowValueBox="true" isIOBox="true" Value="Here's how we can use our mini app :&#xD;&#xA;&#xD;&#xA;- The Lean/Run radio button switches from Learning mode (in which we teach wekinator our poses), to Running mode (in which it looks at our pixels and tries to recognize poses).&#xD;&#xA;- 1 to 3 keys specify the gesture index we want to teach Wekinator&#xD;&#xA;- Pressing Space (while in Learn mode) records examples&#xD;&#xA;- The Train button trains Wekinator on the dataset we taught it&#xD;&#xA;- The Clear button removes all training examples provided so far (Warning! no confirmation prompt!)">
+          <Pad Id="KHJElA06byLOlthjH9ON9E" Bounds="419,442,499,194" ShowValueBox="true" isIOBox="true" Value="Here's how we can use our mini app :&#xD;&#xA;&#xD;&#xA;- The Learn/Run radio button switches from Learning mode (in which we teach wekinator our poses), to Running mode (in which it looks at our pixels and tries to recognize poses).&#xD;&#xA;- 1 to 3 keys specify the gesture index we want to teach Wekinator&#xD;&#xA;- Pressing Space (while in Learn mode) records examples&#xD;&#xA;- The Train button trains Wekinator on the dataset we taught it&#xD;&#xA;- The Clear button removes all training examples provided so far (Warning! no confirmation prompt!)">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2195,7 +2200,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Pua38Gj7Bp5LyXhL3XksUi" Bounds="419,780,495,80" ShowValueBox="true" isIOBox="true" Value="Click the Train button and switch to Run mode. Make one of the hand poses again in the white square : the corresponding emoji should highlight uder your feed! You can still come back to Learn mode and add samples, then re-train the mode to improve the detection.">
+          <Pad Id="Pua38Gj7Bp5LyXhL3XksUi" Bounds="419,780,495,80" ShowValueBox="true" isIOBox="true" Value="Click the Train button and switch to Run mode. Make one of the hand poses again in the white square : the corresponding emoji should highlight under your feed! You can still come back to Learn mode and add samples, then re-train the mode to improve the detection.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2225,6 +2230,11 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="QRAFhzdrD7UMCnUcETdyFp" Comment="Video Input Device" Bounds="60,318,120,15" ShowValueBox="true" isIOBox="true" Value="HD Pro Webcam C920">
+            <p:TypeAnnotation LastCategoryFullName="OpenCV.Source" LastSymbolSource="VL.OpenCV.vl">
+              <Choice Kind="TypeFlag" Name="VideoInputDevice" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="NnGB6LJxOzHPxhTRaOEpNf" Name="Create" />
         <Patch Id="FjnbhsbBiovOrFCwWzaqY8" Name="Update" />
@@ -2243,6 +2253,7 @@
         <Link Id="F6dEhta44k1NlcvvLsAj88" Ids="GFuztxvUaYgLJgLjrGtZiQ,VIcWwZlK2OxOyOPsElLMyF" />
         <Link Id="CYDbzKVzQeTPLh5SBlj1gg" Ids="Lxev9WGhEcSMYiewUq7FaX,ARnZpScYhJQQRlcNsnyRYN" />
         <Link Id="TinzxWpxU1bMwrTaU3RPN5" Ids="PnKj8ClZjk6NddMxRXw7LF,HUXRDpmGFo6P56zy2U8Jkd" />
+        <Link Id="M47OYpGIStVOl0NG4jik45" Ids="QRAFhzdrD7UMCnUcETdyFp,CnRDboQVUWINdvhjH4iNqg" />
       </Patch>
     </Node>
   </Patch>
