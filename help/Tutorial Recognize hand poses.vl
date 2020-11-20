@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="D8VI38TUocQPzyHInv2vci" LanguageVersion="2020.3.0.53" Version="0.128">
-  <NugetDependency Id="IdNuaDkE6VQP7TYo2zT8kq" Location="VL.CoreLib" Version="2020.3.0-0053-gd338f20e7b" />
+<Document xmlns:p="property" Id="D8VI38TUocQPzyHInv2vci" LanguageVersion="2020.3.0.68" Version="0.128">
+  <NugetDependency Id="IdNuaDkE6VQP7TYo2zT8kq" Location="VL.CoreLib" Version="2020.3.0-0068-gbfc5bf7649" />
   <Patch Id="V0S5de3B2lKLb1V3SgBEYi">
     <Canvas Id="AtUf8zeXhKSN5nkmYtwH2d" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -2261,46 +2261,17 @@
             <Pin Id="VvJ2OlRzZjWPFOcZ50bmyN" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="B7JdUmSKqdEL1meack5Cl1" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Node Bounds="254,389,62,19" Id="PMLGQfufvrXN9FkRLmGVyq">
+          <Node Bounds="254,507,65,19" Id="PMLGQfufvrXN9FkRLmGVyq">
             <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Wekinator" />
             </p:NodeReference>
             <Pin Id="O2klVBZ2WivLLlF9PwpBcj" Name="IP Address" Kind="InputPin" />
             <Pin Id="VCXEDLIuI0aONyUrkrD4r4" Name="Input Port" Kind="InputPin" />
-            <Pin Id="Fua5XGg3mxQMtAtbnPNwUZ" Name="Output Port" Kind="InputPin" />
+            <Pin Id="UEdnKzteF0XPTM050tF8uT" Name="Inputs" Kind="InputPin" />
+            <Pin Id="IpszjQ5FB4MMZ6wYuKuZyj" Name="Send" Kind="InputPin" />
             <Pin Id="LvybYfv4kcZL0TvJo2Yvrd" Name="Output" Kind="StateOutputPin" />
-          </Node>
-          <Node Bounds="254,563,87,26" Id="JHzMtedt93bNntMUvAs9aD">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="ReceiveOutputs" />
-            </p:NodeReference>
-            <Pin Id="VIcWwZlK2OxOyOPsElLMyF" Name="Input" Kind="InputPin" />
-            <Pin Id="Abl9YqdGRt5OyBbCdR9fw1" Name="Address" Kind="InputPin" />
-            <Pin Id="PnKj8ClZjk6NddMxRXw7LF" Name="State Output" Kind="OutputPin" />
-            <Pin Id="H90R8AFNCHlOTzM5ZUGUha" Name="Output" Kind="OutputPin" />
-            <Pin Id="TfDDYkPgO6QQJnQEmGZqBG" Name="On Data" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="254,501,85,26" Id="G4wWqsGvRx5P5IcflAuP0p">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="SendInputs" />
-            </p:NodeReference>
-            <Pin Id="GzAbFeinVpbMayI6jYj4Ml" Name="Input" Kind="StateInputPin" />
-            <Pin Id="QL58KeZB2ZVMdBVvApqYgu" Name="Address" Kind="InputPin" />
-            <Pin Id="R0ZGl5rnYy3OhHZWsnVpmF" Name="Arguments" Kind="InputPin" />
-            <Pin Id="BqRysf6a4jEMU41taDTkDQ" Name="Bundled Per Frame" Kind="InputPin" DefaultValue="False">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Dqu51wybmwBPzL1D10pcaD" Name="Apply" Kind="InputPin" DefaultValue="True">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="GFuztxvUaYgLJgLjrGtZiQ" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="D8jz6l8whI0Mqus1qvR7Tq" Name="Outputs" Kind="OutputPin" />
           </Node>
           <Node Bounds="58,627,76,19" Id="G5KWF2DzunHLy6QS4GtgeH">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize hand poses.vl">
@@ -2421,7 +2392,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="BYYmU2AVhNCMVnpmRkYayx" Name="" Bounds="110,705,162,80">
+          <Overlay Id="BYYmU2AVhNCMVnpmRkYayx" Name="" Bounds="114,705,162,80">
             <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
           </Overlay>
           <Pad Id="AEqNLxpwlKUMTtRr6IeZYx" Bounds="376,863,35,27" ShowValueBox="true" isIOBox="true" Value="5.">
@@ -2447,6 +2418,16 @@
               <Choice Kind="TypeFlag" Name="VideoInputDevice" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="129,591,65,19" Id="Vr1orDJtkRZPjZoLp5lKJs">
+            <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
+            </p:NodeReference>
+            <Pin Id="P1pj0Vhc96wQV8wLRvdLSZ" Name="Async Notifications" Kind="InputPin" />
+            <Pin Id="CHiiN8s90cQNYItWkCzFnn" Name="Reset" Kind="InputPin" />
+            <Pin Id="JngwdfV4Ay5MMXhiD3Gvz9" Name="Value" Kind="OutputPin" />
+            <Pin Id="TVNaR2YHMFSOTQ48d1PA6E" Name="On Data" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="NnGB6LJxOzHPxhTRaOEpNf" Name="Create" />
         <Patch Id="FjnbhsbBiovOrFCwWzaqY8" Name="Update" />
@@ -2454,23 +2435,22 @@
           <Fragment Id="F9oCIZ3La9aP3V0yAH6rJT" Patch="NnGB6LJxOzHPxhTRaOEpNf" Enabled="true" />
           <Fragment Id="Dp0fvy9HRehMljWKrMEXLi" Patch="FjnbhsbBiovOrFCwWzaqY8" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="Q5HScHTfLkQOmlbdcG3l82" Ids="Do8XXRTwIFdO2LRy5QI8b0,R0ZGl5rnYy3OhHZWsnVpmF" />
-        <Link Id="IAvYmQV6LpuO7PUHERtMWC" Ids="LvybYfv4kcZL0TvJo2Yvrd,GzAbFeinVpbMayI6jYj4Ml" />
         <Link Id="OjN8sVmFUqvNcRRteh8MPC" Ids="HxGfFtTzSVwPesiaJAyV0k,LCpATJ8v7vMPgQMEXOtcXh" />
         <Link Id="D4Hx8cDgsvKM6S1EZD7CCJ" Ids="BWgJdbgDYnnN5YojWbmiPn,UXUJVzaHpDgLhFGOa4OeOM" />
         <Link Id="Smksf4prpn7L1PkLkTGgxP" Ids="LzU9WsVqutjORFa6mSffq4,VeqSepp9NAPNLrW5PFH7Dw" />
         <Link Id="LjZZDfknG84MzdkV3QDOJC" Ids="BWgJdbgDYnnN5YojWbmiPn,NjnETCd2f2YOj5gXKWkyPc" />
         <Link Id="CZq1AqaH0HYL0oa2rdGDvr" Ids="AmK9c31fDmVMwWCT0fZx2a,Leq9FUSmTskMIG2jKdvR4g" />
-        <Link Id="IdlvVHr6lctMKOk5nUWgEV" Ids="H90R8AFNCHlOTzM5ZUGUha,J7rzyiWdyqZLQLxO4C2su3" />
-        <Link Id="F6dEhta44k1NlcvvLsAj88" Ids="GFuztxvUaYgLJgLjrGtZiQ,VIcWwZlK2OxOyOPsElLMyF" />
         <Link Id="CYDbzKVzQeTPLh5SBlj1gg" Ids="Lxev9WGhEcSMYiewUq7FaX,ARnZpScYhJQQRlcNsnyRYN" />
-        <Link Id="TinzxWpxU1bMwrTaU3RPN5" Ids="PnKj8ClZjk6NddMxRXw7LF,HUXRDpmGFo6P56zy2U8Jkd" />
         <Link Id="M47OYpGIStVOl0NG4jik45" Ids="QRAFhzdrD7UMCnUcETdyFp,CnRDboQVUWINdvhjH4iNqg" />
+        <Link Id="SxN8JO4SXGDMHiPDok3G2k" Ids="Do8XXRTwIFdO2LRy5QI8b0,UEdnKzteF0XPTM050tF8uT" />
+        <Link Id="QXtMviJBeLdNyJLdszeGia" Ids="LvybYfv4kcZL0TvJo2Yvrd,HUXRDpmGFo6P56zy2U8Jkd" />
+        <Link Id="NLSpDj8VPZDPYDcjxDkphN" Ids="D8jz6l8whI0Mqus1qvR7Tq,P1pj0Vhc96wQV8wLRvdLSZ" />
+        <Link Id="M372IDqQUVfLRuLOV91k32" Ids="JngwdfV4Ay5MMXhiD3Gvz9,J7rzyiWdyqZLQLxO4C2su3" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="ABogObSaoh0OydimhEQl4g" Location="VL.OpenCV" Version="1.1.2" />
-  <NugetDependency Id="Gb3byb28RUOMZbTRG4bYtM" Location="VL.Skia" Version="2020.3.0-0053-gd338f20e7b" />
+  <NugetDependency Id="Gb3byb28RUOMZbTRG4bYtM" Location="VL.Skia" Version="2020.3.0-0068-gbfc5bf7649" />
   <NugetDependency Id="KhNrnuOc61MMmIU9aaIE8Y" Location="VL.IO.OSC" Version="2020.3.100-alpha" />
   <NugetDependency Id="Sxk58olNU4DMoovKDJL0n2" Location="VL.Wekinator" Version="0.0.0.0" />
   <NugetDependency Id="OkpTVNrm1HmNujMJX6e3QJ" Location="VL.Elementa" Version="0.0.0.0" />
