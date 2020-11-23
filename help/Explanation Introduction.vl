@@ -303,21 +303,6 @@
             </p:ValueBoxSettings>
           </Pad>
           <Overlay Id="RhDwbq7fGYhPeQa68ClZNy" Name="" Bounds="67,342,556,208" />
-          <Node Bounds="109,470,125,19" Id="OuQhBHl72EiP1OScJmz2Gs">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Wekinator" />
-            </p:NodeReference>
-            <Pin Id="BirID4A0lCdPJm3thQIeko" Name="Inputs" Kind="InputPin" />
-            <Pin Id="VLEhbGf63X4M8suTFDEZEu" Name="IP Address" Kind="InputPin" />
-            <Pin Id="I65jdm9SL5JLbq1znhCV2a" Name="Inputs Address" Kind="InputPin" />
-            <Pin Id="Afi5fbdaHZ5MC7NxkLSjTD" Name="Input Port" Kind="InputPin" />
-            <Pin Id="IKttMC695FzNVjuHZjpHks" Name="Outputs Address" Kind="InputPin" />
-            <Pin Id="RnsVedtIYUbPssbTIdWVHl" Name="Outputs Port" Kind="InputPin" />
-            <Pin Id="My0oMbG5jWwNcqgbbzkmOe" Name="Send" Kind="InputPin" />
-            <Pin Id="Vg9xNxJnOlkOYbHyYwzAJy" Name="Output" Kind="OutputPin" />
-            <Pin Id="OWmBKt6nJR8QUWHqbw7GGV" Name="Outputs" Kind="OutputPin" />
-          </Node>
           <Pad Id="RC9B6IILsvPO3sqcTcggAF" Bounds="94,503,109,13" ShowValueBox="true" isIOBox="true" Value="With all optional pins">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
