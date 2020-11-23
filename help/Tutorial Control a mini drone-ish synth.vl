@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GYcDti66iWcLzRVfCFFdiC" LanguageVersion="2020.3.0.68" Version="0.128">
-  <NugetDependency Id="TPOhChhCxPFNJMqMLmlLd4" Location="VL.CoreLib" Version="2020.3.0-0068-gbfc5bf7649" />
+<Document xmlns:p="property" Id="GYcDti66iWcLzRVfCFFdiC" LanguageVersion="2020.2.3.317" Version="0.128">
+  <NugetDependency Id="TPOhChhCxPFNJMqMLmlLd4" Location="VL.CoreLib" Version="2020.2.3" />
   <Patch Id="JUPR1AsU0v2PNcFPWGwvfO">
     <Canvas Id="AY5t4vBmypRPQSDAlyMezk" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -723,8 +723,8 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="JeeHuvLC4bgMvXakkse5iU" Name="Bounds" Kind="InputPin" DefaultValue="1110, 263, 600, 400">
-              <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
+            <Pin Id="JeeHuvLC4bgMvXakkse5iU" Name="Bounds" Kind="InputPin" DefaultValue="1120, 337, 600, 400">
+              <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
             </Pin>
@@ -758,9 +758,9 @@
               <Choice Kind="ProcessAppFlag" Name="Wekinator" />
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="VoGChE1uqAHN0IhrhMPY4y" Name="Inputs" Kind="InputPin" />
             <Pin Id="P26SmA0diYfQPH9PnzRU0U" Name="IP Address" Kind="InputPin" />
             <Pin Id="HzAOQVlZsjxMXYH8dZbn4m" Name="Input Port" Kind="InputPin" />
-            <Pin Id="VoGChE1uqAHN0IhrhMPY4y" Name="Inputs" Kind="InputPin" />
             <Pin Id="LYBnwfuAJjlPt05BPzK7b0" Name="Send" Kind="InputPin" />
             <Pin Id="AV4H0QGRnusOGwCoNnwjkd" Name="Output" Kind="StateOutputPin" />
             <Pin Id="LVYFwbbO9gwOFRfgiWnEwo" Name="Outputs" Kind="OutputPin" />
@@ -1017,6 +1017,15 @@
             <Pin Id="SgkQszhmMS0L2AVi4QJDMH" Name="Input" Kind="StateInputPin" />
             <Pin Id="FBYu8dx35wKMt0hWHJy9Kv" Name="Result" Kind="OutputPin" />
           </Node>
+          <Node Bounds="242,426,99,19" Id="DnVO5MWldYIPjzjLi33z48">
+            <p:NodeReference LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="SequenceChanged" />
+            </p:NodeReference>
+            <Pin Id="TUFWASI5UnVN8Fd6PwM0FM" Name="Value" Kind="InputPin" />
+            <Pin Id="RNCSp3mziKtLRboW0DlGgH" Name="Result" Kind="OutputPin" />
+            <Pin Id="Cm49KMruKioMUk4peI5MRZ" Name="Unchanged" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="UmUtsxlQonFM8nrRt6tQWZ" Name="Create" />
         <Patch Id="MXK2hwMtZNgMskCvaBR2Jb" Name="Update" />
@@ -1037,11 +1046,13 @@
         <Link Id="CAoS3BV5PHsNzCBLqqFZBJ" Ids="Ty2vXbACbEPPqVlSeP8ESb,E9SKwSms7bLLkoWmXIJ0je" />
         <Link Id="PhZridGWNhMNzZJZhWnDUk" Ids="UoojnRfBbonQSeVnzqDD1n,SgkQszhmMS0L2AVi4QJDMH" />
         <Link Id="BMHL65LbktWN65d3qAkBOE" Ids="FBYu8dx35wKMt0hWHJy9Kv,VoGChE1uqAHN0IhrhMPY4y" />
+        <Link Id="SxiDFNrznzXLQcpxS48zZc" Ids="FBYu8dx35wKMt0hWHJy9Kv,TUFWASI5UnVN8Fd6PwM0FM" />
+        <Link Id="KdYsb9UcKTBMsagj8b5xrP" Ids="RNCSp3mziKtLRboW0DlGgH,LYBnwfuAJjlPt05BPzK7b0" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="UQYYMRhQ5IEQCXZfZoD4pn" Location="VL.Audio" Version="0.2.3-alpha" />
-  <NugetDependency Id="IKyPqLSl5DLPo3OuLG6ot2" Location="VL.Skia" Version="2020.3.0-0068-gbfc5bf7649" />
+  <NugetDependency Id="UQYYMRhQ5IEQCXZfZoD4pn" Location="VL.Audio" Version="0.1.26" />
+  <NugetDependency Id="IKyPqLSl5DLPo3OuLG6ot2" Location="VL.Skia" Version="2020.2.3" />
   <NugetDependency Id="Nxgtb9k4FIhMyxuV1WUysZ" Location="VL.IO.OSC" Version="2020.3.100-alpha" />
   <NugetDependency Id="NxpxKS4e8Y4QLuh2wYxX6W" Location="VL.Wekinator" Version="0.0.0.0" />
 </Document>
