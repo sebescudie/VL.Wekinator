@@ -12,8 +12,18 @@ Besides sending input data and receiving outputs data from The Wekinator, this p
 
 _soon_
 
-## Dependencies for the help patches
+## Documentation
+
+Make sure you check the help browser! Besides the traditional introduction help patch, it contains three tutorials that teaches you how to :
+
+- Control a small synthesizer
+- Recognize hand poses with your webcam
+- Recognize custom hand gestures with a Leap Motion
+
+A few links to the Wekinator documentation are also listed there.
+
+### Dependencies needed for the help patches
 
 - VL.Audio
-- VL.IO.OSC
 - VL.OpenCV
+- VL.Elementa
