@@ -347,7 +347,7 @@
             <Pin Id="P64yhMcghA9Nr9seryKWI8" Name="Outputs" Kind="OutputPin" />
             <Pin Id="AkOss5FGWxSLKwvIUkvRa6" Name="On Data" Kind="OutputPin" />
           </Node>
-          <Node Bounds="641,413,62,19" Id="Uwo4CFkD6BcOjGEivbWHua">
+          <Node Bounds="628,397,62,19" Id="Uwo4CFkD6BcOjGEivbWHua">
             <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Wekinator (Reactive)" />
@@ -357,8 +357,8 @@
             <Pin Id="SYxGOdec2GVOG9b1OmVdIS" Name="Output" Kind="StateOutputPin" />
             <Pin Id="Pe2YclDjbioLkbeL8EfKff" Name="Outputs" Kind="OutputPin" />
           </Node>
-          <Pad Id="CzcF2BpOr8NPUSQ3GesFXD" Bounds="748,402,146,132" ShowValueBox="true" isIOBox="true" Value="An advanced version of the node receives data as Observable and allows you to send data from a member operation.">
-            <p:TypeAnnotation>
+          <Pad Id="CzcF2BpOr8NPUSQ3GesFXD" Bounds="733,380,172,177" ShowValueBox="true" isIOBox="true" Value="An advanced version of the node receives data as Observable and allows you to send data from a member operation. It also defaults to Wekinator's default address, but you can customize it with hidden pins.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -366,7 +366,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="641,475,88,26" Id="VgXXjrbC75RQdllsGcn3fN">
+          <Node Bounds="628,489,88,26" Id="VgXXjrbC75RQdllsGcn3fN">
             <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="SendInputs" />
