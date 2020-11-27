@@ -24,6 +24,6 @@ A few links to the Wekinator documentation are also listed there.
 
 ### Dependencies needed for the help patches
 
-- VL.Audio
-- VL.OpenCV
-- VL.Elementa
+- [VL.Audio](https://github.com/vvvv/VL.audio)
+- [VL.OpenCV](https://github.com/vvvv/VL.OpenCV)
+- [VL.Elementa](https://github.com/vvvv-dottore/VL.Elementa)
