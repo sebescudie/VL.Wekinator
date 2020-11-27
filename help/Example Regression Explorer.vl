@@ -2525,6 +2525,5 @@
   </Patch>
   <NugetDependency Id="VBOD4727iM2LlG90vPks2x" Location="VL.Skia" Version="2020.2.4" />
   <NugetDependency Id="Jv9UGj71g4WLKhugVhf5l8" Location="VL.Wekinator" Version="0.0.0.0" />
-  <NugetDependency Id="OCyz52qPrrDO33fs4AfXKA" Location="VL.IO.OSC" Version="2020.3.100-alpha" />
   <NugetDependency Id="Vv4gbq9t6OMN2zBoJAWtIF" Location="VL.Elementa" Version="0.0.0.0" />
 </Document>

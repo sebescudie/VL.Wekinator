@@ -1030,7 +1030,6 @@
     </Node>
   </Patch>
   <NugetDependency Id="IKyPqLSl5DLPo3OuLG6ot2" Location="VL.Skia" Version="2020.2.4" />
-  <NugetDependency Id="Nxgtb9k4FIhMyxuV1WUysZ" Location="VL.IO.OSC" Version="2020.3.100-alpha" />
   <NugetDependency Id="NxpxKS4e8Y4QLuh2wYxX6W" Location="VL.Wekinator" Version="0.0.0.0" />
   <NugetDependency Id="R6Qz841si20NtbSprhASO7" Location="VL.Audio" Version="0.2.4-alpha" />
 </Document>

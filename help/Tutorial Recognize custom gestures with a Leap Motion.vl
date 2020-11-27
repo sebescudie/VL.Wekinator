@@ -1189,7 +1189,7 @@
               </Patch>
             </Node>
             <Node Bounds="430,481,78,19" Id="Lu7mVeWjybyP5ONxdevqGZ">
-              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
+              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a Leap Motion.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="JointsPosition" />
               </p:NodeReference>
@@ -1205,11 +1205,6 @@
             <Pin Id="FdccqBG4XpCLg1LRlxDW11" Name="Joints" Kind="OutputPin" Bounds="431,544" />
             <Pin Id="KsrZuY8VxvNMxDCS0OUuTA" Name="Joints As Values" Kind="OutputPin" Bounds="505,543" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="Kafi5Uvwpm9LLrajSFp1Sp">
             <Fragment Id="HJo9h0B64YaL8G7r0eMQ6A" Patch="EdFfAJC3ghAMUO0HfjkMyG" Enabled="true" />
             <Fragment Id="SGd3HH2bq4lMUsUFjHDIXW" Patch="M4LuJ0m8EUiPw0HNEajClt" Enabled="true" />
@@ -1316,7 +1311,7 @@
             <Pin Id="OdL2oj0DdldMr6eggZeGWw" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="247,740,101,19" Id="FjNLzL8zoXLOnCIbuqp9m6">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a Leap Motion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawJointsPosition" />
             </p:NodeReference>
@@ -1324,7 +1319,7 @@
             <Pin Id="JWgxEh7IBnBPYs5VTghHOU" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="376,743,92,19" Id="NX16kySJFXHNsFQD8LfSQe">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a Leap Motion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GestureRecorder" />
             </p:NodeReference>
@@ -1346,7 +1341,7 @@
             <Pin Id="Mpt2hl1lmH0Os7UsbHUSHD" Name="Input 4" Kind="InputPin" />
           </Node>
           <Node Bounds="524,743,89,19" Id="MEi6jfKvbgZP7IOwsFhpgn">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a Leap Motion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GestureReceiver" />
             </p:NodeReference>
@@ -1380,7 +1375,7 @@
             <Pin Id="GEBl9bk233mNLfiUxqnSpj" Name="Outputs" Kind="OutputPin" />
           </Node>
           <Node Bounds="671,842,65,19" Id="D4pEEg9i5K4Lcix528CMXD">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a Leap Motion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RunToggle" />
             </p:NodeReference>
@@ -1415,7 +1410,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="247,630,93,19" Id="LyaalSM4TMTLl7F6UEamm5">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Recognize custom gestures with a LeapMotion.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Tutorial Recognize custom gestures with a Leap Motion.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LeapMotionInput" />
             </p:NodeReference>
@@ -1550,6 +1545,5 @@
   <NugetDependency Id="IzmKTERc5xWPLKUgBzu4VU" Location="VL.Devices.LeapOrion" Version="1.1.4" />
   <NugetDependency Id="GJ0JnZTLOZELgrWrQYoiKl" Location="VL.Skia3d" Version="1.1.1" />
   <NugetDependency Id="BpNFdsokYiFNQkMpXCkeIk" Location="VL.Skia" Version="2020.2.4" />
-  <NugetDependency Id="DruAkKFAO5qPQyITei3qy4" Location="VL.IO.OSC" Version="2020.3.100-alpha" />
   <NugetDependency Id="GuyPVCaBzJvNO8NlVqVgNL" Location="VL.Wekinator" Version="0.0.0.0" />
 </Document>

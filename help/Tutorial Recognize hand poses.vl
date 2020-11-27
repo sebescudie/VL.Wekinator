@@ -2323,7 +2323,7 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
             </p:NodeReference>
-            <Pin Id="Lfdm0huc5jLNZvqp05aQV0" Name="Bounds" Kind="InputPin" DefaultValue="1095, 57, 494, 400">
+            <Pin Id="Lfdm0huc5jLNZvqp05aQV0" Name="Bounds" Kind="InputPin" DefaultValue="1104, 58, 494, 400">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -2545,7 +2545,6 @@
   </Patch>
   <NugetDependency Id="ABogObSaoh0OydimhEQl4g" Location="VL.OpenCV" Version="1.1.2" />
   <NugetDependency Id="Gb3byb28RUOMZbTRG4bYtM" Location="VL.Skia" Version="2020.2.4" />
-  <NugetDependency Id="KhNrnuOc61MMmIU9aaIE8Y" Location="VL.IO.OSC" Version="2020.3.100-alpha" />
   <NugetDependency Id="Sxk58olNU4DMoovKDJL0n2" Location="VL.Wekinator" Version="0.0.0.0" />
   <NugetDependency Id="OkpTVNrm1HmNujMJX6e3QJ" Location="VL.Elementa" Version="0.0.0.0" />
 </Document>

@@ -14,7 +14,7 @@
 		</Subtopic>
 		<Subtopic title="Dynamic Time Warping">
             <UriItem title="Explanation Dynamic time warping in Wekinator" link="http://www.wekinator.org/detailed-instructions/#Dynamic_time_warping_in_Wekinator" mediaType="text"/>
-			<VLDocument link="Example Recognize custom gestures with a LeapMotion.vl"/>
+			<VLDocument link="Tutorial Recognize custom gestures with a Leap Motion.vl"/>
 		</Subtopic>
 	</Topic>
 </Pack>

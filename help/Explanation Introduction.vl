@@ -388,5 +388,4 @@
     </Node>
   </Patch>
   <NugetDependency Id="SYvnFl1uv76MbH749zAqqE" Location="VL.Wekinator" Version="0.0.0.0" />
-  <NugetDependency Id="KsS8RHYk6bbNED1nfNKT2o" Location="VL.IO.OSC" Version="2020.3.100-alpha" />
 </Document>
