@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="U40UhGQC1ALN7QcBY75oSe" LanguageVersion="2020.2.3.317" Version="0.128">
-  <NugetDependency Id="LZ6NB34ULN1ObCvJseHRyj" Location="VL.CoreLib" Version="2020.2.3" />
+<Document xmlns:p="property" Id="U40UhGQC1ALN7QcBY75oSe" LanguageVersion="2020.2.4.333" Version="0.128">
+  <NugetDependency Id="LZ6NB34ULN1ObCvJseHRyj" Location="VL.CoreLib" Version="2020.2.4" />
   <Patch Id="QQbGG8QkFBbMrRIeY5h4s0">
     <Canvas Id="HQ6ixYxWDKuQWO06Pq7S3H" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="MEZbgSVXzGtLTNsQaM8ePz">
         <Canvas Id="I3cIhGpstDvNWlJ5bm9ShG" CanvasType="Group">
-          <Pad Id="GDjpDpfKGq8NYVh60ckF8q" Bounds="268,368,325,176" ShowValueBox="true" isIOBox="true" Value="This node represents a running Wekinator instance. Use it to send data to it, and receive its outputs.&#xD;&#xA;&#xD;&#xA;You can customize the ports and OSC addresses by enabling optional pins.&#xD;&#xA;&#xD;&#xA;Need to talk to different Wekinator instances in the same patch? Create several Wekinator nodes and set their ports accordingly.">
+          <Pad Id="GDjpDpfKGq8NYVh60ckF8q" Bounds="240,383,325,176" ShowValueBox="true" isIOBox="true" Value="This node represents a running Wekinator instance. Use it to send data to it, and receive its outputs.&#xD;&#xA;&#xD;&#xA;You can customize the ports and OSC addresses by enabling optional pins.&#xD;&#xA;&#xD;&#xA;Need to talk to different Wekinator instances in the same patch? Create several Wekinator nodes and set their ports accordingly.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -24,7 +24,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="G7GhdWBBQc2Pq2zeHOkFCU" Bounds="79,593,503,39" ShowValueBox="true" isIOBox="true" Value="A bunch of nodes that allow you to control Wekinator from vvvv. Hover them to learn more">
+          <Pad Id="G7GhdWBBQc2Pq2zeHOkFCU" Bounds="51,608,503,39" ShowValueBox="true" isIOBox="true" Value="A bunch of nodes that allow you to control Wekinator from vvvv. Hover them to learn more">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -33,10 +33,10 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="228,704,84,26" Id="HjKLGEoYru1NWKpgScYzR7">
+          <Node Bounds="200,719,88,26" Id="HjKLGEoYru1NWKpgScYzR7">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Wekinator" />
+              <CategoryReference Kind="Category" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="CancelTraining" />
             </p:NodeReference>
             <Pin Id="BHyTSolmVcTOORlaqnzR4c" Name="Input" Kind="StateInputPin" />
@@ -47,10 +47,10 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="441,704,100,26" Id="MtiVPAd8QcSQCCI9YaSv10">
+          <Node Bounds="413,719,100,26" Id="MtiVPAd8QcSQCCI9YaSv10">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
+              <CategoryReference Kind="ClassType" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="DeleteAllExamples" />
             </p:NodeReference>
             <Pin Id="GCtIGIRQLUvMILdmMsifMc" Name="Input" Kind="StateInputPin" />
@@ -61,10 +61,10 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="583,704,147,26" Id="FQ37ydF4NVKLIpdZgTfXCt">
+          <Node Bounds="555,719,147,26" Id="FQ37ydF4NVKLIpdZgTfXCt">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
+              <CategoryReference Kind="ClassType" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="DeleteAllExamplesForOutput" />
             </p:NodeReference>
             <Pin Id="UbnLZwThqj3NJFOUmk9kmq" Name="Input" Kind="StateInputPin" />
@@ -76,10 +76,10 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="583,808,123,26" Id="QGIP5G1vEFrPZCS2wtynLO">
+          <Node Bounds="555,823,123,26" Id="QGIP5G1vEFrPZCS2wtynLO">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
+              <CategoryReference Kind="ClassType" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="DisableModelRecording" />
             </p:NodeReference>
             <Pin Id="RGI7yrTW7ybPwynj9Fmztt" Name="Input" Kind="StateInputPin" />
@@ -91,8 +91,8 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="583,756,115,26" Id="M0kI4LGSpdzMPTi6lWlPXg">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+          <Node Bounds="555,771,115,26" Id="M0kI4LGSpdzMPTi6lWlPXg">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="DisableModelRunning" />
             </p:NodeReference>
@@ -105,10 +105,10 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="441,808,119,26" Id="IbJtixyy6IDLBYzNe4bU0U">
+          <Node Bounds="413,823,119,26" Id="IbJtixyy6IDLBYzNe4bU0U">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
+              <CategoryReference Kind="ClassType" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="EnableModelRecording" />
             </p:NodeReference>
             <Pin Id="E5qrE6d1CkZNoAUqoXJbTE" Name="Input" Kind="StateInputPin" />
@@ -120,8 +120,8 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="441,756,111,26" Id="PRrqFza6llGMO7W9JubmhI">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+          <Node Bounds="413,771,111,26" Id="PRrqFza6llGMO7W9JubmhI">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="EnableModelRunning" />
             </p:NodeReference>
@@ -134,10 +134,10 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="441,860,118,26" Id="Lc60QsAIIH2O6sWGpe6ya6">
+          <Node Bounds="413,875,118,26" Id="Lc60QsAIIH2O6sWGpe6ya6">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
+              <CategoryReference Kind="ClassType" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="SelectInputsForOutput" />
             </p:NodeReference>
             <Pin Id="DfjdCTwywOaLYmdb1NlQTL" Name="Input" Kind="StateInputPin" />
@@ -150,10 +150,10 @@
             </Pin>
             <Pin Id="Ag9CIpZfUSqQCQri6yDpEP" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="441,650,85,26" Id="PjZGIkNS0sJOCijaWTxTkm">
+          <Node Bounds="413,665,88,26" Id="PjZGIkNS0sJOCijaWTxTkm">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
+              <CategoryReference Kind="ClassType" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="SetInputNames" />
             </p:NodeReference>
             <Pin Id="N1GZwjvlERzPrnohSloCqh" Name="Input" Kind="StateInputPin" />
@@ -161,8 +161,8 @@
             <Pin Id="RSs30aHPiGMLTMVZ2BjFRQ" Name="Apply" Kind="InputPin" />
             <Pin Id="HQ6NWZFodDnLpPv8dzkz4u" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="583,650,93,26" Id="TM4X3Qkt7iINGJc7JfoC1Y">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+          <Node Bounds="555,665,93,26" Id="TM4X3Qkt7iINGJc7JfoC1Y">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="SetOutputNames" />
             </p:NodeReference>
@@ -171,10 +171,10 @@
             <Pin Id="Ta93XwW7yLTLz2sWLJ1BMa" Name="Apply" Kind="InputPin" />
             <Pin Id="HC6O3H5xXMcLnKZHUjDoNa" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="92,860,67,26" Id="MCOB6XVGnKALIJhNoDuYVz">
+          <Node Bounds="64,875,88,26" Id="MCOB6XVGnKALIJhNoDuYVz">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
+              <CategoryReference Kind="ClassType" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="SetOutputs" />
             </p:NodeReference>
             <Pin Id="DJFycUnwMK1M3VsWJcr2Eh" Name="Input" Kind="StateInputPin" />
@@ -182,8 +182,8 @@
             <Pin Id="TBACymOV5WXOWS0kMagE6k" Name="Apply" Kind="InputPin" />
             <Pin Id="SsjNuwqGcFvNmINs6cTuuv" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="92,808,104,26" Id="BZxcjEjqrzhLyhPqS94t9C">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+          <Node Bounds="64,823,104,26" Id="BZxcjEjqrzhLyhPqS94t9C">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="StartDTWRecording" />
             </p:NodeReference>
@@ -192,10 +192,9 @@
             <Pin Id="HP5rk8sfvXsNpRXLOGsHxq" Name="Apply" Kind="InputPin" />
             <Pin Id="NX9NeELgFdBPxiSiXUYB1F" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="92,650,83,26" Id="PNwtpzru60pNZe1unfRFMb">
-            <p:NodeReference>
+          <Node Bounds="64,665,88,26" Id="PNwtpzru60pNZe1unfRFMb">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
               <Choice Kind="OperationCallFlag" Name="StartRecording" />
             </p:NodeReference>
             <Pin Id="I7JsI5DHn00LiYiZWOAL8n" Name="Input" Kind="StateInputPin" />
@@ -206,8 +205,8 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="92,756,75,26" Id="Nz7MD08oGGCOxKKSMn9zg9">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+          <Node Bounds="64,771,88,26" Id="Nz7MD08oGGCOxKKSMn9zg9">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="StartRunning" />
             </p:NodeReference>
@@ -215,20 +214,20 @@
             <Pin Id="HEO5I42qOzkMmZdTrhxxnK" Name="Apply" Kind="InputPin" />
             <Pin Id="L9M9ahSYqu4LHY9569t8Kd" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="228,808,103,26" Id="GikAvx0RXfLPeuuB3UUr7c">
+          <Node Bounds="200,823,103,26" Id="GikAvx0RXfLPeuuB3UUr7c">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
+              <CategoryReference Kind="ClassType" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="StopDTWRecording" />
             </p:NodeReference>
             <Pin Id="BmDomx2i2DENhRUKnCL2bE" Name="Input" Kind="StateInputPin" />
             <Pin Id="V1tFSJKrQP6Nyj1O9ayzs0" Name="Apply" Kind="InputPin" />
             <Pin Id="DOssZeGG1oRMQ3GoQ4lTmv" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="228,650,82,26" Id="AGMbUqn5HJWOR3mHRbYz1a">
+          <Node Bounds="200,665,88,26" Id="AGMbUqn5HJWOR3mHRbYz1a">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Wekinator" />
+              <CategoryReference Kind="ClassType" Name="Wekinator (Reactive)" />
               <Choice Kind="OperationCallFlag" Name="StopRecording" />
             </p:NodeReference>
             <Pin Id="JVGsBwWAB0MMCPp96AbY1n" Name="Input" Kind="StateInputPin" />
@@ -239,8 +238,8 @@
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Node Bounds="228,756,74,26" Id="CtGQ9cSvtNGOekfxxdHtvp">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+          <Node Bounds="200,771,88,26" Id="CtGQ9cSvtNGOekfxxdHtvp">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="StopRunning" />
             </p:NodeReference>
@@ -248,8 +247,8 @@
             <Pin Id="JUZBsjcdWgwNlvvuTA0krE" Name="Apply" Kind="InputPin" />
             <Pin Id="Kjf1vEidtS8Ofqv1vKh2iM" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="92,704,75,26" Id="Qf2RhUrpZVjNfxCuhVyzF1">
-            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+          <Node Bounds="64,719,88,26" Id="Qf2RhUrpZVjNfxCuhVyzF1">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="StartTraining" />
             </p:NodeReference>
@@ -257,7 +256,7 @@
             <Pin Id="Te3AucEdhWSOLzkJB32CTn" Name="Apply" Kind="InputPin" />
             <Pin Id="AcChqerurIlOOQ7SjFp2zX" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="RyfibVwIOAuLjboNwwsNiS" Bounds="88,66,202,27" ShowValueBox="true" isIOBox="true" Value="What is Wekinator?">
+          <Pad Id="RyfibVwIOAuLjboNwwsNiS" Bounds="60,81,202,27" ShowValueBox="true" isIOBox="true" Value="What is Wekinator?">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -266,7 +265,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="HZi0hNoyJfNPMlZ3FhVuHp" Bounds="88,106,486,135" ShowValueBox="true" isIOBox="true" Value="The Wekinator is a program that uses machine learning to solve the following problem: &quot;given input X, I want to get output Y&quot;. Where X can be any input that can be expressed as a series of floats and the output can either be :&#xD;&#xA;&#xD;&#xA;- Discrete categories (e.g. Pose 1, Pose 2, etc).&#xD;&#xA;- Continuous numeric outputs refering to positions between the discrete outputs&#xD;&#xA;- Dynamic Time Warping, like a gesture recognized over time">
+          <Pad Id="HZi0hNoyJfNPMlZ3FhVuHp" Bounds="60,121,486,135" ShowValueBox="true" isIOBox="true" Value="The Wekinator is a program that uses machine learning to solve the following problem: &quot;given input X, I want to get output Y&quot;. Where X can be any input that can be expressed as a series of floats and the output can either be :&#xD;&#xA;&#xD;&#xA;- Discrete categories (e.g. Pose 1, Pose 2, etc).&#xD;&#xA;- Continuous numeric outputs refering to positions between the discrete outputs&#xD;&#xA;- Dynamic Time Warping, like a gesture recognized over time">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -275,7 +274,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="O4TM3BOTVpYQK8JGZX97E9" Bounds="92,255,218,19" ShowValueBox="true" isIOBox="true" Value="For more information, head over to">
+          <Pad Id="O4TM3BOTVpYQK8JGZX97E9" Bounds="64,270,218,19" ShowValueBox="true" isIOBox="true" Value="For more information, head over to">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -284,7 +283,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VJfFd2z8aKeMkFLYkfrdHF" Bounds="316,255,167,19" ShowValueBox="true" isIOBox="true" Value="http://www.wekinator.org">
+          <Pad Id="VJfFd2z8aKeMkFLYkfrdHF" Bounds="288,270,167,19" ShowValueBox="true" isIOBox="true" Value="http://www.wekinator.org">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -293,7 +292,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="TJKRZDuLHmTNOFmccklusi" Bounds="89,295,516,40" ShowValueBox="true" isIOBox="true" Value="To use this nodeset, the Wekinator software must be running next to your patch. The nodes simply ease the communication with it.">
+          <Pad Id="TJKRZDuLHmTNOFmccklusi" Bounds="61,310,516,40" ShowValueBox="true" isIOBox="true" Value="To use this nodeset, the Wekinator software must be running next to your patch. The nodes simply ease the communication with it.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -302,8 +301,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="RhDwbq7fGYhPeQa68ClZNy" Name="" Bounds="67,342,556,208" />
-          <Pad Id="RC9B6IILsvPO3sqcTcggAF" Bounds="94,503,109,13" ShowValueBox="true" isIOBox="true" Value="With all optional pins">
+          <Overlay Id="RhDwbq7fGYhPeQa68ClZNy" Name="" Bounds="39,354,547,211" />
+          <Pad Id="RC9B6IILsvPO3sqcTcggAF" Bounds="67,516,109,13" ShowValueBox="true" isIOBox="true" Value="With all optional pins">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -312,7 +311,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="PkdLfwoVvOXLekfyNspEpK" Bounds="94,419,109,13" ShowValueBox="true" isIOBox="true" Value="Regular node">
+          <Pad Id="PkdLfwoVvOXLekfyNspEpK" Bounds="67,432,109,13" ShowValueBox="true" isIOBox="true" Value="Regular node">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -321,6 +320,63 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="76,397,62,19" Id="BKCNM7UezhNPsAlLr6BbBC">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Wekinator" />
+            </p:NodeReference>
+            <Pin Id="LzYzjzzqc6GPLArr0T6SXX" Name="Inputs" Kind="InputPin" />
+            <Pin Id="DJvAyFznlHxLXa1wOkPMmx" Name="Send" Kind="InputPin" />
+            <Pin Id="L8epHKNR02gMCkLZlrXKYe" Name="Output" Kind="OutputPin" />
+            <Pin Id="SNF7a1Q04G6L7YtgQ91iyw" Name="Outputs" Kind="OutputPin" />
+            <Pin Id="Qg7oL1r4cDNMZZz9u9OF19" Name="On Data" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="76,480,125,19" Id="SXYIGuvfjIPPj7ioyr2M1A">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Wekinator" />
+            </p:NodeReference>
+            <Pin Id="NLyXar7xuLhOvugygsjhaL" Name="Inputs" Kind="InputPin" />
+            <Pin Id="VyLKh8JcGPiPTjBcC0FrdO" Name="Send" Kind="InputPin" />
+            <Pin Id="IIlKg7MDGUWNcHhqar5jab" Name="IP Address" Kind="InputPin" />
+            <Pin Id="RgJ1wOTrOSjP5EI9Oql6OV" Name="Inputs Address" Kind="InputPin" />
+            <Pin Id="Rptyj5dYehfLhTJ65MGgOd" Name="Inputs Port" Kind="InputPin" />
+            <Pin Id="VdrDi5YifCHN6iDIKrjrfO" Name="Outputs Address" Kind="InputPin" />
+            <Pin Id="VKxe8csxLq7OAX5UoYuFfc" Name="Outputs Port" Kind="InputPin" />
+            <Pin Id="OOq9JmxAOlGO99yjx8dqkL" Name="Output" Kind="OutputPin" />
+            <Pin Id="P64yhMcghA9Nr9seryKWI8" Name="Outputs" Kind="OutputPin" />
+            <Pin Id="AkOss5FGWxSLKwvIUkvRa6" Name="On Data" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="641,413,62,19" Id="Uwo4CFkD6BcOjGEivbWHua">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Wekinator (Reactive)" />
+            </p:NodeReference>
+            <Pin Id="TdABxzTTEh9NemfNlNlnCH" Name="IP Address" Kind="InputPin" />
+            <Pin Id="B97r6DmI7bONEGnObzbj8B" Name="Input Port" Kind="InputPin" />
+            <Pin Id="SYxGOdec2GVOG9b1OmVdIS" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="Pe2YclDjbioLkbeL8EfKff" Name="Outputs" Kind="OutputPin" />
+          </Node>
+          <Pad Id="CzcF2BpOr8NPUSQ3GesFXD" Bounds="748,402,146,132" ShowValueBox="true" isIOBox="true" Value="An advanced version of the node receives data as Observable and allows you to send data from a member operation.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="641,475,88,26" Id="VgXXjrbC75RQdllsGcn3fN">
+            <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="SendInputs" />
+            </p:NodeReference>
+            <Pin Id="GEJI0mATiZOLyrSKQ9z8Gw" Name="Input" Kind="StateInputPin" />
+            <Pin Id="U7PItC5stq1MDU4oAssNVq" Name="Arguments" Kind="InputPin" />
+            <Pin Id="NqeMmd42VVsMIph3UlN5O6" Name="Apply" Kind="InputPin" />
+            <Pin Id="A7fFHmriG56Mgc1iik7qUV" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Overlay Id="BwBHYSbOM8OMylS0KV9HCH" Name="" Bounds="607,354,316,211" />
         </Canvas>
         <Patch Id="AEPJo9XYFTEMEEuFNc4NkX" Name="Create" />
         <Patch Id="TR2zfNmfHlxLvYpPec1SkI" Name="Update" />
@@ -328,6 +384,7 @@
           <Fragment Id="EuM8oMUfVdpOxJTFQFlqnU" Patch="AEPJo9XYFTEMEEuFNc4NkX" Enabled="true" />
           <Fragment Id="C9ddKjvvZLgNtYezxLVWdK" Patch="TR2zfNmfHlxLvYpPec1SkI" Enabled="true" />
         </ProcessDefinition>
+        <Link Id="VKZLxgy2d4ZOhDAotrin8L" Ids="SYxGOdec2GVOG9b1OmVdIS,GEJI0mATiZOLyrSKQ9z8Gw" />
       </Patch>
     </Node>
   </Patch>
