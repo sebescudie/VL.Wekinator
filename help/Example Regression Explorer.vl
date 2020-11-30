@@ -1131,12 +1131,13 @@
                   <Pin Id="OjAdp4YzgAnMFMjcCAA0Yg" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="405,744,28,26" Id="U15rAlB35I9N6j6lel1DFQ">
-                  <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+                  <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SendInputs" />
                   </p:NodeReference>
                   <Pin Id="MPdVbPAkjapPNrpFvnA6gQ" Name="Input" Kind="StateInputPin" />
                   <Pin Id="GeelwWlXp68NEIRlKqPGO6" Name="Arguments" Kind="InputPin" />
+                  <Pin Id="LgEkwlIb7aKNeZi6CFxBVd" Name="Address" Kind="InputPin" />
                   <Pin Id="HTKuVuYKkMiPWsKvjBTK2v" Name="Apply" Kind="InputPin" DefaultValue="True">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="Boolean" />
@@ -1145,7 +1146,7 @@
                   <Pin Id="MJaFj11toyFNWY1NUHMgFz" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="405,695,75,26" Id="Ha7OmLc8LAYPvDMwGYjZcx">
-                  <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+                  <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="StartRunning" />
                   </p:NodeReference>
@@ -1227,7 +1228,7 @@
                   <Pin Id="POHdqHAJzbUNvOYfhuITpR" Name="Y" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="75,820,-3,26" Id="UEqJeBfDl92OH3fz9AkNsG">
-                  <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+                  <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SetOutputs" />
                   </p:NodeReference>
@@ -1250,7 +1251,7 @@
                   <Pin Id="BzCOiqgrn4uMn5nSQSwTwd" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="75,770,83,26" Id="QNwIQ3Vv5ixQb2cU7kvzv6">
-                  <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+                  <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="StartRecording" />
                   </p:NodeReference>
@@ -1263,12 +1264,13 @@
                   <Pin Id="Do85gMuiwHKLMWrAH4y7GT" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="75,869,18,26" Id="DQTGJhTRBCEQbQtg8QSsLk">
-                  <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+                  <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SendInputs" />
                   </p:NodeReference>
                   <Pin Id="OJ0q7hVnjQlN2QawNryJDh" Name="Input" Kind="StateInputPin" />
                   <Pin Id="Qzn0onwsGJ7P8cpNelAwhE" Name="Arguments" Kind="InputPin" />
+                  <Pin Id="NZmvc9WIKp5O5r3yoA4ooV" Name="Address" Kind="InputPin" />
                   <Pin Id="FbV5eV0jeRiN8qffdy4lQu" Name="Apply" Kind="InputPin" DefaultValue="True">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="Boolean" />
@@ -1365,7 +1367,7 @@
               <Pin Id="TQTXkWRFqYuLxITAKowiHq" Name="Input" Kind="StateInputPin" />
               <Pin Id="JBXcSavKLh7P1cgOiLM754" Name="Mode" Kind="OutputPin" />
             </Node>
-            <Node Bounds="880,562,221,217" Id="D3yNzvH0RwuP0V82j8iuvH">
+            <Node Bounds="940,562,221,217" Id="D3yNzvH0RwuP0V82j8iuvH">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
                 <Choice Kind="ProcessAppFlag" Name="ForEach" />
                 <CategoryReference Kind="Category" Name="Reactive" NeedsToBeDirectParent="true" />
@@ -1384,9 +1386,9 @@
                     </p:TypeAnnotation>
                   </Pin>
                 </Patch>
-                <ControlPoint Id="FyJinzJAHFKN2NrlkbEmFu" Bounds="1007,570" />
-                <ControlPoint Id="OUw8ws5ZAhEOUBNjbyHLD1" Bounds="895,772" />
-                <Node Bounds="967,600,25,19" Id="QhHrqeu1LK5Lb0hAx7Rak0">
+                <ControlPoint Id="FyJinzJAHFKN2NrlkbEmFu" Bounds="1067,570" />
+                <ControlPoint Id="OUw8ws5ZAhEOUBNjbyHLD1" Bounds="955,772" />
+                <Node Bounds="1027,600,25,19" Id="QhHrqeu1LK5Lb0hAx7Rak0">
                   <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1399,8 +1401,8 @@
                   </Pin>
                   <Pin Id="GQnwhfeHFZjP1cjrN13fib" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="892,637,92,26" Id="RTzsaa2UggJPl2OlNEoTYB">
-                  <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+                <Node Bounds="952,637,92,26" Id="RTzsaa2UggJPl2OlNEoTYB">
+                  <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="StopRecording" />
                   </p:NodeReference>
@@ -1408,8 +1410,8 @@
                   <Pin Id="Gc3OuLZkK8GMPdo6yWt2mD" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="FQHQ3I3hGhHMugFy50qsqA" Name="Apply" Kind="InputPin" />
                 </Node>
-                <Node Bounds="892,686,79,26" Id="V1TMTkD1EWjQd5p67DBVcM">
-                  <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+                <Node Bounds="952,686,79,26" Id="V1TMTkD1EWjQd5p67DBVcM">
+                  <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="StartTraining" />
                   </p:NodeReference>
@@ -1417,7 +1419,7 @@
                   <Pin Id="Hu4m3yJYF1SLhIXM872UnH" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="Eb0hP3tmmPRMdvzk7iPD3p" Name="Apply" Kind="InputPin" />
                 </Node>
-                <Node Bounds="1005,600,25,19" Id="DwgtmfjfRn9Mn5NVrY4LJn">
+                <Node Bounds="1065,600,25,19" Id="DwgtmfjfRn9Mn5NVrY4LJn">
                   <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="=" />
@@ -1426,8 +1428,8 @@
                   <Pin Id="L1TXHcw5JZbLs6C5DjdJWY" Name="Input 2" Kind="InputPin" />
                   <Pin Id="Mc87kJpyqJZLpX339g7sRS" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="892,729,118,26" Id="BzgMHpeMyWNL1hLzvSb8Nw">
-                  <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+                <Node Bounds="952,729,118,26" Id="BzgMHpeMyWNL1hLzvSb8Nw">
+                  <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="StopRunning" />
                   </p:NodeReference>
@@ -1437,8 +1439,8 @@
                 </Node>
               </Patch>
             </Node>
-            <ControlPoint Id="KqFaPkc5UPXMz4BBLcUIWi" Bounds="895,499" />
-            <Node Bounds="694,622,131,114" Id="JZbAEDrR6TAOTNZmpPtY5z">
+            <ControlPoint Id="KqFaPkc5UPXMz4BBLcUIWi" Bounds="955,499" />
+            <Node Bounds="754,622,131,114" Id="JZbAEDrR6TAOTNZmpPtY5z">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
                 <Choice Kind="ProcessAppFlag" Name="ForEach" />
                 <CategoryReference Kind="Category" Name="Reactive" NeedsToBeDirectParent="true" />
@@ -1457,10 +1459,10 @@
                     </p:TypeAnnotation>
                   </Pin>
                 </Patch>
-                <ControlPoint Id="JGsQaAst2CjPdMF7asHPrg" Bounds="698,630" />
-                <ControlPoint Id="Dzz6Cq5YEhxPTZD3EsLpdb" Bounds="715,729" />
-                <Node Bounds="713,670,100,26" Id="FuGsnW7HgeHMBbzkEbqPnX">
-                  <p:NodeReference LastCategoryFullName="IO.Wekinator.Wekinator (Reactive)" LastSymbolSource="VL.Wekinator.vl">
+                <ControlPoint Id="JGsQaAst2CjPdMF7asHPrg" Bounds="758,630" />
+                <ControlPoint Id="Dzz6Cq5YEhxPTZD3EsLpdb" Bounds="775,729" />
+                <Node Bounds="773,670,100,26" Id="FuGsnW7HgeHMBbzkEbqPnX">
+                  <p:NodeReference LastCategoryFullName="IO.Wekinator" LastSymbolSource="VL.Wekinator.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="DeleteAllExamples" />
                   </p:NodeReference>
@@ -1474,7 +1476,7 @@
                 </Node>
               </Patch>
             </Node>
-            <ControlPoint Id="TrgWnLhcfqJOWJBh3LRVLk" Bounds="715,591" />
+            <ControlPoint Id="TrgWnLhcfqJOWJBh3LRVLk" Bounds="775,591" />
             <Node Bounds="549,249,51,26" Id="NFEBZA2I4KXP4GWmxozP6r">
               <p:NodeReference LastCategoryFullName="Primitive.Reference" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1495,7 +1497,7 @@
               <Pin Id="PtwuSLwesSKLMGviappoRs" Name="Input 2" Kind="InputPin" />
               <Pin Id="JLE9upMRKQvPt3mVqEKfcp" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Node Bounds="880,431,89,26" Id="LrwetnQU4O8LWlhmUdq1pF">
+            <Node Bounds="940,431,89,26" Id="LrwetnQU4O8LWlhmUdq1pF">
               <p:NodeReference LastCategoryFullName="Main.GUIData" LastSymbolSource="Example Regression Explorer.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="OnModeChange" />
@@ -1503,8 +1505,8 @@
               <Pin Id="IWI48b2eX1CL8eBZOLG2Kd" Name="Input" Kind="StateInputPin" />
               <Pin Id="NteSA9fdHDNPYYlkKRfVPr" Name="On Mode Change" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="OTKsUPPB8FcOw5fDysQWqX" Bounds="696,380" />
-            <Node Bounds="694,431,53,26" Id="Joo3USwD1usQdEZ0vQnbzl">
+            <ControlPoint Id="OTKsUPPB8FcOw5fDysQWqX" Bounds="756,380" />
+            <Node Bounds="754,431,53,26" Id="Joo3USwD1usQdEZ0vQnbzl">
               <p:NodeReference LastCategoryFullName="Main.GUIData" LastSymbolSource="Example Regression Explorer.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="OnClear" />
@@ -1530,7 +1532,7 @@
               <Pin Id="LprsdgTdMGZO1RiAH171Up" Name="Input" Kind="StateInputPin" />
               <Pin Id="UyA6uRKcXDVN6CqzbWO67q" Name="On Double Click" Kind="OutputPin" />
             </Node>
-            <Pad Id="AMmiTig8wo9LtW7KJSQDaB" Bounds="872,807,241,164" ShowValueBox="true" isIOBox="true" Value="This event fires when we change the app's mode using the Radiobutton in the GUI. &#xD;&#xA;- If we switch to Run, we stop the recording and run the training (in Wekinator).&#xD;&#xA;- If we switch to Learn, we stop stop running the model in Wekinator.">
+            <Pad Id="AMmiTig8wo9LtW7KJSQDaB" Bounds="932,807,241,164" ShowValueBox="true" isIOBox="true" Value="This event fires when we change the app's mode using the Radiobutton in the GUI. &#xD;&#xA;- If we switch to Run, we stop the recording and run the training (in Wekinator).&#xD;&#xA;- If we switch to Learn, we stop stop running the model in Wekinator.">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -1539,7 +1541,7 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Pad Id="RQAYvuQWeKPQMdTpzZkNmY" Bounds="685,760,139,96" ShowValueBox="true" isIOBox="true" Value="Here, each time the Clear button is clicked, we clear all available examples in Wekinator">
+            <Pad Id="RQAYvuQWeKPQMdTpzZkNmY" Bounds="745,760,139,96" ShowValueBox="true" isIOBox="true" Value="Here, each time the Clear button is clicked, we clear all available examples in Wekinator">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -1607,7 +1609,7 @@
           <Patch Id="CwqLCxas0BVNJSTYzgBj14" Name="Update">
             <Pin Id="N2Ik8cLbumCQOMbrAE0U03" Name="Wekinator" Kind="InputPin">
               <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Wekinator (Reactive)" />
+                <Choice Kind="TypeFlag" Name="OSCClient" />
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="RlG3Os8LThUN8qjjy9zmGF" Name="GUI" Kind="InputPin">
@@ -2429,7 +2431,7 @@
             </p:NodeReference>
             <Pin Id="VUr7q2qyMwsOccS6SfYjxA" Name="IP Address" Kind="InputPin" />
             <Pin Id="U8HVutKpIWaQKbcOn4Wpvw" Name="Input Port" Kind="InputPin" />
-            <Pin Id="OloBfa5bTmJNBWJGiiz2Qa" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="Aq5URAOuAfVPIhxZHCa9Jj" Name="OSC Client" Kind="OutputPin" />
             <Pin Id="FwvtrRngPauLcDZtoOWofd" Name="Outputs" Kind="OutputPin" />
           </Node>
           <Node Bounds="126,546,73,19" Id="RUND4niLSfcNpglPVd8c9Y">
@@ -2509,7 +2511,6 @@
           <Fragment Id="FORvMIAe7cLPTWgZFfpoGy" Patch="RArc09UVOlnMKytzQjxll6" />
         </ProcessDefinition>
         <Link Id="Dn12b2mEpOBO3YIOkKMj77" Ids="TvmpDlFS2ppL10DNEaEVqj,QZ9XwANmPtBNxW4Rp2jdPo" />
-        <Link Id="HdhG7lCaI8rL477SEeV7QD" Ids="OloBfa5bTmJNBWJGiiz2Qa,QbjLG5AfsbqMNResX7fb6d" />
         <Link Id="IaSuoaF5dz1O6agDbArNCb" Ids="MukLDGhxVIALumnV4I2DJx,F72nt1G0AzLPi5MB74WN5U" />
         <Link Id="M8eT7sJJoCjMq3j11BsRhY" Ids="MukLDGhxVIALumnV4I2DJx,LhlqUEY1NkEOgLXrzoLWJ0" />
         <Patch Id="RArc09UVOlnMKytzQjxll6" Name="GetFlag" />
@@ -2520,6 +2521,7 @@
         <Link Id="D1UYPdlolGJOhy1pwH7PSo" Ids="AF2c7bi36fPN3XY6W4R3rn,C4CyP9y1xMELA71k5TEkpK" />
         <Slot Id="HtjEQCrae2bMYfRFhVZwz3" Name="Has Received" />
         <Link Id="IjhJDxIlaFtN6FhcNdFxNs" Ids="FwvtrRngPauLcDZtoOWofd,FmRkDwCNVOfL6FHa4npIPA" />
+        <Link Id="LbME6EuofyNMjncUTpyFD5" Ids="Aq5URAOuAfVPIhxZHCa9Jj,QbjLG5AfsbqMNResX7fb6d" />
       </Patch>
     </Node>
   </Patch>
