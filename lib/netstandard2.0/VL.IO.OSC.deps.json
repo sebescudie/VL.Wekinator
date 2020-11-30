@@ -7,14 +7,14 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "VL.IO.OSC2/0.0.0-g6dd147b15b": {
+      "VL.IO.OSC/0.0.0-gb4c3c19abe": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Nerdbank.GitVersioning": "3.2.7-beta",
           "VL.Core": "2020.2.1"
         },
         "runtime": {
-          "VL.IO.OSC2.dll": {}
+          "VL.IO.OSC.dll": {}
         }
       },
       "Irony/1.1.0": {
@@ -494,7 +494,7 @@
     }
   },
   "libraries": {
-    "VL.IO.OSC2/0.0.0-g6dd147b15b": {
+    "VL.IO.OSC/0.0.0-gb4c3c19abe": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
