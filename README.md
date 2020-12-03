@@ -27,3 +27,4 @@ A few links to the Wekinator documentation are also listed there.
 - [VL.Audio](https://github.com/vvvv/VL.audio)
 - [VL.OpenCV](https://github.com/vvvv/VL.OpenCV)
 - [VL.Elementa](https://github.com/vvvv-dottore/VL.Elementa)
+- [VL.Devices.LeapOrion](https://github.com/vvvv/VL.Devices.LeapOrion)
