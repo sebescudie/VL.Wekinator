@@ -1766,11 +1766,7 @@
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="VideoIn" />
               </p:NodeReference>
-              <Pin Id="AV0fBgjwCDULeRB8jB98PZ" Name="Video Input Device" Kind="InputPin" DefaultValue="HD Pro Webcam C920">
-                <p:TypeAnnotation LastCategoryFullName="OpenCV.Source" LastSymbolSource="VL.OpenCV.vl">
-                  <Choice Kind="TypeFlag" Name="VideoInputDevice" />
-                </p:TypeAnnotation>
-              </Pin>
+              <Pin Id="AV0fBgjwCDULeRB8jB98PZ" Name="Video Input Device" Kind="InputPin" />
               <Pin Id="BRyrDNIRyxDLqAKC0y31qZ" Name="Width" Kind="InputPin" />
               <Pin Id="GpkiRUJ25DGO4UUiN27hYo" Name="Height" Kind="InputPin" />
               <Pin Id="Aou7AAb44gyPbW0WyEsxeL" Name="FPS" Kind="InputPin" />
@@ -1829,7 +1825,7 @@
               <Pin Id="AxY3JlWlZOrNljnNP6HUDm" Name="Apply" Kind="InputPin" />
               <Pin Id="JaNw3VlipulOnaqJGMAiKS" Name="Output" Kind="OutputPin" />
             </Node>
-            <Node Bounds="327,503,105,19" Id="HaDR2YYbwUCPpzridm31VE">
+            <Node Bounds="307,505,125,19" Id="HaDR2YYbwUCPpzridm31VE">
               <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastSymbolSource="VL.OpenCV.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -1838,6 +1834,11 @@
               <Pin Id="PyPbpR52ml9NFZRmchrBnt" Name="Bounds" Kind="InputPin" DefaultValue="1097, 452, 512, 535">
                 <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                   <Choice Kind="TypeFlag" Name="Rectangle" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="VR4mFzckJKwMpZdfwmAZI6" Name="Bound to Document" Kind="InputPin" DefaultValue="True">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="Bg2fkPW8winLayy7yT4qr3" Name="Input" Kind="InputPin" />
@@ -1853,14 +1854,12 @@
             <ControlPoint Id="BCqPtE1qsiVOL0u9UWn5Sd" Bounds="481,510" />
             <ControlPoint Id="O0QFITaWBqOQa7i0vVdXV2" Bounds="284,552" />
             <ControlPoint Id="SDY68hSbIlKPtCWrK4qJgF" Bounds="508,310" />
-            <ControlPoint Id="QnJPSp3HaDKLTeQ45mA7qv" Bounds="285,268" />
           </Canvas>
           <Patch Id="Vs4QAolVjInMYsRPm62cFh" Name="Create" />
           <Patch Id="OMeTmj4cSTlNMjhNEs8Fs2" Name="Update">
             <Pin Id="HgERyx1aeewOJIEEuaTbMn" Name="Downsampled ROI" Kind="OutputPin" Bounds="481,510" />
             <Pin Id="VI6cBeYxxhUL09STpEyWbI" Name="Webcam Feed" Kind="OutputPin" Bounds="286,546" />
             <Pin Id="JyMbkjlq6RoL6hToFWUoUI" Name="ROI" Kind="InputPin" Bounds="508,309" />
-            <Pin Id="VstNwT77Tg8PeIXagryXuK" Name="Video Input Device" Kind="InputPin" Bounds="304,261" />
           </Patch>
           <ProcessDefinition Id="Edm01ONKiwlLHQuDQ3wk8o">
             <Fragment Id="LdFLYZb6oq4ORGLXP7aVol" Patch="Vs4QAolVjInMYsRPm62cFh" Enabled="true" />
@@ -1876,8 +1875,6 @@
           <Link Id="TteE5lEsceaLScXCfj5unH" Ids="O0QFITaWBqOQa7i0vVdXV2,VI6cBeYxxhUL09STpEyWbI" IsHidden="true" />
           <Link Id="Lbkp9so5wz0Nyk8YhepfWr" Ids="SDY68hSbIlKPtCWrK4qJgF,TsMKx9G79qAO8DqsMpdOKL" />
           <Link Id="Ap5k1uNEl3tQDqgYAhoKGj" Ids="JyMbkjlq6RoL6hToFWUoUI,SDY68hSbIlKPtCWrK4qJgF" IsHidden="true" />
-          <Link Id="QCnxrSKXCFbMjnwpVx9zos" Ids="QnJPSp3HaDKLTeQ45mA7qv,AV0fBgjwCDULeRB8jB98PZ" />
-          <Link Id="A9By4gHuib8PawnQzLqlhA" Ids="VstNwT77Tg8PeIXagryXuK,QnJPSp3HaDKLTeQ45mA7qv" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -2383,7 +2380,6 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OpenCVProcessing" />
             </p:NodeReference>
-            <Pin Id="CnRDboQVUWINdvhjH4iNqg" Name="Video Input Device" Kind="InputPin" />
             <Pin Id="UXUJVzaHpDgLhFGOa4OeOM" Name="ROI" Kind="InputPin" />
             <Pin Id="LzU9WsVqutjORFa6mSffq4" Name="Webcam Feed" Kind="OutputPin" />
             <Pin Id="AmK9c31fDmVMwWCT0fZx2a" Name="Downsampled ROI" Kind="OutputPin" />
@@ -2507,11 +2503,6 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="QRAFhzdrD7UMCnUcETdyFp" Comment="Video Input Device" Bounds="69,363,128,15" ShowValueBox="true" isIOBox="true" Value="HD Pro Webcam C920">
-            <p:TypeAnnotation LastCategoryFullName="OpenCV.Source" LastSymbolSource="VL.OpenCV.vl">
-              <Choice Kind="TypeFlag" Name="VideoInputDevice" />
-            </p:TypeAnnotation>
-          </Pad>
           <Pad Id="NwwMCJsMswwMauWqWqEocN" Comment="Send" Bounds="224,564,35,15" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
@@ -2530,7 +2521,6 @@
         <Link Id="LjZZDfknG84MzdkV3QDOJC" Ids="BWgJdbgDYnnN5YojWbmiPn,NjnETCd2f2YOj5gXKWkyPc" />
         <Link Id="CZq1AqaH0HYL0oa2rdGDvr" Ids="AmK9c31fDmVMwWCT0fZx2a,Leq9FUSmTskMIG2jKdvR4g" />
         <Link Id="CYDbzKVzQeTPLh5SBlj1gg" Ids="Lxev9WGhEcSMYiewUq7FaX,ARnZpScYhJQQRlcNsnyRYN" />
-        <Link Id="M47OYpGIStVOl0NG4jik45" Ids="QRAFhzdrD7UMCnUcETdyFp,CnRDboQVUWINdvhjH4iNqg" />
         <Link Id="Hp1Jbgvopf4L81RxdRg8eT" Ids="D8jz6l8whI0Mqus1qvR7Tq,J7rzyiWdyqZLQLxO4C2su3" />
         <Link Id="FIpOTGhJWExNnOZqXYCrRG" Ids="Do8XXRTwIFdO2LRy5QI8b0,GmYX7zGzXFJPDtYA5S61sA" />
         <Link Id="LQy86yr2Z4ROOBeMVt6W5n" Ids="NwwMCJsMswwMauWqWqEocN,JiJcfkev54uOcjCtSYypar" />
