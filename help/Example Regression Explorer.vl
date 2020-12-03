@@ -2450,7 +2450,7 @@
             <Pin Id="EsZvEnu5XdxQAjhXwwPbBQ" Name="Flag" Kind="InputPin" />
             <Pin Id="FmRkDwCNVOfL6FHa4npIPA" Name="Wekinator Outputs" Kind="InputPin" />
           </Node>
-          <Pad Id="UUyKUNXck9IPHF531LLIfn" Bounds="377,377,464,193" ShowValueBox="true" isIOBox="true" Value="Instructions :&#xD;&#xA;&#xD;&#xA;1. From Wekinator, open the Regression Explorer project, make sure you click on Start Listening.&#xD;&#xA;2. In the renderer, make sure you're in Learn mode.&#xD;&#xA;3. Start double-clicking in the grid zone : you will create examples in wekinator. Create four or five points.&#xD;&#xA;4. Switch to Run mode : you'll notice the cursor changes.&#xD;&#xA;5. Now drag your mouse in the Renderer while holding left mouse button : you'll see Wekinator running the model you taught it!">
+          <Pad Id="UUyKUNXck9IPHF531LLIfn" Bounds="377,377,470,208" ShowValueBox="true" isIOBox="true" Value="Instructions :&#xD;&#xA;&#xD;&#xA;1. From Wekinator, open the Regression Explorer project located in the Assets folder of this nuget (Press ALT+E in this patch to pop an Explorer window at its location) . Make sure you click on Start Listening.&#xD;&#xA;2. In the renderer, make sure you're in Learn mode.&#xD;&#xA;3. Start double-clicking in the grid zone : you will create examples in wekinator. Create four or five points.&#xD;&#xA;4. Switch to Run mode : you'll notice the cursor changes.&#xD;&#xA;5. Now drag your mouse in the Renderer while holding left mouse button : you'll see Wekinator running the model you taught it!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
