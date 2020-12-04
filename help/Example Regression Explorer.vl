@@ -1136,8 +1136,8 @@
                     <Choice Kind="OperationCallFlag" Name="SendInputs" />
                   </p:NodeReference>
                   <Pin Id="MPdVbPAkjapPNrpFvnA6gQ" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="GeelwWlXp68NEIRlKqPGO6" Name="Arguments" Kind="InputPin" />
                   <Pin Id="LgEkwlIb7aKNeZi6CFxBVd" Name="Address" Kind="InputPin" />
+                  <Pin Id="GeelwWlXp68NEIRlKqPGO6" Name="Arguments" Kind="InputPin" />
                   <Pin Id="HTKuVuYKkMiPWsKvjBTK2v" Name="Apply" Kind="InputPin" DefaultValue="True">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="Boolean" />
@@ -1269,8 +1269,8 @@
                     <Choice Kind="OperationCallFlag" Name="SendInputs" />
                   </p:NodeReference>
                   <Pin Id="OJ0q7hVnjQlN2QawNryJDh" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="Qzn0onwsGJ7P8cpNelAwhE" Name="Arguments" Kind="InputPin" />
                   <Pin Id="NZmvc9WIKp5O5r3yoA4ooV" Name="Address" Kind="InputPin" />
+                  <Pin Id="Qzn0onwsGJ7P8cpNelAwhE" Name="Arguments" Kind="InputPin" />
                   <Pin Id="FbV5eV0jeRiN8qffdy4lQu" Name="Apply" Kind="InputPin" DefaultValue="True">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="Boolean" />
@@ -2390,7 +2390,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="SVIuzkyGlKcPdOqeO9M0sK" Name="Bounds" Kind="InputPin" DefaultValue="1119, 337, 600, 400">
+            <Pin Id="SVIuzkyGlKcPdOqeO9M0sK" Name="Bounds" Kind="InputPin" DefaultValue="1167, 94, 600, 400">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -2434,7 +2434,7 @@
             <Pin Id="Aq5URAOuAfVPIhxZHCa9Jj" Name="OSC Client" Kind="OutputPin" />
             <Pin Id="FwvtrRngPauLcDZtoOWofd" Name="Outputs" Kind="OutputPin" />
           </Node>
-          <Node Bounds="126,546,73,19" Id="RUND4niLSfcNpglPVd8c9Y">
+          <Node Bounds="126,544,73,19" Id="RUND4niLSfcNpglPVd8c9Y">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Example Regression Explorer.vl">
               <Choice Kind="ProcessNode" Name="ToWekinator" />
             </p:NodeReference>
@@ -2528,4 +2528,5 @@
   <NugetDependency Id="VBOD4727iM2LlG90vPks2x" Location="VL.Skia" Version="2020.2.4" />
   <NugetDependency Id="Jv9UGj71g4WLKhugVhf5l8" Location="VL.Wekinator" Version="0.0.0.0" />
   <NugetDependency Id="Vv4gbq9t6OMN2zBoJAWtIF" Location="VL.Elementa" Version="0.0.0.0" />
+  <NugetDependency Id="FS3iCwuz08rNWHHBVwyjIX" Location="VL.IO.OSC" Version="0.0.0.0" />
 </Document>
