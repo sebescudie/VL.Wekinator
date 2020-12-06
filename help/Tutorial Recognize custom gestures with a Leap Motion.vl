@@ -689,11 +689,7 @@
                 </p:TypeArguments>
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="Q7Rm6kMtmqrMxBu6tbyaZX" Name="Wekinator" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="OSCClient" />
-              </p:TypeAnnotation>
-            </Pin>
+            <Pin Id="Q7Rm6kMtmqrMxBu6tbyaZX" Name="Wekinator" Kind="InputPin" />
           </Patch>
           <ProcessDefinition Id="Dk5cRZTmoSsO9kQA25dLqY">
             <Fragment Id="Np1JHwLMe2lL8B7KBr81aO" Patch="AixJ2b8zhIRNhvNAECYs49" Enabled="true" />
@@ -1618,5 +1614,4 @@
   <NugetDependency Id="GJ0JnZTLOZELgrWrQYoiKl" Location="VL.Skia3d" Version="1.1.1" />
   <NugetDependency Id="BpNFdsokYiFNQkMpXCkeIk" Location="VL.Skia" Version="2020.2.4" />
   <NugetDependency Id="GuyPVCaBzJvNO8NlVqVgNL" Location="VL.Wekinator" Version="0.0.0.0" />
-  <NugetDependency Id="J6plUbLrhy3NzV5WI0n8L5" Location="VL.IO.OSC" Version="0.0.0.0" />
 </Document>

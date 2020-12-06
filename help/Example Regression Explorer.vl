@@ -1094,7 +1094,6 @@
               </Pin>
               <Pin Id="Ur5vhjH9NuFLMCNYzV0ISo" Name="Result" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="Kog2vJjYj8fN8Ko6Lg0v1j" Bounds="408,562" />
             <Node Bounds="370,598,328,405" Id="IuSxX5tFzHJL49VIKXmERN">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
                 <Choice Kind="ProcessAppFlag" Name="ForEach" />
@@ -1604,14 +1603,11 @@
               </p:ValueBoxSettings>
             </Pad>
             <ControlPoint Id="TObVihCYcKyO2h3KJ70nS7" Bounds="551,204" />
+            <ControlPoint Id="T4hPaNLTuEaLLegDfLva7X" Bounds="405,572" />
           </Canvas>
           <Patch Id="KR1rT7vqxtfOlOyrIWVcTL" Name="Create" />
           <Patch Id="CwqLCxas0BVNJSTYzgBj14" Name="Update">
-            <Pin Id="N2Ik8cLbumCQOMbrAE0U03" Name="Wekinator" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="OSCClient" />
-              </p:TypeAnnotation>
-            </Pin>
+            <Pin Id="N2Ik8cLbumCQOMbrAE0U03" Name="Wekinator" Kind="InputPin" />
             <Pin Id="RlG3Os8LThUN8qjjy9zmGF" Name="GUI" Kind="InputPin">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="GUIData" />
@@ -1625,7 +1621,6 @@
           </ProcessDefinition>
           <Link Id="N5LVRWpUT59PhmRPfdzZYj" Ids="N2Ik8cLbumCQOMbrAE0U03,LKDejpwdXqGM92VaVcazRB" IsHidden="true" />
           <Link Id="DDJFKbpUXeWN3JffXr0svZ" Ids="RlG3Os8LThUN8qjjy9zmGF,Cski9sYY093PwUKyMia8oC" IsHidden="true" />
-          <Link Id="IV2PpBomcYVQWyvsVdtOl7" Ids="N2Ik8cLbumCQOMbrAE0U03,Kog2vJjYj8fN8Ko6Lg0v1j" IsHidden="true" />
           <Link Id="FhqOvLbYuFDL7LSsEi6iXc" Ids="LKDejpwdXqGM92VaVcazRB,EAmpZMTd8kSN65QR3vrz8Z" />
           <Link Id="BhOdn4H1tvmMrpLbzh89vP" Ids="DdQ58BrYaS0OouMnAxbcT2,MIdPzUAuj3SLb3BeGcmnkI" IsHidden="true" />
           <Link Id="U6LWuXBBL3cOsXmZW1fhkj" Ids="R9i95RRhxxEOKnmegs0HI5,RS0LRVq3eDJNCy5k6rQFE9" IsHidden="true" />
@@ -1669,7 +1664,6 @@
           <Link Id="L06d2HoMmahLp2NSH74Yvh" Ids="N2Ik8cLbumCQOMbrAE0U03,TrgWnLhcfqJOWJBh3LRVLk" IsHidden="true" />
           <Link Id="FG2ASJWwsBUNX1M0rsFQqb" Ids="Mc87kJpyqJZLpX339g7sRS,UWzdkCn64CPOBADuDBOv3U" />
           <Link Id="DrtFprJuuAVOlEyq5rqiYj" Ids="Hu4m3yJYF1SLhIXM872UnH,OP7uUaJk8M7QRIf3eOdsaf" />
-          <Link Id="CVPX4mHH6muO0Tas1xbGZB" Ids="Kog2vJjYj8fN8Ko6Lg0v1j,QhtJWvpKo7BLZyQ27if86H" />
           <Link Id="QccjnJNRqFEMIbcTgAl3y9" Ids="Rizc10bAIsULNsDIFMvqst,MPdVbPAkjapPNrpFvnA6gQ" />
           <Link Id="FGieg2XrjmtMgED0wuEecl" Ids="DspWj2LmlySOd5Z9vrE28A,PtwuSLwesSKLMGviappoRs" />
           <Link Id="SfhvPOPthsSLY95vNm5TkB" Ids="Ur5vhjH9NuFLMCNYzV0ISo,MiE4bZSXdDYNjOCItT4Mds" />
@@ -1693,6 +1687,8 @@
           <Link Id="EFxG5fxwJuNNKb162aNgQl" Ids="TObVihCYcKyO2h3KJ70nS7,BKJCDSH3AhNPkYRcZbPG8I" />
           <Link Id="EeXh1eyPVqkM4xRa8MRudq" Ids="EeTe0MT587eP27UzWAGaqD,TObVihCYcKyO2h3KJ70nS7" IsHidden="true" />
           <Link Id="Ufj0p8DzLb3OgsSUpxHD5t" Ids="SxsbHVGFqcHQQ3h5qb6exM,N1rdCBsBaqYLfNVaWPbiG5" />
+          <Link Id="S3bTBGqPJMWNGjK6WrGQW6" Ids="T4hPaNLTuEaLLegDfLva7X,QhtJWvpKo7BLZyQ27if86H" />
+          <Link Id="GOzt4NPywVvOeKfEbiKBGy" Ids="N2Ik8cLbumCQOMbrAE0U03,T4hPaNLTuEaLLegDfLva7X" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -2528,5 +2524,4 @@
   <NugetDependency Id="VBOD4727iM2LlG90vPks2x" Location="VL.Skia" Version="2020.2.4" />
   <NugetDependency Id="Jv9UGj71g4WLKhugVhf5l8" Location="VL.Wekinator" Version="0.0.0.0" />
   <NugetDependency Id="Vv4gbq9t6OMN2zBoJAWtIF" Location="VL.Elementa" Version="0.0.0.0" />
-  <NugetDependency Id="FS3iCwuz08rNWHHBVwyjIX" Location="VL.IO.OSC" Version="0.0.0.0" />
 </Document>

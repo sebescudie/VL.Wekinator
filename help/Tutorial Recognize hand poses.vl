@@ -2107,11 +2107,7 @@
           </Canvas>
           <Patch Id="AXepXLvEucXLLxicyOxKKO" Name="Create" />
           <Patch Id="UuecOZsc3hvNj5YOqrzKTa" Name="Update">
-            <Pin Id="Q7tqs13xKP6LBOnhdgcDyU" Name="Wekinator" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="OSCClient" />
-              </p:TypeAnnotation>
-            </Pin>
+            <Pin Id="Q7tqs13xKP6LBOnhdgcDyU" Name="Wekinator" Kind="InputPin" />
             <Pin Id="DhwZ0lYHe4ZQG6GCmF5SsZ" Name="Remote Control Data" Kind="InputPin">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="RemoteControlData" />
@@ -2533,5 +2529,4 @@
   <NugetDependency Id="Gb3byb28RUOMZbTRG4bYtM" Location="VL.Skia" Version="2020.2.4" />
   <NugetDependency Id="Sxk58olNU4DMoovKDJL0n2" Location="VL.Wekinator" Version="0.0.0.0" />
   <NugetDependency Id="OkpTVNrm1HmNujMJX6e3QJ" Location="VL.Elementa" Version="0.0.0.0" />
-  <NugetDependency Id="KLzoiLQRYR0NsiPCaYH6IT" Location="VL.IO.OSC" Version="0.0.0.0" />
 </Document>

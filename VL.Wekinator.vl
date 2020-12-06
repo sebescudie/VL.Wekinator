@@ -328,13 +328,13 @@
     ************************ SetOutputs ************************
 
 -->
-        <Node Name="SetOutputs" Bounds="109,151,278,172" Id="IT2exYxo3zAMeFVwDWKHLu" Summary="Send Wekinator current output values to populate the boxes/sliders on its GUI. Attach one float per output, in order">
+        <Node Name="SetOutputs" Bounds="109,151,258,172" Id="IT2exYxo3zAMeFVwDWKHLu" Summary="Send Wekinator current output values to populate the boxes/sliders on its GUI. Attach one float per output, in order">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
             <Choice Kind="OperationDefinition" Name="Operation" />
           </p:NodeReference>
           <p:HideCategory p:Type="Boolean">false</p:HideCategory>
           <Patch Id="E1CoUUqWYnHPMB1rac4aKQ">
-            <Pad Id="VYlRJw3OmDvQFdVjd8IhEW" Comment="Address" Bounds="163,214,153,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/outputs">
+            <Pad Id="VYlRJw3OmDvQFdVjd8IhEW" Comment="Address" Bounds="143,194,153,15" ShowValueBox="true" isIOBox="true" Value="/wekinator/control/outputs">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -351,7 +351,7 @@
               <Pin Id="GwsuN47P4MDLPd4t27LtUB" Name="Apply" Kind="InputPin" />
               <Pin Id="AfS5Hu6NWqLLqTKJ6qzYuc" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <ControlPoint Id="OJuo28IpIUUL8A7MqDzG4q" Bounds="143,187" />
+            <ControlPoint Id="OJuo28IpIUUL8A7MqDzG4q" Bounds="163,218" />
             <ControlPoint Id="VWp4TfKtNxWNfTdoausYyf" Bounds="203,232" />
             <Pin Id="KLzu2LgJv4fPCKmbwAL2vY" Name="Arguments" Kind="InputPin" Bounds="483,784">
               <p:TypeAnnotation>
@@ -1396,7 +1396,6 @@
     </Node>
   </Patch>
   <NugetDependency Id="Brp9y63g9AdL0MmApzqW3t" Location="VL.Core" Version="2020.2.4" />
-  <PlatformDependency Id="JKnbl0jXBbEMw5myblPjYa" Location="./lib/netstandard2.0/VL.IO.OSC.dll" />
   <NugetDependency Id="AJrpFIYJUMWNn1YCGyx1yC" Location="VL.Lang" Version="2020.2.4" />
-  <NugetDependency Id="IDjNLi41lQBNYFnQiYwIX3" Location="VL.IO.OSC" Version="0.0.0.0" />
+  <DocumentDependency Id="BVAJSSA8ooeOnjlVCPixeM" Location="./lib/VL.IO.OSC.vl" />
 </Document>
