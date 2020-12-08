@@ -8,6 +8,10 @@
 
 Besides sending input data and receiving outputs data from The Wekinator, this plugin also allows you to easily control the software from your patch : you can trigger the recording of new examples, train your dataset and run with simple nodes.
 
+## Prerequisites
+
+You must install the Wekinator software in order to use this nuget. You'll find it [here](http://www.wekinator.org/downloads/).
+
 ## Installation
 
 _soon_
