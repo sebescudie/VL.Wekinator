@@ -1,5 +1,7 @@
 # VL.Wekinator
 
+[![Nuget](https://img.shields.io/nuget/v/VL.Wekinator?style=flat-square)](https://www.nuget.org/packages/VL.Wekinator)
+
 [The Wekinator](http://www.wekinator.org/) is a standalone software that uses machine learning to solve the following problem: given input X, I want to get output Y. Where X can be any input that can be expressed as a series of floats and the output can either be:
 
 - Discrete categories, like "Pose 1", "Pose 2", ...
@@ -14,7 +16,13 @@ You must install the Wekinator software in order to use this nuget. You'll find 
 
 ## Installation
 
-_soon_
+Go to VL's command line and type
+
+```
+nuget install VL.Wekinator
+```
+
+For more information on how to use nugets with VL, see [Managing Nugets](https://thegraybook.vvvv.org/reference/libraries/dependencies.html#manage-nugets) in the VL documentation.
 
 ## Documentation
 
