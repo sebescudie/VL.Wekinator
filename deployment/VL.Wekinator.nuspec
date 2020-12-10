@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Wekinator</id>
-    <version>1.2.2</version>
+    <version>1.2.3</version>
     <title>VL.Wekinator</title>
     <authors>sebescudie, joreg</authors>
     <owners>sebescudie</owners>
@@ -14,12 +14,10 @@
     <tags>VL, ML, Wekinator</tags>
     <icon>icon.png</icon>
     <dependencies>
-      <group targetFramework=".NETStandard2.0">
-        <dependency id="VL.Audio" version="0.2.9-alpha" />
-        <dependency id="VL.OpenCV" version="1.1.4" />
-        <dependency id="VL.Elementa" version="4.0.5" />
-        <dependency id="VL.Devices.LeapOrion" version="1.0.4" />
-      </group>
+      <dependency id="VL.Audio" version="0.2.9-alpha" />
+      <dependency id="VL.OpenCV" version="1.1.4" />
+      <dependency id="VL.Elementa" version="4.0.5" />
+      <dependency id="VL.Devices.LeapOrion" version="1.0.4" />
     </dependencies>
   </metadata>
   <files>
