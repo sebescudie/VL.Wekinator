@@ -1,6 +1,6 @@
 # VL.Wekinator
 
-[![Nuget](https://img.shields.io/nuget/v/VL.Wekinator?style=flat-square)](https://www.nuget.org/packages/VL.Wekinator)
+[![Nuget](https://img.shields.io/nuget/vpre/VL.Wekinator?style=flat-square)](https://www.nuget.org/packages/VL.Wekinator)
 
 [The Wekinator](http://www.wekinator.org/) is a standalone software that uses machine learning to solve the following problem: given input X, I want to get output Y. Where X can be any input that can be expressed as a series of floats and the output can either be:
 
@@ -19,7 +19,7 @@ You must install the Wekinator software in order to use this nuget. You'll find 
 Go to VL's command line and type
 
 ```
-nuget install VL.Wekinator
+nuget install VL.Wekinator -pre
 ```
 
 For more information on how to use nugets with VL, see [Managing Nugets](https://thegraybook.vvvv.org/reference/libraries/dependencies.html#manage-nugets) in the VL documentation.
@@ -40,3 +40,4 @@ A few links to the Wekinator documentation are also listed there.
 - [VL.OpenCV](https://github.com/vvvv/VL.OpenCV)
 - [VL.Elementa](https://github.com/vvvv-dottore/VL.Elementa)
 - [VL.Devices.LeapOrion](https://github.com/vvvv/VL.Devices.LeapOrion)
+- [VL.Skia3d](https://github.com/vvvv/VL.skia3d)
