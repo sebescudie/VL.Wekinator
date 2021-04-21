@@ -479,7 +479,6 @@
               </p:ValueBoxSettings>
             </Pad>
             <ControlPoint Id="PUMmhm7zzDtNP58s4VD9ZK" Bounds="121,734" />
-            <ControlPoint Id="LGdN2ffJOypM31yuGXCUXi" Bounds="725,523" />
             <ControlPoint Id="M26E2MwDPluP6xlcTDVEEf" Bounds="569,440" />
             <ControlPoint Id="MhXVaVX2H11MgcbOE5E9Bm" Bounds="543,451" />
             <Pad Id="VV6eUg23yopOzujm7fByWG" Bounds="433,877,176,82" ShowValueBox="true" isIOBox="true" Value="We join all this data together in a custom Datatype so we can pass it to the rest of our app.">
@@ -631,6 +630,26 @@
               <Pin Id="FjQoAYCRUaTMWvU8wzEOlq" Name="Show Helpers" Kind="InputPin" />
               <Pin Id="KkpNvjL8LKBMIEUZafJXhX" Name="Output" Kind="OutputPin" />
             </Node>
+            <Node Bounds="927,650" Id="H4sWR6wpiEJLrTc32lrq2O">
+              <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
+              </p:NodeReference>
+              <Pin Id="NqJT7Xq3ry8NIWhiDRdd3o" Name="Async Notifications" Kind="InputPin" />
+              <Pin Id="LcyR8TlE5QtPYSnRIKaxoe" Name="Reset" Kind="InputPin" />
+              <Pin Id="S5ohE0k9xVbOFXgtyR6SmK" Name="Value" Kind="OutputPin" />
+              <Pin Id="FMPgshsyua2OSJaHYRhr3q" Name="On Data" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="168,539" Id="FmXlVvKnvBAMDRSCZt8tAs">
+              <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
+              </p:NodeReference>
+              <Pin Id="GoIuYxzFvfaPapli6iSkaA" Name="Async Notifications" Kind="InputPin" />
+              <Pin Id="FAuF3Tbo91xLDoBffyTJ7v" Name="Reset" Kind="InputPin" />
+              <Pin Id="G5edzFWprP6Pe9IhlfwG6g" Name="Value" Kind="OutputPin" />
+              <Pin Id="FlBbliqFHJGL89J737I0sy" Name="On Data" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <Patch Id="Exg2G4cmnnwOw05ZFy2YK0" Name="Create" />
           <Patch Id="IpVn3UEKsUNNDtsegvX27O" Name="Update">
@@ -684,7 +703,6 @@
           <Link Id="DCABSIWOCBKPxYKTyBDg2y" Ids="JxCZA3josZALUCRmQElOvg,Deun2nRtwsUP2nVcF3fEcS" />
           <Link Id="G6J8ll5AMguMOe08zRmQUp" Ids="Dp5tpI9wrrjOc74x99HspD,TdrDiLApm7SNAuHUArsMlu" />
           <Link Id="TZ5SbpG9f4rNunKUbGaECC" Ids="EybOsyM75TbOQGLIAKSE8e,SNYHXkyzeOrPrkN4TOp5l3" />
-          <Link Id="RS0bNtyExWOQQSpiYdydDF" Ids="Jyx9HX00PY2Np36WARstSj,LGdN2ffJOypM31yuGXCUXi,JQJQvmQ5hrdPcpm7oqkNbL" />
           <Link Id="MOVQ6VOo9HiOCstZz3cSsk" Ids="TgyEkpicWLnOwcRL6gKSlQ,FYIInyqB0N7MB60z0C0BOw" />
           <Link Id="Eegb02jM21JNpJy94gqcQk" Ids="UQ8iKJIRMgCNHa1JYkTVyK,AefWUNy0n0sMSseC0RR7vf" />
           <Link Id="JKFCtrcZYZAQHPPGKzKddi" Ids="FZbnKaXYtp5MXGCR1qWYfK,OBjNly2p0sxQaV9zALobdW" IsHidden="true" />
@@ -722,6 +740,8 @@
           <Link Id="F3SRuLaBVkDQA3MBBDjpRw" Ids="JQeBt0IpBgQNJkmZraWwjL,H4sLtB5zm2EOQ9VVCTfAMM" />
           <Link Id="RlBn7R942VlOWFFBuWg1zH" Ids="Pgyjs5TX6W2LmIfVBhdvtK,TpfxedMproRQSHHbTIInrq" />
           <Link Id="UHklyOTsJATQL50x2SGEPW" Ids="KkpNvjL8LKBMIEUZafJXhX,CN0bllAMpYPLuAkiYzaEC0" />
+          <Link Id="Ca7d7LRZeGtMqTgJdQgaao" Ids="BdOm2j7FECbNlcV6hD0VM2,GoIuYxzFvfaPapli6iSkaA" />
+          <Link Id="HABLQVVCzikNISE6OAR2xb" Ids="FlBbliqFHJGL89J737I0sy,JQJQvmQ5hrdPcpm7oqkNbL" />
         </Patch>
       </Node>
       <!--
