@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GS0p4d99xTiMY0blrzxMjB" LanguageVersion="2020.2.4.333" Version="0.128">
-  <NugetDependency Id="PKKgtIB9wAaLuhxqryVYsa" Location="VL.CoreLib" Version="2020.2.4" />
+<Document xmlns:p="property" Id="GS0p4d99xTiMY0blrzxMjB" LanguageVersion="2021.3.2.109" Version="0.128">
+  <NugetDependency Id="PKKgtIB9wAaLuhxqryVYsa" Location="VL.CoreLib" Version="2021.3.2" />
   <Patch Id="IlBllPS1UwELPpTqjRQxhs">
     <Canvas Id="TEKnb8b7X27NsraEhLctqt" DefaultCategory="IO.Wekinator" CanvasType="FullCategory">
       <!--
@@ -211,6 +211,8 @@
                 </p:NodeReference>
                 <Pin Id="Ck3pUFOPUbtOC72ud00ntp" Name="Listening IP" Kind="InputPin" />
                 <Pin Id="GlalsWYAKs8PGx5w7Ekn5V" Name="Port" Kind="InputPin" />
+                <Pin Id="PJ3xP15uotGNZYY4T0kcJP" Name="Enable Data Preview" Kind="InputPin" />
+                <Pin Id="T3hCJ7hFImmQE1o7jnbFIf" Name="Reset Data Preview" Kind="InputPin" />
                 <Pin Id="IQdhHDCUb3vOhfMRMxGID6" Name="Enabled" Kind="InputPin" />
                 <Pin Id="RzESycAApO5NInSKVv7Tlf" Name="Data" Kind="OutputPin" />
                 <Pin Id="G39shVBieRMM7H4gNxXyZq" Name="Data Preview" Kind="OutputPin" />
@@ -1395,7 +1397,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Brp9y63g9AdL0MmApzqW3t" Location="VL.Core" Version="2020.2.4" />
-  <NugetDependency Id="AJrpFIYJUMWNn1YCGyx1yC" Location="VL.Lang" Version="2020.2.4" />
-  <DocumentDependency Id="BVAJSSA8ooeOnjlVCPixeM" Location="./lib/VL.IO.OSC.vl" />
+  <NugetDependency Id="Brp9y63g9AdL0MmApzqW3t" Location="VL.Core" Version="2021.3.2" />
+  <NugetDependency Id="AJrpFIYJUMWNn1YCGyx1yC" Location="VL.Lang" Version="2021.3.2" />
+  <NugetDependency Id="TjYIJieGHvhNuOgY31XLIE" Location="VL.IO.OSC" Version="1.0.6" />
 </Document>
